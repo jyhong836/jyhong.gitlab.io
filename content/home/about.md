@@ -2,10 +2,10 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2018-06-15T00:00:00
+date = 2016-04-20T00:00:00
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
@@ -35,6 +35,8 @@ weight = 5
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<!-- Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.  -->
+
+Junyuan Hong is a developer and researcher at the MSU. As a Computer Science master student, my adventures began when I was still a undergraduate in Optics and Optical Engineering, USTC.  Since fist program-language course of *C* in 2011, programing occupies amount of my free time. Impressed by the spirit of Open-Source community, I started my exploration at GitHub, struggling to become an open-source developer.
