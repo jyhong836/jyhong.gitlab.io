@@ -55,7 +55,7 @@ url_source = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
-url_custom = [{name = "Supplementary file", url = "//jyhong.com/files/sigkdd_supp.pdf"}]
+url_custom = [{name = "Supplementary file", url = "/files/sigkdd_supp.pdf"}]
 
 # Does this page contain LaTeX math? (true/false)
 math = false

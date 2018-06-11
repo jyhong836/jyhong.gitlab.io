@@ -44,13 +44,13 @@ tags = []
 # Links (optional).
 url_pdf = "https://link.springer.com/chapter/10.1007/978-3-319-46128-1_20"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/jyhong836/LSMModelSpace"
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://github.com/jyhong836/LSMModelSpace"
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
