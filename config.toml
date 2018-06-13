@@ -149,8 +149,8 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
+  highlight_languages = ['swift', 'shell', 'bash']
+  highlight_style = "github-gist"
 
   # Enable native social sharing buttons?
   sharing = true
