@@ -1,6 +1,6 @@
 +++
-title = "Linux Rookie Book"
-date = 2018-06-11T18:11:46+08:00
+title = "Add 3rd part dynamic library (.dylib) to Xcode target"
+date = 2015-07-29T18:11:46+08:00
 draft = false
 
 # Tags and categories
@@ -24,11 +24,11 @@ Dynamic library (with .dylib suffix at UNIX-like OS) is a kind of library discri
 
 That's file size! A static library is several times bigger than a same function dynamic library. For example the SDL lib at OS X, which is located at /usr/local/Cellar/sdl2/2.0.3/lib/  if you install it through Homebrew.
 
-~~~ bash
+```bash
 $ ls /usr/local/Cellar/sdl2/2.0.3/lib/ -lh
 -r--r--r-- 1 user admin 850K Jul 20 22:18 libSDL2-2.0.0.dylib
 -r--r--r-- 1 user admin 1.5M Oct 22  2014 libSDL2.a
-~~~
+```
 
 There are two method to add 3rd-part dynamic library to a Xcode target:
 
