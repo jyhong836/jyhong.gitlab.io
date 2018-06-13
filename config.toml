@@ -278,7 +278,7 @@ enableGitInfo = false
   weight = 4
 
 [[menu.main]]
-  name = "Gallery"
+  name = "Galleries"
   url = "#gallery"
   weight = 5
 
