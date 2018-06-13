@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["USTC"]
 
 # Project summary to display on homepage.
 summary = ""
@@ -63,3 +63,5 @@ caption = "A very special green cherry tree. The cherry street attract visiters 
 I have spent seven years in the school, where so many memories are left behind here. These photoes record some wonderful views I had found. They dot around every corner of the school.
 
 {{< gallery album="1" >}}
+
+View at [500px](https://500px.com/jyhong836/galleries/ustc-2).
