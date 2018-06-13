@@ -3,14 +3,14 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://jyhong.gitlab.io/"
+baseurl = "https://jyhong.com/"
 
 # Title of your site
 title = "Junyuan Hong"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2018 Junyuan Hong"
 
 theme = "academic"
 enableEmoji = true
