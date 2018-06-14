@@ -70,5 +70,3 @@ image = ""
 caption = ""
 
 +++
-
-Further details: Supplementary pdf file (to add)
