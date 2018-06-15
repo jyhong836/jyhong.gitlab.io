@@ -27,17 +27,18 @@ To make a iMessage-like chat table view, there is several steps to follow:
 
 Here I use View-based NSTableView to make these:
 
-![Table view settings](/assets/img/table_view_settings.png)
+{{< figure src="/img/post/table_view_settings.png" title="Table view settings" width="40%" numbered="true" >}}
 
 There is some import constraints to make the three components, NSImageView, NSTextField, NSTableViewCell, keep corresponded size, which is showed below:
 
-![Cell contraint settings](/assets/img/cell_constraint.png)
+{{< figure src="/img/post/cell_constraint.png" title="Cell contraint settings" width="80%" numbered="true" >}}
 
 You should set NSTextField like below, which will make it auto adjust size to text:
 
-![Text field settings](/assets/img/text_field_settings.png)
+{{< figure src="/img/post/text_field_settings.png" title="Text field settings" width="40%" numbered="true" >}}
 
-Then use NSTableViewDelegate to adjust height. Read this post: [NSTableView automatically adjust height to fit cell view](http://jyhong836.github.io/2015/08/04/nstableview-automatically-adjust-height-to-fit-cell-view/).
+Then use NSTableViewDelegate to adjust height. Read this post: [NSTableView automatically adjust height to fit cell view](/post/2015-08-04-nstableview-automatically-adjust-height-to-fit-cell-view/).
+
 
 Finally, when you add a new row at bottum, you will hope the scroller to scroll to bottum.
 

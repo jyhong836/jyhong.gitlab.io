@@ -154,7 +154,7 @@ $ install_name_tool -id new_install_name bin_file
 As a conclusion, the strategy for adding 3rd part dynamic library into Xcode target is:
 
 1. Add library to Build Phase, and add header to search path. This guarantee no compile and link error will occur.
-2. Let Xcode copy .dylib file into product after compiled. Add "New Copy Files Phase", name it "Copy Libraries" {{< figure src="/img/post/new_copy_phase.jpg" title="new copy phase" numbered="true" >}}
+2. Let Xcode copy .dylib file into product after compiled. Add "New Copy Files Phase", name it "Copy Libraries" {{< figure src="/img/post/new_copy_phase.jpg" title="new copy phase" numbered="true" width="60%" >}}
 3. Set the "Destination" to "Frameworks". Add your dylib here.link_dynamic_lib ![link dynamic lib](/img/post/link_dynamic_lib.jpg)
 4. Change install_name of library:
     ```
