@@ -48,7 +48,7 @@ url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=1qLHgSrcZ4M"
 url_poster = ""
 url_source = ""
 
@@ -70,3 +70,5 @@ image = ""
 caption = ""
 
 +++
+
+{{< youtube 1qLHgSrcZ4M >}}
