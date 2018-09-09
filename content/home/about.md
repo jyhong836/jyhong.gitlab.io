@@ -39,6 +39,6 @@ weight = 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.  -->
 
-Junyuan Hong is a developer and researcher at the MSU. As a Computer Science master student, my adventures began when I was still a undergraduate in Optics and Optical Engineering, USTC.  Since fist program-language course of *C* in 2011, programing occupies amount of my free time. Impressed by the spirit of Open-Source community, I started my exploration at GitHub, struggling to become an open-source developer.
+Junyuan Hong is a developer and researcher at the MSU. As a Computer Science master student, my adventures began when I was still a undergraduate in Optics and Optical Engineering, USTC.  Since the frist program-language course of *C* in 2011, programing occupies amount of my free time. Impressed by the spirit of Open-Source community, I started my exploration at GitHub, struggling to become an open-source developer.
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
