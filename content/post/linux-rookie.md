@@ -16,13 +16,16 @@ caption = ""
 
 +++
 
+As a MS student, I am going to leave my lab at USTC. With this post, I'd like to share my experiences on the Linux system, especially for those who are new to such a system.
+
+<!--more-->
+
 {{% toc %}}
 
 # Part 1: Introduction
 
 ## For whom is the post written?
 
-As a MS student, I am going to leave my lab at USTC. With this post, I'd like to share my experiences on the Linux system, especially for those who are new to such a system.
 The audiances are expected to be 
 
 + The first-year student for MSc of CS.
