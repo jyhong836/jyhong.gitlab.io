@@ -94,10 +94,10 @@ A direct fix to [keras-metrics](https://github.com/netrack/keras-metrics) is:
 
 1. create metric instance: `recall = keras_metrics.recall()`
 2. Set `stateful` to be true: `recall.stateful = True`
-3. Reset state on the end of each epoch. Do this in a `Callback`: `recall.reset_states()`
+3. ~~Reset state on the end of each epoch. Do this in a `Callback`: `recall.reset_states()`~~ (UPDATE: this will be automatically called during training. Check [training_arrays.py#L145](https://github.com/keras-team/keras/blob/1931e2186843ad3ca2507a3b16cb09a7a3db5285/keras/engine/training_arrays.py#L145))
 
 {{% alert warning %}}
-However, the fix is only effective in the latest Keras which will avoid averaging metrics which are stateful [Layer](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/engine/base_layer.py#L22) instances. See [BaseLogger](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/callbacks.py#L204)
+However, the fix is only effective in the Keras (>=v2.1.6) which will avoid averaging metrics which are stateful [Layer](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/engine/base_layer.py#L22) instances. Look at [BaseLogger](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/callbacks.py#L204)
 {{% /alert %}}
 
 ### Official updates in Keras v2.1.6 for stateful metrics
