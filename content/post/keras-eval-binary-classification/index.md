@@ -71,12 +71,14 @@ In addtion to the example mentioned above, there are some discussion on the batc
 Compute the global metric value on epoch end.
 ```py
 class Metrics(keras.callbacks.Callback):
+    def __init__(self, validation_data):
+        self.validation_data = validation_data
     def on_epoch_end(self, batch, logs={}):
         predict = np.asarray(self.model.predict(self.validation_data[0]))
         targ = self.validation_data[1]
         self.f1s=f1(targ, predict)
         return
-metrics = Metrics()
+metrics = Metrics([X_test,y_test])
 model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size, validation_data=[X_test,y_test], 
        verbose=1, callbacks=[metrics])
 ```
