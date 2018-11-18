@@ -1,11 +1,11 @@
 +++
-title = "Seasons"
-date = 2018-06-13T12:24:57+08:00
+title = "MSU"
+date = 2018-11-17T23:48:39-05:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["nature"]
+tags = ["MSU"]
 
 # Project summary to display on homepage.
 summary = ""
@@ -30,9 +30,6 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 
-# Does the project detail page use source code highlighting?
-highlight = false
-
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 # url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com"}]
@@ -45,38 +42,43 @@ highlight = false
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+  focal_point = ""
   preview_only = true
+
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-  image = "gallery/autumn-small.jpg"
+  image = "gallery/msu_light_dusk.jpg"
   caption = ""
     
 [[gallery_item]]
   album = "1"
-  image = "gallery/green-cherry-small.jpg"
-  caption = "Green cherry tree. @USTC #spring"
-    
-[[gallery_item]]
-  album = "1"
-  image = "gallery/island-small.jpg"
-  caption = "An island. #summer"
+  image = "gallery/msu_dusk.jpg"
+  caption = ""
 
 [[gallery_item]]
   album = "1"
-  image = "gallery/autumn-small.jpg"
-  caption = "Golden autumn. @Najing Normal University #autumn"
+  image = "gallery/msu_rainbow.jpg"
+  caption = ""
     
 [[gallery_item]]
   album = "1"
-  image = "gallery/old-park-small.jpg"
-  caption = "The old park in my hometown. #winter"
+  image = "gallery/msu_road.jpg"
+  caption = ""
+
+[[gallery_item]]
+  album = "1"
+  image = "gallery/msu_tree.jpg"
+  caption = ""
+    
+[[gallery_item]]
+  album = "1"
+  image = "gallery/msu_leaf.jpg"
+  caption = ""
 +++
-
-Seasons are the ticks, without which we can not get a sense of time. Therefore, my times are built above these photos of varying seasons.
 
 {{< gallery album="1" >}}
 
 View at [500px](https://500px.com/jyhong836/galleries/seasons).
+
