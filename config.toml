@@ -259,7 +259,7 @@ enableGitInfo = false
 
   [[params.social]]
     icon = "linkedin"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//linkedin.com/in/jyhong836"
 
   [[params.social]]
@@ -269,13 +269,18 @@ enableGitInfo = false
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/jyhong836"
 
   [[params.social]]
     icon = "500px"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//500px.com/jyhong836"
+
+  [[params.social]]
+    icon = "cv"
+    icon_pack = "ai"
+    link = "files/cv.pdf"
 
 
 # Navigation Links

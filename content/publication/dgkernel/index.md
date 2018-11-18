@@ -25,25 +25,32 @@ publication_short = "In *KDD'18*"
 abstract = "In this paper, we focus on subspace-based learning problems, where data elements are linear subspaces instead of vectors. To handle this kind of data, Grassmann kernels were proposed to measure the space structure and used with classifiers, e.g., Support Vector Machines (SVMs). However, the existing discriminative algorithms mostly ignore the instability of subspaces, which would cause the classifiers to be misled by disturbed instances. Thus we propose considering all potential disturbances of subspaces in learning processes to obtain more robust classifiers. Firstly, we derive the dual optimization of linear classifiers with disturbances subject to a known distribution, resulting in a new kernel, Disturbance Grassmann (DG) kernel. Secondly, we research into two kinds of disturbance, relevant to the subspace matrix and singular values of bases, with which we extend the Projection kernel on Grassmann manifolds to two new kernels. Experiments on action data indicate that the proposed kernels perform better compared to state-of-the-art subspace-based methods, even in a worse environment."
 abstract_short = "In this paper, we focus on subspace-based learning problems, where data elements are linear subspaces instead of vectors. To handle this kind of data, Grassmann kernels were proposed to measure the space structure and used with classifiers, e.g., Support Vector Machines (SVMs). However, the existing discriminative algorithms mostly ignore the instability of subspaces, which would cause the classifiers to be misled by disturbed instances. Thus we propose considering all potential disturbances of subspaces in learning processes to obtain more robust classifiers."
 
-# Featured image thumbnail (optional)
-image_preview = "publication/dg_manifold.png"
-
 # Is this a selected publication? (true/false)
 selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
 projects = []
+
+# Slides (optional).
+#   Associate this page with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = ["Subspace", "Grassmann manifolds", "Kernel", "Noise", "Classification", "Supervised learning"]
 
 # Links (optional).
-# url_pdf = "https://arxiv.org/pdf/1802.03517.pdf"
-url_preprint = "https://arxiv.org/abs/1802.03517"
+url_pdf = "https://arxiv.org/abs/1802.03517"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -54,21 +61,23 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
 url_custom = [{name = "Supplementary file", url = "/files/sigkdd_supp.pdf"}]
 
-# Does this page contain LaTeX math? (true/false)
-math = false
-
-# Does this page require source code highlighting? (true/false)
-highlight = true
+# Digital Object Identifier (DOI)
+doi = "10.1145/3219819.3219959"
 
 # Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
 
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
+  preview_only = true
 +++
+
+![dg_manifold](/img/publication/dg_manifold.png)
 
 {{< youtube 1qLHgSrcZ4M >}}
