@@ -90,15 +90,7 @@ However, this solution will be time-comsuming to run `model.predict` on the epoc
 
 One thought to tackle the issue is to fetch predictions from the model and then evaluate metrics. A close solution is given in [keras-metrics](https://github.com/netrack/keras-metrics). In the package, they create a class to store history record of true positive, false positive and so on. However the test case and example given by the authors cannot demonstrate the effectiveness. One drawback of their solution is that they do not solve the *averaging* problem. 
 
-A direct fix to [keras-metrics](https://github.com/netrack/keras-metrics) is:
-
-1. create metric instance: `recall = keras_metrics.recall()`
-2. Set `stateful` to be true: `recall.stateful = True`
-3. ~~Reset state on the end of each epoch. Do this in a `Callback`: `recall.reset_states()`~~ (UPDATE: this will be automatically called during training. Check [training_arrays.py#L145](https://github.com/keras-team/keras/blob/1931e2186843ad3ca2507a3b16cb09a7a3db5285/keras/engine/training_arrays.py#L145))
-
-{{% alert warning %}}
-However, the fix is only effective in the Keras (>=v2.1.6) which will avoid averaging metrics which are stateful [Layer](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/engine/base_layer.py#L22) instances. Look at [BaseLogger](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/callbacks.py#L204)
-{{% /alert %}}
+However, the keras-metrics package is only effective in the Keras (>=v2.1.6) which will avoid averaging metrics which are stateful [Layer](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/engine/base_layer.py#L22) instances. Look at [BaseLogger](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/keras/callbacks.py#L204)
 
 ### Official updates in Keras v2.1.6 for stateful metrics
 
@@ -107,6 +99,6 @@ However there is still no official metrics for recall, f1score etc.
 
 ### Customize stateful metrics
 
-If you have update Keras to `v2.1.4` which supports 'stateful metrics', then you can try to customize some metric like the one in [StackOverflow](https://stackoverflow.com/a/51412555/3503604).
+If you have update Keras to `v2.1.6` which supports 'stateful metrics', then you can try to customize some metric like the one in [StackOverflow](https://stackoverflow.com/a/51412555/3503604).
 
 The best reference is the [BinaryTruePositives](https://github.com/keras-team/keras/blob/75a35032e194a2d065b0071a9e786adf6cee83ea/tests/keras/metrics_test.py#L127) class provided by Keras test case.
