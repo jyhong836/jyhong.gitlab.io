@@ -27,7 +27,7 @@ weight = 1
   year = 2018
 
 [[education.courses]]
-  course = "BSc in Physics"
+  course = "BSc in Physics, minor in CS."
   institution = "University of Science and Technology of China"
   year = 2015
  
@@ -39,4 +39,4 @@ weight = 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.  -->
 
-Junyuan Hong is a developer and researcher at the MSU. As a Computer Science master student, my adventures began when I was still a undergraduate in Optics and Optical Engineering, USTC.  Since the frist program-language course of *C* in 2011, programing occupies amount of my free time. Impressed by the spirit of Open-Source community, I started my exploration at GitHub, struggling to become an open-source developer.
+I am a Ph.D. student at the MSU. My adventures on Computer Science began when I was still an undergraduate in Optics and Optical Engineering, USTC.  Since the first program-language course of *C* in 2011, programming occupies an amount of my time. Impressed by the spirit of the Open-Source community, I started my exploration at GitHub, struggling to become an open-source developer. Now I am working on research work related to machine learning.
