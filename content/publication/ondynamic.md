@@ -1,10 +1,10 @@
 +++
-title = "Learning Model-Based Privacy Protection under Budget Constraints"
+title = "On Dynamic Noise Influence in Differentially Private Learning"
 date = 2021-01-20T13:08:20+08:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Junyuan Hong**", "Haotao Wang", "Zhangyang Wang", "Jiayu Zhou"]
+authors = ["**Junyuan Hong**", "Zhangyang Wang", "Jiayu Zhou"]
 
 # Publication type.
 # Legend:
@@ -18,12 +18,12 @@ authors = ["**Junyuan Hong**", "Haotao Wang", "Zhangyang Wang", "Jiayu Zhou"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *The 35th AAAI Conference on Artifical Intelligence*"
-publication_short = "In *AAAI'21*"
+publication = "ArXiv"
+publication_short = "preprint"
 
 # Abstract and optional shortened version.
-abstract = "Protecting privacy in gradient-based learning has become increasingly critical as more sensitive information is being used. Many existing solutions seek to protect the sensitive gradients by constraining the overall privacy cost within a constant budget, where the protection is hand-designed and empirically calibrated to boost the utility of the resulting model. However, it remains challenging to choose the proper protection adapted for specific constraints so that the utility is maximized. To this end, we propose a novel *Learning-to-Protect* algorithm that automatically learns a model-based protector from a set of non-private learning tasks. The learned protector can be applied to private learning tasks to improve utility within the specific privacy budget constraint. Our empirical studies on both synthetic and real datasets demonstrate that the proposed algorithm can achieve a superior utility with a given privacy constraint and generalize well to new private datasets distributed differently as compared to the hand-designed competitors."
-abstract_short = "We propose a novel *Learning-to-Protect* algorithm that automatically learns a model-based protector from a set of non-private learning tasks."
+abstract = "Protecting privacy in learning while maintaining the model performance has become increasingly critical in many applications that involve sensitive data. Private Gradient Descent (PGD) is a commonly used private learning framework, which noises gradients based on the Differential Privacy protocol. Recent studies show that *dynamic privacy schedules* of decreasing noise magnitudes can improve loss at the final iteration, and yet theoretical understandings of the effectiveness of such schedules and their connections to optimization algorithms remain limited. In this paper, we provide comprehensive analysis of noise influence in dynamic privacy schedules to answer these critical questions. We first present a dynamic noise schedule minimizing the utility upper bound of PGD, and show how the noise influence from each optimization step collectively impacts utility of the final model. Our study also reveals how impacts from dynamic noise influence change when momentum is used. We empirically show the connection exists for general non-convex losses, and the influence is greatly impacted by the loss curvature."
+abstract_short = "We analyze the convergence of private gradient descent using dyanmic schedules."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -43,7 +43,7 @@ tags = ["Privacy", "Classification", "Meta-Learning"]
 
 # Links (optional).
 url_pdf = ""
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/2101.07413"
 url_code = ""
 url_dataset = ""
 url_project = ""
