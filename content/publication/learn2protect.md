@@ -42,7 +42,7 @@ projects = []
 tags = ["Privacy", "Classification", "Meta-Learning"]
 
 # Links (optional).
-url_pdf = "http://34.94.61.102/paper_AAAI-7394.html"
+url_pdf = "https://www.aaai.org/AAAI21Papers/AAAI-7394.HongJ.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -50,7 +50,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "http://34.94.61.102/paper_AAAI-7394.html"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
