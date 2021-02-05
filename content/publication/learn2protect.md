@@ -42,7 +42,7 @@ projects = []
 tags = ["Privacy", "Classification", "Meta-Learning"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://34.94.61.102/paper_AAAI-7394.html"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
