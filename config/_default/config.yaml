@@ -4,8 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Junyuan Hong # Website name
-baseurl: 'jyhong.gitlab.io' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+baseurl: ''  # 'jyhong.gitlab.io' # Website URL
+copyright: '© {year} Me' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
