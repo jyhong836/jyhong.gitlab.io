@@ -4,11 +4,11 @@ image: registry.gitlab.com/pages/hugo:0.81.0
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-test:
-  script:
-  - hugo
-  except:
-  - master
+# test:
+#   script:
+#   - hugo
+#   except:
+#   - master
 
 pages:
   script:
