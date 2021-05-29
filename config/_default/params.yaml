@@ -20,7 +20,7 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
+email: jyhong836@gmail.com
 phone: 888 888 88 88
 address:
   street: 450 Serra Mall
@@ -108,11 +108,11 @@ copyright_license:
 abstract_length: 135
 plugins_js: []
 avatar:
-  gravatar: false
+  gravatar: true
   shape: circle
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: mla
 projects:
   post_view: 2
   publication_view: 2

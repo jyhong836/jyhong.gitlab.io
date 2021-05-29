@@ -1,8 +1,8 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Federated Learning
+summary: Supervised learning on subspace data which could model real data like skeleton motion.
 tags:
-- Deep Learning
+- Machine Learning
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
