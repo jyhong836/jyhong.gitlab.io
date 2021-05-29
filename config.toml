@@ -13,6 +13,7 @@ title = "Junyuan Hong"
 copyright = "&copy; 2018 Junyuan Hong"
 
 theme = "academic"
+# theme = "researcher"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -298,34 +299,35 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  # url = "#publications_selected"
+  url = "#publications"
   weight = 2
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 3
+# [[menu.main]]
+#   name = "Projects"
+#   url = "#projects"
+#   weight = 3
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 4
 
-[[menu.main]]
-  name = "Galleries"
-  url = "#gallery"
-  weight = 5
+# [[menu.main]]
+#   name = "Galleries"
+#   url = "#gallery"
+#   weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+# [[menu.main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 6
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+# # Taxonomies.
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
+#   publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
