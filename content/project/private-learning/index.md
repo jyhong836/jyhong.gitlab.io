@@ -1,18 +1,19 @@
 ---
-title: Subspace Learning
-summary: Supervised learning on subspace data which could model real data like skeleton motion.
+title: Differentially Private Learning
+summary: On the concern of data privacy, we aim to develop algorithms towards learning accurate models privately from data.
 tags:
 - Machine Learning
-date: "2016-04-27T00:00:00Z"
+- Differential Privacy
+date: "2018-09-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Differential Privacy # Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
+# links:
 # - icon: twitter
 #   icon_pack: fab
 #   name: Follow
@@ -29,4 +30,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""  # example
 ---
+
 

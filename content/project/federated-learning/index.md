@@ -1,16 +1,18 @@
 ---
-title: Subspace Learning
-summary: Supervised learning on subspace data which could model real data like skeleton motion.
+title: Federated Learning
+summary: On the need of data privacy and more data, we strive to join the knowledge from a fair amount of users to train powerful deep neural networks without sharing data.
 tags:
 - Machine Learning
-date: "2016-04-27T00:00:00Z"
+- Federated Learning
+- Distributed Learning
+date: "2020-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+# image:
+#   caption: Photo by rawpixel on Unsplash
+#   focal_point: Smart
 
 links:
 # - icon: twitter
@@ -29,4 +31,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""  # example
 ---
-
