@@ -61,5 +61,5 @@ subtitle = ""
 
 ### Service
 
-* **External Reviewer**: AAAI2021, IJCAI2019, NeruoComputing, TKDD
+* **External Reviewer**: AAAI2021, IJCAI2019, NeuroComputing, TKDD
 * **Volunteer**: Volunteer in KDD2018
