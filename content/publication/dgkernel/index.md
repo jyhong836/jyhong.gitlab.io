@@ -65,7 +65,7 @@ links:
 image:
   caption: ''
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -82,9 +82,6 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""  # example
 ---
-
-
-![dg_manifold](/img/publication/dg_manifold.png)
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
