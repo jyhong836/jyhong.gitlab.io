@@ -1,5 +1,5 @@
 ---
-title: "Federated Adversarial Debiasing"
+title: "Federated Adversarial Debiasing for Fair and Trasnferable Representations"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -18,7 +18,7 @@ authors:
 # - "Equal contribution"
 
 date: "2021-08-20T13:08:20+08:00"
-doi: ""
+doi: "10.1145/3447548.3467281."
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
