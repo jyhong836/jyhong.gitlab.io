@@ -42,15 +42,15 @@ projects = ["private-learning"]
 tags = ["Privacy", "Classification", "Meta-Learning"]
 
 # Links (optional).
-url_pdf = "https://www.aaai.org/AAAI21Papers/AAAI-7394.HongJ.pdf"
+url_pdf = "https://ojs.aaai.org/index.php/AAAI/article/view/16941"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
-url_video = ""
+url_slides = "https://slideslive.com/38948883/learning-modelbased-privacy-protection-under-budget-constraints?ref=account-folder-75497-folders"
+url_video = "https://slideslive.com/38948883/learning-modelbased-privacy-protection-under-budget-constraints?ref=account-folder-75497-folders"
 url_poster = ""
-url_source = "http://34.94.61.102/paper_AAAI-7394.html"
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
