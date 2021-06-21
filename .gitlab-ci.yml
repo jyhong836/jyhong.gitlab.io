@@ -1,5 +1,4 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-# issue with 0.82.0: the url address has wrong base.
 image: registry.gitlab.com/pages/hugo/hugo_extended:0.81.0
 
 variables:
