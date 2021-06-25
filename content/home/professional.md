@@ -57,6 +57,7 @@ subtitle = ""
 ### Award
 
 * Carl V. Page Memorial Graduate Fellowship, MSU, 2021
+* Student Travel Award, KDD, 2018
 * Outstanding Freshman Scholarship, USTC, 2015
 
 ### Service
