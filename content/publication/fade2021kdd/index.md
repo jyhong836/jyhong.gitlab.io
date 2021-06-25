@@ -54,9 +54,9 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'slides.pdf'
 url_source: ''
-url_video: ''
+url_video: 'https://recorder-v3.slideslive.com/#/share?share=41127&s=cecca95d-3eb9-4290-b526-1d271d71f9ff'
 # url_custom:
 # links:
 #   - name: Supplementary
@@ -147,7 +147,9 @@ In other words, we want ask if the distribution matching is a sufficient conditi
 
 ![](thm4_1.png)
 
-As shown in Theorem 1.4, it is a sufficient condition for the minimizing the model-measured discrepancy $\tilde D$ between $p_1$ and $p_2$.
+As shown in Theorem 1.4, it is a sufficient condition for the minimizing the model-measured discrepancy $\tilde D$ between $p_1$ and $p_2$. We also demonstrate the effectiveness by experiments on unsupervised domain adaptation (UDA) benchmarks. The FADE-based achieve performance comparable to central versions. In non-iid and autonomous-user-involving (2 users per round), FADE outperforms the baselines.
+
+![](uda_benchmark.png)
 
 ### Impact of Imbalanced Groups
 
@@ -157,6 +159,19 @@ Then the sensed discrepancy will be biased as the imbalance is more severer.
 ![](thm4_2.png)
 To fix this, we propose re-weight the losses according to the loss scales.
 That is $\hat \ell = - \ell^2 / 2$ which was used for fair-federated learning.
+We compare the vanilla loss versus the squared loss in Fig 4. As more target users are involved, the imbalance is worsened and the squared loss could improve the drop of vanilla losses.
+
+<figure>
+<img src="imbalance_uda.png" width=60% title="imbalance_uda">
+<figcaption>Fig 4: Experiments on imbalanced source/target UDA.</figcaption>
+</figure>
+
+We also conduct imbalanced experiments in fair federated learning. Squared loss is preferred as imbalance data present, while vanilla loss is preferred in reversed cases.
+
+<figure>
+<img src="imbalance_fair_adult.png" width=90% title="imbalance_fair_adult">
+<figcaption>Fig 5: Experiments on imbalanced male/female fair learning.</figcaption>
+</figure>
 
 ### Impact of Non-iid Users
 
