@@ -18,7 +18,7 @@ authors:
 # - "Equal contribution"
 
 date: "2021-08-20T13:08:20+08:00"
-doi: "10.1145/3447548.3467281."
+doi: "10.1145/3447548.3467281"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -49,8 +49,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3447548.3467281'
+url_code: 'https://github.com/illidanlab/FADE'
 url_dataset: ''
 url_poster: ''
 url_project: ''
