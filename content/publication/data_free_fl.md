@@ -39,12 +39,12 @@ projects = ["federated-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Federated Learning", "Fairness", "Unsupervised Domain Adaptation"]
+tags = ["Federated Learning", "Non-IID"]
 
 # Links (optional).
 url_pdf = ""
 url_preprint = "https://arxiv.org/abs/2105.10056"
-url_code = ""
+url_code = "https://github.com/zhuangdizhu/FedGen"
 url_dataset = ""
 url_project = ""
 url_slides = ""

@@ -71,6 +71,4 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-Junyuan Hong is a Ph.D. student at [ILLIDAN Lab@MSU](https://illidanlab.github.io).
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am currently a forth-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@MSU](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). My research interests include Data Privacy and Federated Learning. {{< icon name="download" pack="fas" >}} Check my {{< staticref "files/cv.pdf" "newtab" >}}resumé{{< /staticref >}}.
