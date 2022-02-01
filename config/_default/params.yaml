@@ -125,8 +125,8 @@ comments:
   commentable:
     post: true
     book: true
-    project: true
-    publication: true
+    project: false
+    publication: false
     event: true
   disqus:
     shortname: 'jyhong-gitlab-io'
