@@ -123,7 +123,8 @@ Some common steps:
 2. Add your run command to the last line of the `pbs` file.
 3. Submit it:
 ```
-qsub myjob.pbs```
+qsub myjob.pbs
+```
 or 
 ```
 qsub -d `pwd` myjob.pbs
