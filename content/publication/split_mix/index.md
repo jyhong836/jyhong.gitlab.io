@@ -47,12 +47,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://openreview.net/forum?id=_QLmakITKg&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2022%2FConference%2FAuthors%23your-submissions)
-url_code: 'https://github.com/illidanlab/FADE'
+url_pdf: https://openreview.net/pdf?id=_QLmakITKg
+url_code: 'https://github.com/illidanlab/SplitMix'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'slides.pdf'
+url_slides: ''
 url_source: ''
 url_video: ''
 # url_custom:
