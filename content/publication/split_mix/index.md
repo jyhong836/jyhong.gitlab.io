@@ -52,7 +52,7 @@ url_code: 'https://github.com/illidanlab/SplitMix'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'slides.pdf'
 url_source: ''
 url_video: ''
 # url_custom:
