@@ -56,7 +56,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
+# links = [{name = "Supplementary", url = "l2p_aaai21_supl.pdf"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1145/3314203"

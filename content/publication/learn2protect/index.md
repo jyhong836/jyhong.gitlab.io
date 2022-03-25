@@ -51,6 +51,7 @@ url_slides = "https://slideslive.com/38948883/learning-modelbased-privacy-protec
 url_video = "https://slideslive.com/38948883/learning-modelbased-privacy-protection-under-budget-constraints?ref=account-folder-75497-folders"
 url_poster = ""
 url_source = ""
+links = [{name = "Supplementary", url = "l2p_aaai21_supl.pdf"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
