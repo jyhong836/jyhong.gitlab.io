@@ -50,6 +50,10 @@ subtitle = ""
  css_class = ""
 +++
 
+### Internship
+
+* Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
+
 ### Teaching Assistant
 
 * CSE 404: Introduction to Machine Learning, 2020 Fall
