@@ -69,3 +69,32 @@ image = ""
 caption = ""
 
 +++
+
+Utility Upper Bounds. Utility upper bounds are a critical metric for privacy schedules, which characterizes the maximum utility
+that a schedule can deliver in theory. Wang et al. [34] is the first
+to prove the utility bound under the PL condition. Recently, Zhou
+et al. proved the utility bound by using the momentum of gradients [17, 25]. In this paper, we improve the upper bound by a
+more accurate estimation of the dynamic influence of step noise.
+We show that introducing a dynamic schedule further boosts the
+sample-efficiency of the upper bound. Table 1 summarizes the upper bounds of a selection of state-of-the-art algorithms based on private gradients (up block, see Appendix B for the full list), and
+methods studied in this paper (down block), showing the benefits
+of dynamic influence.
+
+Especially, a closely-related work by Feldman et al. achieved
+a convergence rate similar to ours in terms of generalization error bounds (c.f. SSGD in Table 2), by dynamically adjusting batch
+sizes [11]. However, the approach requires controllable batch sizes,
+which may not be feasible in many applications. In federated learning, for example, where users update models locally and then pass
+the parameters to server for aggregation, the server has no control
+over batch sizes, and coordinating users to use varying batch sizes
+may not be realistic. On the other hand, our proposed method can
+still be applied for enhancing utility, as the server can dynamically
+allocate privacy budget for each round when the presence of a user
+in the global aggregation is privatized [21].
+
+![](bd_comp.png)
+
+In brief, given a sharper loss function, the dynamic budget allocation allows the DPSGD to run for more private iterations and results in lower excess expected risks.
+
+![](T.png)
+
+![](EER.png)
