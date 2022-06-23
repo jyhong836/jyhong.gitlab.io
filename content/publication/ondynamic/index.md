@@ -70,7 +70,7 @@ caption = ""
 
 +++
 
-Utility Upper Bounds. Utility upper bounds are a critical metric for privacy schedules, which characterizes the maximum utility
+Utility upper bounds are a critical metric for privacy schedules, which characterizes the maximum utility
 that a schedule can deliver in theory. Wang et al. [34] is the first
 to prove the utility bound under the PL condition. Recently, Zhou
 et al. proved the utility bound by using the momentum of gradients [17, 25]. In this paper, we improve the upper bound by a
