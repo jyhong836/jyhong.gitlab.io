@@ -25,6 +25,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: "PhD in Computer Science&Engineering"
+    institution: "Michigan State University"
+    year: Present
   - course: "MSc in Computer Science"
     institution: "University of Science and Technology of China"
     year: 2018
