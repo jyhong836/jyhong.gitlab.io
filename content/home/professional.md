@@ -54,6 +54,10 @@ subtitle = ""
 
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
+### Talks
+
+* 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July 9, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
+
 ### Teaching Assistant
 
 * CSE 404: Introduction to Machine Learning, 2020 Fall
@@ -66,5 +70,5 @@ subtitle = ""
 
 ### Service
 
-* **External Reviewer**: ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD
+* **External Reviewer**: NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD
 * **Volunteer**: Volunteer in KDD2018, KDD2021

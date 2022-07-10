@@ -54,7 +54,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'slides.pdf'
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=VA2XsCA6k9s'
 # url_custom:
 # links:
 #   - name: Supplementary
