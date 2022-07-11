@@ -42,7 +42,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jyhong836@gmail.com'
+  link: 'mailto:hongju12@msu.edu'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -73,4 +73,4 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@MSU](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). Previously, I obtained my B.S. in Physics and M.S. in Computer Science at [USTC](https://ustc.edu.cn/). My research interests include Federated Learning and Data Privacy. {{< icon name="download" pack="fas" >}} Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.
+I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@MSU](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). Previously, I obtained my B.S. in Physics and M.S. in Computer Science at [USTC](https://ustc.edu.cn/). My current research interests include Federated Learning and Data Privacy. {{< icon name="download" pack="fas" >}} Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.
