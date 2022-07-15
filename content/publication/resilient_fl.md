@@ -42,7 +42,7 @@ projects = ["federated-learning"]
 tags = ["Federated Learning", "Non-IID"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://proceedings.mlr.press/v162/zhu22e/zhu22e.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
