@@ -1,24 +1,37 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.81.0
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-before_script:
-  - apk add --update --no-cache git go
-
-test:
-  script:
-    - hugo
-  except:
-    refs:
-      - master
 
 pages:
   script:
-    - hugo
+  - hugo
   artifacts:
     paths:
-      - public
-  only:
-    refs:
-      - master
+    - public
+  rules:
+  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+# # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+# image: registry.gitlab.com/pages/hugo/hugo_extended:0.81.0
+
+# variables:
+#   GIT_SUBMODULE_STRATEGY: recursive
+# before_script:
+#   - apk add --update --no-cache git go
+
+# test:
+#   script:
+#     - hugo
+#   except:
+#     refs:
+#       - master
+
+# pages:
+#   script:
+#     - hugo
+#   artifacts:
+#     paths:
+#       - public
+#   only:
+#     refs:
+#       - master
