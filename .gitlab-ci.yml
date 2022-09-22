@@ -1,30 +1,23 @@
-# image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+# official: https://gitlab.com/pages/hugo/-/blob/main/.gitlab-ci.yml
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
-# variables:
-#   GIT_SUBMODULE_STRATEGY: recursive
-
-# pages:
-#   script:
-#   - hugo
-#   artifacts:
-#     paths:
-#     - public
-#   rules:
-#   - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.81.0
-
+# Set this if you intend to use Git submodules
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-before_script:
-  - apk add --update --no-cache git go
+  HUGO_ENV: production
+
+default:
+  before_script:
+    - apk add --update --no-cache git go
+    - git submodule update --init --recursive
+    - hugo mod init gitlab.com/pages/hugo
+    - hugo mod get -u github.com/theNewDynamic/gohugo-theme-ananke
 
 test:
   script:
     - hugo
-  except:
-    refs:
-      - master
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
   script:
@@ -32,6 +25,31 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    refs:
-      - master
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
+
+# # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+# image: registry.gitlab.com/pages/hugo/hugo_extended:0.81.0
+
+# variables:
+#   GIT_SUBMODULE_STRATEGY: recursive
+# before_script:
+#   - apk add --update --no-cache git go
+
+# test:
+#   script:
+#     - hugo
+#   except:
+#     refs:
+#       - master
+
+# pages:
+#   script:
+#     - hugo
+#   artifacts:
+#     paths:
+#       - public
+#   only:
+#     refs:
+#       - master
