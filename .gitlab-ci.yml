@@ -1,5 +1,5 @@
 # official: https://gitlab.com/pages/hugo/-/blob/main/.gitlab-ci.yml
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.92.2 # :latest
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 # Set this if you intend to use Git submodules
 variables:
@@ -10,8 +10,8 @@ default:
   before_script:
     - apk add --update --no-cache git go
     - git submodule update --init --recursive
-    - hugo mod init gitlab.com/pages/hugo
-    - hugo mod get -u github.com/theNewDynamic/gohugo-theme-ananke
+    # - hugo mod init gitlab.com/pages/hugo
+    # - hugo mod get -u github.com/theNewDynamic/gohugo-theme-ananke
 
 test:
   script:
