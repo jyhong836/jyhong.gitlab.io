@@ -1,5 +1,5 @@
 # official: https://gitlab.com/pages/hugo/-/blob/main/.gitlab-ci.yml
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+image: registry.gitlab.com/pages/hugo/hugo_extended:0.92.2 # :latest
 
 # Set this if you intend to use Git submodules
 variables:
