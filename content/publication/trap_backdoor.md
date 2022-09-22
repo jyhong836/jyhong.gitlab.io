@@ -1,5 +1,5 @@
 +++
-title = "Resilient and Communication Efficient Learning for Heterogeneous Federated Systems"
+title = "Trap and Replace: Defending Backdoor Attacks by Trapping Them into an Easy-to-Replace Subnetwork"
 date = 2022-09-22T13:08:20+08:00
 draft = false
 
