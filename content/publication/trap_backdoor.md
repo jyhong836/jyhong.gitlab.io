@@ -42,7 +42,7 @@ projects = ["backdoor"]
 tags = ["backdoor"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://arxiv.org/pdf/2210.06428.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
