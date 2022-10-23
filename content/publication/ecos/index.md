@@ -119,6 +119,13 @@ To improve the efficiency and control privacy risks, we propose a novel sampling
 (2) Then ECOS sends the compressed centroids to the client who returns privacy-protected cluster-scores.
 (3) The cloud will diversely sample images from the high-scored clusters for training.
 
+Our method can achieve the aforementioned desired properties.
+The small size of low-dimensional centroid features greatly reduces the communication and computation complexity.
+Contradicting the local features with the received centroid features can yield distributional similarity by the cluster coverage scores (the number of samples that are close to a cluster).
+Therefore, the cloud can filter clusters by the scores.
+The scores are privatized by injecting Gaussian noise, which privacy costs are accounted by Differential Privacy, which is estimated by numerical moment accountant[^4].
+
+
 ![Selective manual labeling](sel_man_label.png)
 
 One application of ECOS is the selective manual labeling, where ECOS samples a proximal subset from a large volume of unlabeled open-source data for manual labeling.
@@ -134,9 +141,15 @@ Our main contributions can be summarized as follows.
 * *New sampling paradigm*: ECOS is communication- and computation-efficient and private.
 * *Flexible on multiple learning tasks*: selective manual labeling, automated client labeling, and adaptive model compression.
 
+We also recognize open questions of the proposed solution for future studies.
+For example, the public dataset may require additional data processing, e.g., aligning and cropping for improved prediction accuracy.
+In our empirical studies, we only consider the computer vision tasks, though no assumption was made on the data structures. 
+We expect the principles to be adapted to other data types with minimal efforts.
+More data types, including tabular and natural-language data, will be considered in the follow-up works.
 
 
 [^1]: Abadi, M., Chu, A., Goodfellow, I., McMahan, H. B., Mironov, I., Talwar, K., & Zhang, L. (2016). Deep Learning with Differential Privacy. _CCS_.
 [^2]: Bietti, A., Wei, C.-Y., Dudik, M., Langford, J., & Wu, S. (2022). Personalization Improves Privacy-Accuracy Tradeoffs in Federated Learning. _ICML_.
 [^3]: Tramèr, F., & Boneh, D. (2021, February 17). Differentially Private Learning Needs Better Features (or Much More Data). _ICLR_.
+[^4]: Wang, Y.-X., Balle, B., & Kasiviswanathan, S. P. (2019). Subsampled Renyi Differential Privacy and Analytical Moments Accountant. _AISTATS_
 
