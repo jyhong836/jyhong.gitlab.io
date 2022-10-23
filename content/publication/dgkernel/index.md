@@ -39,7 +39,7 @@ summary: In this paper, we focus on subspace-based learning problems, where data
 tags: ["Subspace", "Grassmann manifolds", "Kernel", "Noise", "Classification", "Supervised learning"]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

@@ -35,12 +35,12 @@ publication_short: NeurIPS
 abstract: As deep learning blooms with growing demand for computation and data resources, outsourcing model training to a powerful cloud server becomes an attractive alternative to training at a low-power and cost-effective end device. Traditional outsourcing requires uploading device data to the cloud server, which can be infeasible in many real-world applications due to the often sensitive nature of the collected data and the limited communication bandwidth. To tackle these challenges, we propose to leverage widely available open-source data, which is a massive dataset collected from public and heterogeneous sources (e.g., Internet images). We develop a novel strategy called Efficient Collaborative Open-source Sampling (ECOS) to construct a proximal proxy dataset from open-source data for cloud training, in lieu of client data. ECOS probes open-source data on the cloud server to sense the distribution of client data via a communication- and computation-efficient sampling process, which only communicates a few compressed public features and client scalar responses. Extensive empirical studies show that the proposed ECOS improves the quality of automated client labeling, model compression, and label outsourcing when applied in various learning scenarios. Source codes will be released.
 
 # Summary. An optional shortened abstract.
-summary: Outsourcing training to cloud without uploading data for better privacy protection.
+summary: We propose a new privacy-preserving learning framework, outsourcing training to cloud without uploading data, which provides more data without injecting noise into gradient or samples.
 
 tags: ["Privacy", "Non-IID"]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -62,10 +62,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-# image:
-#   caption: 'Federated Adversarial Debiasing'
-#   focal_point: ""
-#   preview_only: true
+image:
+  caption: 'Outsourcing Training without Uploading Data'
+  focal_point: "center"
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
