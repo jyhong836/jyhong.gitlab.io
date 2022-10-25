@@ -23,7 +23,7 @@ publication_short = "ArXiv"
 
 # Abstract and optional shortened version.
 abstract = "Federated learning (FL) emerges as a popular distributed learning schema that learns a model from a set of participating users without requiring raw data to be shared. One major challenge of FL comes from heterogeneity in users, which may have distributionally different (or non-iid) data and varying computation resources. Just like in centralized learning, FL users also desire model robustness against malicious attackers at test time. Whereas adversarial training (AT) provides a sound solution for centralized learning, extending its usage for FL users has imposed significant challenges, as many users may have very limited training data as well as tight computational budgets, to afford the data-hungry and costly AT. In this paper, we study a novel learning setting that propagates adversarial robustness from high-resource users that can afford AT, to those low-resource users that cannot afford it, during the FL process. We show that existing FL techniques cannot effectively propagate adversarial robustness among non-iid users, and propose a simple yet effective propagation approach that transfers robustness through carefully designed batch-normalization statistics. We demonstrate the rationality and effectiveness of our method through extensive experiments. Especially, the proposed method is shown to grant FL remarkable robustness even when only a small portion of users afford AT during learning. Codes can be accessed at [github](https://github.com/illidanlab/FedRBN)."
-abstract_short = ""
+abstract_short = "As AT is computation-intensive and users in FL have heterogeneous computation resources, Federated Robustness Propagation (FRP) aims to share the AT users' robustness with ST users. We propose the first simple yet effective algorithm to conduct FRP."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -39,7 +39,7 @@ projects = ["federated-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Federated-Learning", "Classification", "Robustness"]
+tags = ["Federated-Learning", "Robustness"]
 
 # Links (optional).
 url_pdf = ""
