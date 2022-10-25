@@ -13,10 +13,10 @@ font_size: L
 # SEO
 
 site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
+local_business_type: 'acamedia'
+org_name: 'Michigan Statue University'
+description: 'Junyuan Hong homepage'
+twitter: '@hjy836'
 
 # Contact (edit or remove options as required)
 
@@ -92,7 +92,7 @@ show_related:
   book: true
   page: false
   post: true
-  project: true
+  project: false
   publication: true
   event: true
 reading_time: true
