@@ -90,6 +90,11 @@ Our work is motivated by the popularity of cloud training, where intelligent edg
 Industrial examples include Amazon SageMaker, Microsoft Azure, Cloud Machine Learning Engine by Google. 
 Outsourcing training to cloud has empowers many applications of edge intelligence, for example, health care, smart camera, wearable smart devices and so on.
 
+<figure>
+<img src="problem.png" width=100% title="aa">
+<figcaption>Fig 1: Cloud machine learning and privacy risks.</figcaption>
+</figure>
+
 However, the solution may encounter concerns when personal data are uploaded by the edge devices.
 For instance, the server may find who are using the service by searching for your profile photos in the uploaded database.
 A lot of work has been done to defend such information leakage in the machine learning community.
@@ -98,7 +103,10 @@ However, adding noise induces great variance to the training and results in inev
 Meanwhile, edge devices usually are not able to collect a large dataset, when privacy-preserving learning is more thirsty for more data or well-learned features[^3].
 Here we aim to provide a new idea to defend such risks: __without adding noise to the training or models, but providing sufficient data for training__.
 
-![main idea](main_idea.png)
+<figure>
+<img src="main_idea.png" width=100% title="aa">
+<figcaption>Fig 2: Main idea: Outsourcing training without uploading data.</figcaption>
+</figure>
 
 Our main idea is that we can find a privacy-free proxy dataset from open-source domains.
 *Open-source datasets* are publicly available or authorized for free use.
@@ -111,8 +119,10 @@ But meanwhile we also face some challenges:
 * (**Efficiency**) The large volume of open-source casts high computation and communication costs for the edge client to transmit and filter samples.
 * (**Privacy**) Though no private data is uploaded, the information exchanged between cloud and the client may still leak private information.
 
-
-![ECOS](ecos.png)
+<figure>
+<img src="ecos.png" width=100% title="aa">
+<figcaption>Fig 3: Efficient Collaborative Open-source Sampling (ECOS).</figcaption>
+</figure>
 
 To improve the efficiency and control privacy risks, we propose a novel sampling paradigm, **Efficient Collaborative Open-source Sampling (ECOS)**.
 (1) On the cloud, ECOS first compress the massive open-source data into a small set of low-dimensional centroid features by KMeans clustering.
@@ -125,8 +135,10 @@ Contradicting the local features with the received centroid features can yield d
 Therefore, the cloud can filter clusters by the scores.
 The scores are privatized by injecting Gaussian noise, which privacy costs are accounted by Differential Privacy, which is estimated by numerical moment accountant[^4].
 
-
-![Selective manual labeling](sel_man_label.png)
+<figure>
+<img src="sel_man_label.png" width=90% title="aa">
+<figcaption>Fig 4: Selective manual labeling.</figcaption>
+</figure>
 
 One application of ECOS is the selective manual labeling, where ECOS samples a proximal subset from a large volume of unlabeled open-source data for manual labeling.
 The labeled and unlabeled data are used for semi-supervised learning.

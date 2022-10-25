@@ -88,7 +88,10 @@ math: true
 
 Federated learning (FL)[^1] is a distributed learning paradigm that leverages data from remote participants and aggregates their knowledge without requiring their raw data to be transferred to a central server, thereby largely reducing the concerns from data security and privacy. FedAvg is among the most popular federated instantiations, which aggregates knowledge by averaging models uploaded from different participants.
 
-![](customization.png)
+<figure>
+<img src="customization.png" width=90% title="aa">
+<figcaption>Fig 1: Model customization for dynamic width (efficiency) and robustness.</figcaption>
+</figure>
 
 When deploying federated learning, one challenge in real-world applications is the run-time (i.e., test-time) _dynamics_:
 The requirements on model properties (e.g., inference efficiency, robustness, etc.) can be constantly changing during the run-time, depending on the status of the devices or the outside environment.
@@ -100,7 +103,10 @@ Such dynamic run-time requirements demand the flexibility to customize the model
 The desired model should be able to transform to different variants for dynamic demands of robustness, accuracy and efficiency.
 
 
-![](device_hete.png)
+<figure>
+<img src="device_hete.png" width=90% title="aa">
+<figcaption>Fig 2: Device heterogeneity in federated learning.</figcaption>
+</figure>
 
 To effectively and efficiently train models for on-demand an in-situ customization, new challenges will be raised by the ubiquitous _heterogeneity_ of federated learning participants.
 Fist, the participants can have _resource heterogeneity_: Different participants have different hardware resources available, such as memory, computing power, and network bandwidth. 
@@ -109,15 +115,21 @@ To accommodate different hardware, one can turn to more resource-flexible archit
 Specifically, *HeteroFL*[^2] is the first heterogeneous-width solution allowing in-situ model-size switching.
 Nevertheless, it suffers from under-training in its large models due to local budget constraints.
 
-
-![](feature_hete.png)
+<figure>
+<img src="feature_hete.png" width=90% title="aa">
+<figcaption>Fig 3: Feature heterogeneity in federated learning.</figcaption>
+</figure>
 
 The degradation could be worsened as facing _data heterogeneity_: The training datasets from participants are not independent and identically distributed (non-i.i.d.).
 When one device with a unique data distribution cannot afford training a large model, the global large model may not transfer to the unseen distribution.
 Thus, HeteroFL may not provide effective customization such that more parameters brings in higher accuracy and how to train an effectively customizable model still remains unknown.
 
 
-![Split-Mix Federated Learning](featured.png)
+<figure>
+<img src="featured.png" width=100% title="aa">
+<figcaption>Fig 3: Split-Mix Federated Learning.</figcaption>
+</figure>
+
 
 To address the aforementioned challenges from heterogeneity and dynamics, we study a novel _Split-Mix_ approach to enable FL on heterogeneous devices and achieve _in-situ model customization_ for resource efficiency and robustness:
 The size and robustness of the resultant model can be efficiently customized at run-time.
