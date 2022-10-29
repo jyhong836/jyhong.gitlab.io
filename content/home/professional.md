@@ -56,7 +56,8 @@ subtitle = ""
 
 ### Talks
 
-* 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July 9, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
+* 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
+* Federated Adversarial Debiasing for Fair and Transferable Representations, @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 
 ### Teaching Assistant
 
