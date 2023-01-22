@@ -1,6 +1,6 @@
 +++
 title = "Federated Robustness Propagation: Sharing Adversarial Robustness in Federated Learning"
-date = 2022-11-18T13:08:20+08:00
+date = 2023-01-02T13:08:20+08:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
