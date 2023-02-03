@@ -81,6 +81,6 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 * [**Fair**] [pre-training](/publication/faircl2022) and [federated learning](/publication/fade2021kdd).
 * [**Robustness**] for [heterogenous devices](/publication/frp2023), against [OoD inference](/publication/foster2023) in federated learning.
 * [**Secure**] learning against [backdoor attacks](/publication/trap_backdoor).
-* [**Efficient**] [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix).
+* [**Affordable**] efficient [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix) for low-end devices.
 
 **I am on the job market!** Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}}
