@@ -74,12 +74,12 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@MSU](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). Previously, I obtained my B.S. in Physics and M.S. in Computer Science at [USTC](https://ustc.edu.cn/).
+I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). Previously, I obtained my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
 My research centers around privacy-preserving learning and expands to *Inclusive and Trustworthy Machine Learning*. I am interested in enhancing trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning.
 * [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect), distributed learning, and [outsourcing training](/publication/ecos).
 * [**Fair**] [pre-training](/publication/faircl2022) and [federated learning](/publication/fade2021kdd).
-* [**Robustness**] for [heterogenous devices in federated learning](/publication/frp2023).
+* [**Robustness**] for [heterogenous devices](/publication/frp2023), against [OoD inference](/publication/foster2023) in federated learning.
 * [**Secure**] learning against [backdoor attacks](/publication/trap_backdoor).
 * [**Efficient**] [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix).
 
