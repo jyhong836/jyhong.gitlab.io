@@ -26,9 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: "PhD in Computer Science&Engineering"
+  - course: "PhD in CSE"
     institution: "Michigan State University"
-    year: Present
+    year: 2023 (expected)
   - course: "MSc in Computer Science"
     institution: "University of Science and Technology of China"
     year: 2018
@@ -74,7 +74,9 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). Previously, I obtained my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
+I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
+Previously, I obtained my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
+Also, I am fortunate to work closely with [Dr. Zhangyang Wang](https://vita-group.github.io/).
 
 My research centers around privacy-preserving learning and expands to *Inclusive and Trustworthy Machine Learning*. I am interested in enhancing trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning.
 * [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect), distributed learning, and [outsourcing training](/publication/ecos).
