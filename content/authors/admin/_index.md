@@ -14,7 +14,7 @@ organizations:
   url: https://www.msu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed learning, data privacy and deep learning.
+bio: My research interests include data privacy and trustworthy machine learning.
 
 # Interests to show in About widget
 interests:
