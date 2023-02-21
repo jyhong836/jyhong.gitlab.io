@@ -18,8 +18,8 @@ authors = ["Haotao Wang", "admin", "Jiayu Zhou", "Zhangyang Wang"]
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *The Thirty-sixth Conference on Neural Information Processing Systems*"
-publication_short = "NeurIPS"
+publication = "In *Transactions on Machine Learning Research*"
+publication_short = "TMLR"
 
 # Abstract and optional shortened version.
 abstract = "Increasing concerns have been raised on deep learning fairness in recent years. Existing fairness-aware machine learning methods mainly focus on the fairness of in-distribution data. However, in real-world applications, it is common to have distribution shift between the training and test data. In this paper, we first show that the fairness achieved by existing methods can be easily broken by slight distribution shifts. To solve this problem, we propose a novel fairness learning method termed CUrvature MAtching (CUMA), which can achieve robust fairness generalizable to unseen domains with unknown distributional shifts. Specifically, CUMA enforces the model to have similar generalization ability on the majority and minority groups, by matching the loss curvature distributions of the two groups. We evaluate our method on three popular fairness datasets. Compared with existing methods, CUMA achieves superior fairness under unseen distribution shifts, without sacrificing either the overall accuracy or the in-distribution fairness."
