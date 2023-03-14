@@ -1,5 +1,6 @@
 # official: https://gitlab.com/pages/hugo/-/blob/main/.gitlab-ci.yml
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+# image: registry.gitlab.com/pages/hugo/hugo_extended:latest  # latest will use debian.
+image: registry.gitlab.com/pages/hugo/hugo_extended:0.99.1
 
 # Set this if you intend to use Git submodules
 variables:
