@@ -58,6 +58,7 @@ subtitle = ""
 
 * 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
 * Federated Adversarial Debiasing for Fair and Transferable Representations, @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
+* 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
 
 ### Teaching Assistant
 
