@@ -85,4 +85,10 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 * [**Secure**] learning against [backdoor attacks](/publication/trap_backdoor).
 * [**Affordable**] efficient [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix) for low-end devices.
 
-**I am on the job market!** Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}}
+**I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}}
+
+News:
+* [March, 2022] We are going to organize a KDD workshop on federated learning for distributed data mining. More details are coming soon.
+* [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
+* [Dec, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
+* [Nov, 2022] Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
