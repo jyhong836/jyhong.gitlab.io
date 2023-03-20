@@ -42,9 +42,9 @@ projects = ["federated-learning"]
 tags = ["Federated learning", "OoD detection"]
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "https://openreview.net/forum?id=mMNimwRb7Gr"
-url_code = ""
+url_pdf = "https://openreview.net/pdf?id=mMNimwRb7Gr"
+url_preprint = ""
+url_code = "https://github.com/illidanlab/FOSTER"
 url_dataset = ""
 url_project = ""
 url_slides = ""
