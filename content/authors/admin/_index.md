@@ -87,8 +87,17 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 
 **I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}}
 
-News:
+### News
+
+<font size=4>
+
 * [March, 2022] We are going to organize a KDD workshop on federated learning for distributed data mining. More details are coming soon.
 * [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
-* [Dec, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
+* [Sep, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 * [Nov, 2022] Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
+<details>
+<summary>More</summary>
+
+* [May, 2022] Our work on connection-resilient FL got accepted to ICML'22.
+</details>
+</font>
