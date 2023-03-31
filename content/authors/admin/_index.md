@@ -91,7 +91,8 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 
 <font size=4>
 
-* [March, 2022] We are going to organize a KDD workshop on federated learning for distributed data mining. More details are coming soon.
+* [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3).
+* [March, 2023] We are going to organize a KDD workshop on federated learning for distributed data mining. More details are coming soon.
 * [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
 * [Sep, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 * [Nov, 2022] Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
