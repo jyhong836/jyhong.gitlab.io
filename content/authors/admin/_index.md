@@ -44,15 +44,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:hongju12@msu.edu'
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
 - icon: google-scholar  # Alternatively, use `graduation-cap` icon from fas icon_pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=7Cbv6doAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/jyhong836
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/hjy836
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/jyhong836
@@ -89,7 +89,7 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 
 ### News
 
-<font size=4>
+<!-- <font size=4> -->
 
 * [March, 2023] We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
 * [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Report on [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention).
@@ -101,4 +101,4 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 
 * [May, 2022] Our work on connection-resilient FL got accepted to ICML'22.
 </details>
-</font>
+<!-- </font> -->
