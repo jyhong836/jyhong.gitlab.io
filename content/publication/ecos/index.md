@@ -50,7 +50,7 @@ featured: true
 url_pdf: 'https://arxiv.org/abs/2210.12575'
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'priv_smp_poster.pdf'
 url_project: ''
 url_slides: 'priv_smp_5min.pdf'
 url_source: ''
