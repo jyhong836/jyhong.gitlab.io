@@ -92,7 +92,7 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 <!-- <font size=4> -->
 
 * [March, 2023] We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
-* [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+* [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 * [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
 * [Sep, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 * [Nov, 2022] Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.

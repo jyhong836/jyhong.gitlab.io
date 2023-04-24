@@ -58,8 +58,14 @@ subtitle = ""
 
 * 'MECTA: Memory-Economic Continual Test-Time Model Adaptation' @ *Computer Vision Talks*, March, 2023: [[slides](files/mecta_CVT.pdf)]
 * 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
-* Federated Adversarial Debiasing for Fair and Transferable Representations, @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
+* 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 * 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
+
+### Media Cover
+
+* At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
+* Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
+* Privacy-Enhancing Research Earns International Attention, [MSU Office Of Research And Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention), 2023
 
 ### Teaching Assistant
 
@@ -68,6 +74,7 @@ subtitle = ""
 
 ### Award
 
+* The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
 * Dissertation Completion Fellowship, MSU, 2023
 * Carl V. Page Memorial Graduate Fellowship, MSU, 2021
 * Student Travel Award, KDD, 2018
@@ -75,6 +82,6 @@ subtitle = ""
 
 ### Service
 
-* Lead chair at FL4Data-Mining workshop@KDD 2023.
-* **External Reviewer**: ICML2023, ECML-PKDD23, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD
+* Lead chair at [FL4Data-Mining workshop@KDD](https://fl4data-mining.github.io/) 2023.
+* **External Reviewer**: ICML2023, ECML-PKDD23, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD, TKDE
 * **Volunteer**: Volunteer in KDD2018, KDD2021
