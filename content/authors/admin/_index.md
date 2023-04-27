@@ -6,12 +6,12 @@ title: Junyuan Hong
 superuser: true
 
 # Role/position/tagline
-role: CSE PhD Student
+role: Postdoctoral Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Michigan State University
-  url: https://www.msu.edu/
+- name: IFML & WNCG at UT Austin
+  url: https://www.utexas.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include data privacy and trustworthy machine learning.
@@ -28,7 +28,7 @@ education:
   courses:
   - course: "PhD in CSE"
     institution: "Michigan State University"
-    year: 2023 (expected)
+    year: 2023
   - course: "MSc in Computer Science"
     institution: "University of Science and Technology of China"
     year: 2018
@@ -74,23 +74,24 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am currently a final-year Ph.D. student of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
-Previously, I obtained my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
-Also, I am fortunate to work closely with [Dr. Zhangyang Wang](https://vita-group.github.io/).
+I am currently a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the VITA group, Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
+I obtained my Ph.D. degree of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
+Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
 My research centers around privacy-preserving learning and expands to *Inclusive and Trustworthy Machine Learning*. I am interested in enhancing trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning.
 * [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect), distributed learning, and [outsourcing training](/publication/ecos).
 * [**Fair**] [pre-training](/publication/faircl2022) and [federated learning](/publication/fade2021kdd).
 * [**Robustness**] for [heterogenous devices](/publication/frp2023), against [OoD inference](/publication/foster2023) in federated learning.
-* [**Secure**] learning against [backdoor attacks](/publication/trap_backdoor).
+* [**Secure**] learning against backdoor attacks in [supervised learning](/publication/trap_backdoor) and [data-free distillation](/publication/datafree_backdoor2023icml).
 * [**Affordable**] efficient [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix) for low-end devices.
 
-**I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}}
+<!-- **I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}} -->
 
 ### News
 
 <!-- <font size=4> -->
 
+* [April, 2023] One paper on data-free backdoor was accepted to ICML'23.
 * [March, 2023] We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
 * [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 * [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.

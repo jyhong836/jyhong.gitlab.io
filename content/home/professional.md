@@ -56,7 +56,7 @@ subtitle = ""
 
 ### Talks
 
-* 'MECTA: Memory-Economic Continual Test-Time Model Adaptation' @ *Computer Vision Talks*, March, 2023: [[slides](files/mecta_CVT.pdf)]
+* 'MECTA: Memory-Economic Continual Test-Time Model Adaptation' @ *Computer Vision Talks*, March, 2023: [[slides](files/mecta_CVT.pdf)] [[video](https://www.youtube.com/watch?v=sdp6oZtxW4c)]
 * 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
 * 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 * 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
@@ -82,6 +82,6 @@ subtitle = ""
 
 ### Service
 
-* Lead chair at [FL4Data-Mining workshop@KDD](https://fl4data-mining.github.io/) 2023.
-* **External Reviewer**: ICML2023, ECML-PKDD23, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD, TKDE
+* **Program Chair**: [FL4Data-Mining workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair)
+* **External Reviewer**: NeurIPS2023, ICML2023, ECML-PKDD2023, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD, TKDE
 * **Volunteer**: Volunteer in KDD2018, KDD2021
