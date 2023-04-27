@@ -28,7 +28,7 @@ education:
   courses:
   - course: "PhD in CSE"
     institution: "Michigan State University"
-    year: 2023
+    year: 2023 (expected)
   - course: "MSc in Computer Science"
     institution: "University of Science and Technology of China"
     year: 2018
