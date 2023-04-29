@@ -75,7 +75,7 @@ highlight_name: yes
 ---
 
 I am currently a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the VITA group, Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
-I obtained my Ph.D. degree of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
+I am also a Ph.D. candidate of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
 My research centers around privacy-preserving learning and expands to *Inclusive and Trustworthy Machine Learning*. I am interested in enhancing trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning.
