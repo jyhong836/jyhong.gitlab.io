@@ -5,8 +5,10 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
+# theme: minimal
+# theme: junyuan_msu
+theme: junyuan_austin
+day_night: false
 font: ''
 font_size: M
 

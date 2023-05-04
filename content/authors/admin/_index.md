@@ -74,16 +74,17 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am currently a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the VITA group, Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
+I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the VITA group, Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
 I am also a Ph.D. candidate of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
-My research centers around privacy-preserving learning and expands to *Inclusive and Trustworthy Machine Learning*. I am interested in enhancing trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning.
-* [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect), distributed learning, and [outsourcing training](/publication/ecos).
-* [**Fair**] [pre-training](/publication/faircl2022) and [federated learning](/publication/fade2021kdd).
-* [**Robustness**] for [heterogenous devices](/publication/frp2023), against [OoD inference](/publication/foster2023) in federated learning.
-* [**Secure**] learning against backdoor attacks in [supervised learning](/publication/trap_backdoor) and [data-free distillation](/publication/datafree_backdoor2023icml).
-* [**Affordable**] efficient [on-device model adaptation](/publication/mecta2023) and [customizable federated learning](/publication/split_mix) for low-end devices.
+My research centers around *Privacy-Centric Trustworthy Machine Learning*. My vision is to enhance trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning. My research highlights:
+* [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect) and in [distributed learning](/publication/hybrid_fl2023/).
+* [**Trustworthiness**] ⨉ Privacy: Federated Learning <span class="badge badge-pill badge-blue">FL</span> and Private Edge-Cloud Collaboration <div class="badge badge-pill badge-organge">PECC</div>.
+  * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Robustness** by efficient acquisition against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Secure** learning against backdoor attacks in [private-data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Inclusive** learning by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, and [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable federated learning](/publication/split_mix) for low-end devices<span class="badge badge-pill badge-blue">FL</span>.
 
 <!-- **I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}} -->
 
@@ -91,15 +92,15 @@ My research centers around privacy-preserving learning and expands to *Inclusive
 
 <!-- <font size=4> -->
 
-* [April, 2023] One paper on data-free backdoor was accepted to ICML'23.
-* [March, 2023] We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
-* [March, 2023] Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
-* [Jan, 2023] Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
-* [Sep, 2022] Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
-* [Nov, 2022] Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
+* <span class="badge badge-light">April, 2023</span> One paper on data-free backdoor was accepted to ICML'23.
+* <span class="badge badge-light">March, 2023</span> We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
+* <span class="badge badge-light">March, 2023</span> Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+* <span class="badge badge-light">Jan, 2022</span> Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
+* <span class="badge badge-light">Sep, 2022</span> Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
+* <span class="badge badge-light">Nov, 2022</span> Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
 <details>
 <summary>More</summary>
 
-* [May, 2022] Our work on connection-resilient FL got accepted to ICML'22.
+* <span class="badge badge-light">May, 2022</span> Our work on connection-resilient FL got accepted to ICML'22.
 </details>
 <!-- </font> -->
