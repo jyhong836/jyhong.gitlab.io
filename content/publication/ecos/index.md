@@ -37,7 +37,7 @@ abstract: As deep learning blooms with growing demand for computation and data r
 # Summary. An optional shortened abstract.
 summary: We propose a new privacy-preserving learning framework, outsourcing training to cloud without uploading data, which provides more data without injecting noise into gradient or samples.
 
-tags: ["Privacy", "Non-IID"]
+tags: ["Privacy", "Non-IID", "Selected"]
 
 # Display this page in the Featured widget?
 featured: true

@@ -39,7 +39,7 @@ projects = ["federated-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Federated-Learning", "Robustness"]
+tags = ["Federated-Learning", "Robustness", "Selected"]
 
 # Links (optional).
 url_pdf = ""

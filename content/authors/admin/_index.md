@@ -84,7 +84,7 @@ My research centers around *Privacy-Centric Trustworthy Machine Learning*. My vi
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** by efficient acquisition against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
   * **Secure** learning against backdoor attacks in [private-data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
-  * **Inclusive** learning by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, and [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable federated learning](/publication/split_mix) for low-end devices<span class="badge badge-pill badge-blue">FL</span>.
+  * **Inclusive** learning by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, and [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable federated learning](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span> for low-end devices.
 
 <!-- **I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}} -->
 

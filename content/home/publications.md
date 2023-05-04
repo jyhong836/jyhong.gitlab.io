@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Publications
+title: Selected Publications
 subtitle: ''
 
 content:
@@ -23,7 +23,7 @@ content:
   order: desc
   # Filter on criteria
   filters:
-    tag: ''
+    tag: 'selected'
     category: ''
     publication_type: ''
     author: ''
@@ -37,6 +37,6 @@ design:
   view: 4
 ---
 
-<!-- {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}} -->
+{{% callout note %}}
+Find a full list of publications [here](./publication/) or in my [google scholar](https://scholar.google.com/citations?user=7Cbv6doAAAAJ).
+{{% /callout %}}
