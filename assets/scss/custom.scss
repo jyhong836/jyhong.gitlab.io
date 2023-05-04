@@ -6,3 +6,23 @@
    color: #ffffff;
    background-color: #fda172;
 }
+.badge-grey {
+   color: #ffffff;
+   background-color: #a4a4a4;
+}
+
+.nobull {
+   list-style-type: none;
+   padding-inline-start: 1ch;
+}
+// dd {
+//    display: list-item;
+//    list-style-image: url(/right-arrow.svg);
+//    padding-inline-start: 1ch;
+// }
+// li {
+//    list-style-image: url(/right-arrow.svg);
+//    /* OR */
+//    list-style-type: '👉';
+//    padding-inline-start: 1ch;
+// }

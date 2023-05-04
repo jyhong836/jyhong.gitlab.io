@@ -91,16 +91,15 @@ My research centers around *Privacy-Centric Trustworthy Machine Learning*. My vi
 ### News
 
 <!-- <font size=4> -->
-
-* <span class="badge badge-light">April, 2023</span> One paper on data-free backdoor was accepted to ICML'23.
-* <span class="badge badge-light">March, 2023</span> We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
-* <span class="badge badge-light">March, 2023</span> Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
-* <span class="badge badge-light">Jan, 2022</span> Two papers got accepted to ICLR'23: OoD detection by FL (spotlight!), memory-efficient CTA.
-* <span class="badge badge-light">Sep, 2022</span> Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
-* <span class="badge badge-light">Nov, 2022</span> Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
+* <span class="badge badge-grey">April, 2023</span> One paper on data-free backdoor was accepted to ICML'23.
+* <span class="badge badge-grey">March, 2023</span> We are going to organize a KDD workshop on federated learning for distributed data mining (FL4Data-Mining). More details at [fl4data-mining.github.io](https://fl4data-mining.github.io/).
+* <span class="badge badge-grey">March, 2023</span> Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+* <span class="badge badge-grey">Jan, 2022</span> Two papers got accepted to ICLR'23: OoD detection by FL (grey!), memory-efficient CTA.
+* <span class="badge badge-grey">Sep, 2022</span> Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 <details>
 <summary>More</summary>
 
-* <span class="badge badge-light">May, 2022</span> Our work on connection-resilient FL got accepted to ICML'22.
+* <span class="badge badge-grey">Nov, 2022</span> Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
+* <span class="badge badge-grey">May, 2022</span> Our work on connection-resilient FL got accepted to ICML'22.
 </details>
 <!-- </font> -->
