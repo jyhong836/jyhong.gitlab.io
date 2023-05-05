@@ -2,4 +2,4 @@ public/
 .idea/
 resources/
 .vscode/
-themes/
+# themes/
