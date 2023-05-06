@@ -1,7 +1,8 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+# widget: pages
+widget: portfolio
 
 # This file represents a page section.
 headless: true
@@ -9,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Selected Publications
+title: Publications
 subtitle: ''
 
 content:
@@ -21,13 +22,36 @@ content:
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
-  # Filter on criteria
-  filters:
-    tag: 'selected'
-    category: ''
-    publication_type: ''
-    author: ''
-    exclude_featured: false
+  # # Filter on criteria. Use with widget=pages
+  # filters:
+  #   tag: 'selected'
+  #   category: ''
+  #   publication_type: ''
+  #   author: ''
+  #   exclude_featured: false
+  
+  # Use with widget=portfolio
+  filter_default: 0
+  # Filter toolbar (optional).
+  # Add or remove as many filters (`filter_button` instances) as you like.
+  # To show all items, set `tag` to "*".
+  # To filter by a specific tag, set `tag` to an existing tag name.
+  # To remove the toolbar, delete the entire `filter_button` block.
+  filter_button:
+  - name: Selected
+    tag: Selected
+  - name: Federated Learning
+    tag: Federated Learning
+  - name: Private Edge-Cloud Collaboration
+    tag: Private Edge-Cloud Collaboration
+  - name: Privacy
+    tag: Privacy
+  - name: AI Security
+    tag: Security
+  # - name: Other
+  #   tag: Demo
+  - name: All
+    tag: '*'
 design:
   # Choose a view for the listings:
   #   1 = List
@@ -37,6 +61,6 @@ design:
   view: 4
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Find a full list of publications [here](./publication/) or in my [google scholar](https://scholar.google.com/citations?user=7Cbv6doAAAAJ).
-{{% /callout %}}
+{{% /callout %}} -->

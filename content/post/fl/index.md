@@ -1,14 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Heterogeneous Federated Learning"
+title: "(Heterogeneous) Federated Learning"
 subtitle: ""
 summary: ""
 authors: [admin]
 tags: ["federated learning"]
 categories: []
-date: 2021-05-31T15:15:24-04:00
-lastmod: 2021-05-31T15:15:24-04:00
+date: 2023-04-31T15:15:24-04:00
 featured: false
 draft: true
 

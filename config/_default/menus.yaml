@@ -7,21 +7,21 @@ main:
   # - name: Home
   #   url: '#about'
   #   weight: 10
-  - name: Publications
+  - name: Research
     url: '#publications'  # '#featured'
     weight: 20
   # - name: Highlights
   #   url: '#featured'  # '#featured'
   #   weight: 30
-  - name: Professional
+  - name: Prof Activities
     url: '#professional'
     weight: 40
   # - name: Projects
   #   url: '#projects'
   #   weight: 40
-  - name: Posts
-    url: '#posts'
-    weight: 50
+  # - name: Posts
+  #   url: '#posts'
+  #   weight: 50
   # - name: Talks
   #   url: '#talks'
   #   weight: 50

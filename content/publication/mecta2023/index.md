@@ -35,11 +35,11 @@ selected = true
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = ["deep-learning"]
+projects = ["Deep Learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Unsupervised learning", "Memory-efficiency", "Selected"]
+tags = ["Unsupervised learning", "Memory-efficiency", "Selected", "Private Edge-Cloud Collaboration"]
 
 # Links (optional).
 url_pdf = "https://openreview.net/pdf?id=N92hjSf5NNh"

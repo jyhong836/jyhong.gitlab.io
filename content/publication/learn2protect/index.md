@@ -39,7 +39,7 @@ projects = ["private-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Privacy", "Classification", "Meta-Learning"]
+tags = ["Privacy", "Classification", "Meta-Learning", "DP"]
 
 # Links (optional).
 url_pdf = "https://ojs.aaai.org/index.php/AAAI/article/view/16941"

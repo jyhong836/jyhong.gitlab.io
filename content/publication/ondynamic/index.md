@@ -39,7 +39,7 @@ projects = ["private-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Privacy", "Classification", "Convergence Analysis", "Dynamic Allocation", "Selected"]
+tags = ["Privacy", "Classification", "Convergence Analysis", "Dynamic Allocation", "DP", "Selected"]
 
 # Links (optional).
 url_pdf = ""

@@ -80,7 +80,7 @@ Previously, I earned my B.S. in Physics and M.S. in Computer Science at Universi
 
 My research centers around *Privacy-Centric Trustworthy Machine Learning*. My vision is to enhance trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning. My research highlights:
 * [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect) and in [distributed learning](/publication/hybrid_fl2023/).
-* [**Trustworthiness**] ⨉ Privacy: Federated Learning <span class="badge badge-pill badge-blue">FL</span> and Private Edge-Cloud Collaboration <div class="badge badge-pill badge-organge">PECC</div>.
+* [**Trustworthiness**] ⨉ Privacy: [Federated Learning](/post/fl) <span class="badge badge-pill badge-blue">FL</span> and [Private Edge-Cloud Collaboration](/post/pecc) <div class="badge badge-pill badge-organge">PECC</div>.
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** by efficient acquisition against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
   * **Secure** learning against backdoor attacks in [private-data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.

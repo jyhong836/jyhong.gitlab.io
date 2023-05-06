@@ -40,7 +40,7 @@ abstract: Data-free knowledge distillation (KD) helps realistically transfer kno
 # Summary. An optional shortened abstract.
 summary: We uncover the security risk of data-free distillation from a poisoned teacher and propose the first countermeasure.
 
-tags: ["Backdoor", "Data-free Distillation", "Selected"]
+tags: ["Backdoor", "Data-free Distillation", "Federated Learning", "Private Edge-Cloud Collaboration", "Selected", "Security"]
 
 # Display this page in the Featured widget?
 featured: false

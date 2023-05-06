@@ -39,7 +39,7 @@ projects = ["fairness"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Unsupervised learning", "Memory-efficiency"]
+tags = ["Unsupervised learning", "Memory-efficiency", "Private Edge-Cloud Collaboration"]
 
 # Links (optional).
 url_pdf = ""
