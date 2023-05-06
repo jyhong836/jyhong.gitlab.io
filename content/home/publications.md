@@ -46,8 +46,8 @@ content:
     tag: Private Edge-Cloud Collaboration
   - name: Privacy
     tag: Privacy
-  - name: AI Security
-    tag: Security
+  - name: Trustworthy
+    tag: Trustworthy
   # - name: Other
   #   tag: Demo
   - name: All

@@ -39,7 +39,7 @@ projects = ["fairness"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Fairness", "Private Edge-Cloud Collaboration"]
+tags = ["Fairness", "Private Edge-Cloud Collaboration", "Security", "Trustworthy"]
 
 # Links (optional).
 url_pdf = "https://openreview.net/pdf?id=11pGlecTz2"

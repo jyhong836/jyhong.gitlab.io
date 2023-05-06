@@ -39,7 +39,7 @@ abstract: Federated learning is a distributed learning framework that is communi
 # Summary. An optional shortened abstract.
 summary: A distributed domain/group debiasing framework for unsupervised domain adaptation or fairness enhancement.
 
-tags: ["Federated Learning", "Fairness", "Unsupervised Domain Adaptation", "Selected"]
+tags: ["Federated Learning", "Fairness", "Unsupervised Domain Adaptation", "Trustworthy", "Selected"]
 
 # Display this page in the Featured widget?
 featured: true
@@ -56,7 +56,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'slides.pdf'
 url_source: ''
-url_video: 'https://recorder-v3.slideslive.com/#/share?share=41127&s=cecca95d-3eb9-4290-b526-1d271d71f9ff'
+url_video: ''
 # url_custom:
 # links:
 #   - name: Supplementary

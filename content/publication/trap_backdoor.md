@@ -39,7 +39,7 @@ projects = ["backdoor"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["backdoor", "Security"]
+tags = ["Backdoor", "Security", "Trustworthy"]
 
 # Links (optional).
 url_pdf = "https://arxiv.org/pdf/2210.06428.pdf"
