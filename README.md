@@ -1,13 +1,10 @@
 Junyuan Hong's website
 =======
 
-Website: https://jyhong.gitlab.io/
-Source codes: https://github.com/jyhong836/jyhong.gitlab.io
+[![Hugo Theme](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Theme)](https://github.com/jyhong836/junyuan-academic-theme) [![Demo](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Demo)](https://jyhong.gitlab.io/)
 
-The website is based on below materials.
-* [Wowchemy](https://wowchemy.com/?utm_campaign=poweredby) provides the core of a series of Hugo themes.
-* [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic).
-* The theme customized by [matteocourthoud](https://github.com/matteocourthoud/custom-wowchemy-theme).
+This [repo](https://github.com/jyhong836/jyhong.gitlab.io) contains Hugo source codes for [Junyuan's website](https://jyhong.gitlab.io/).
+The website use the [Junyuan-customized theme](https://github.com/jyhong836/junyuan-academic-theme) which is based on below materials.
 
 If you like my website, feel free fork the repo. I appreciate if you could mention [my website](https://jyhong.gitlab.io/) or [repo](https://github.com/jyhong836/jyhong.gitlab.io) on your new one.
 If you have any questions, please open an issue at GitHub.
