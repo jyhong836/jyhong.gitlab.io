@@ -5,6 +5,7 @@ tags:
 - Machine Learning
 - Federated Learning
 - Distributed Learning
+- Selected
 date: "2020-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

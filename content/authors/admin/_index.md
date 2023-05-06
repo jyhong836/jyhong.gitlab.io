@@ -78,7 +78,8 @@ I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.git
 I am also a Ph.D. candidate of Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
-My research centers around *Privacy-Centric Trustworthy Machine Learning*. My vision is to enhance trustworthiness (regarding fairness, robustness and security) under the privacy constraint, e.g., federated learning and differentially-private learning. My research highlights:
+My long-term research vision is to build a **Holistic Trustworthy ML** system, including fairness, robustness, security and privacy.
+My recent research centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue trustworthiness under the privacy constraint, e.g., federated learning and differentially-private learning:
 * [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic) and [empirical algorithms](/publication/learn2protect) and in [distributed learning](/publication/hybrid_fl2023/).
 * [**Trustworthiness**] ⨉ Privacy: [Federated Learning](/post/fl) <span class="badge badge-pill badge-blue">FL</span> and [Private Edge-Cloud Collaboration](/post/pecc) <div class="badge badge-pill badge-organge">PECC</div>.
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.

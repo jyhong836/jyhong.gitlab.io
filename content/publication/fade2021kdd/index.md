@@ -76,6 +76,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
   - "federated-learning"
+  - "holistic-trustworthy"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

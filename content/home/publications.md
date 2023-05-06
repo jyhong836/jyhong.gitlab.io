@@ -40,9 +40,9 @@ content:
   filter_button:
   - name: Selected
     tag: Selected
-  - name: Federated Learning
+  - name: FL
     tag: Federated Learning
-  - name: Private Edge-Cloud Collaboration
+  - name: Edge-Cloud (PECC)
     tag: Private Edge-Cloud Collaboration
   - name: Privacy
     tag: Privacy

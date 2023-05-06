@@ -4,6 +4,7 @@ summary: On the concern of data privacy, we aim to develop algorithms towards le
 tags:
 - Machine Learning
 - Differential Privacy
+- Selected
 date: "2018-09-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

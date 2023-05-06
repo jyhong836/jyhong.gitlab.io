@@ -74,6 +74,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
   - "private-learning"
+  - "holistic-trustworthy"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
