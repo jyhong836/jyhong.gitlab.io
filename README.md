@@ -1,7 +1,7 @@
 Junyuan Hong's website
 =======
 
-[![Hugo Theme](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Theme)](https://github.com/jyhong836/junyuan-academic-theme) [![Demo](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Demo)](https://jyhong.gitlab.io/)
+[![Hugo Theme](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Theme)](https://github.com/jyhong836/junyuan-academic-theme) [![Demo](https://img.shields.io/badge/Hugo-black.svg?style=flat&logo=Hugo&color=orange&label=Demo)](https://jyhong.gitlab.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This [repo](https://github.com/jyhong836/jyhong.gitlab.io) contains Hugo source codes for [Junyuan's website](https://jyhong.gitlab.io/).
 The website use the [Junyuan-customized theme](https://github.com/jyhong836/junyuan-academic-theme) which is based on below materials.
