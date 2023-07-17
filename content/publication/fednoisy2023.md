@@ -1,10 +1,10 @@
 +++
-title = "A Privacy-Preserving Hybrid Federated Learning Framework for Financial Crime Detection"
+title = "FedNoisy: A Federated Noisy Label Learning Benchmark"
 date = 2023-06-30T13:08:20+08:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Haobo Zhang", "admin", "Fan Dong", "Steve Drew", "Liangjie Xue", "Jiayu Zhou"]
+authors = ["Siqi Liang", "Jintao Huang", "admin", "Fan Dong", "Dun Zeng", "Jiayu Zhou", "Zenglin Xu"]
 
 # Publication type.
 # Legend:
@@ -39,12 +39,12 @@ projects = ["federated-learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Federated Learning", "Financial Analysis", "Privacy"]
+tags = ["Federated Learning", "Noisy Label"]
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2302.03654"
+url_pdf = "https://openreview.net/pdf?id=cXMenagKy-7"
 url_preprint = ""
-url_code = "https://github.com/illidanlab/HyFL"
+url_code = "https://github.com/smilelab-fl/fednoisy"
 url_dataset = ""
 url_project = ""
 url_slides = ""
