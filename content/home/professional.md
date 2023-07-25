@@ -61,7 +61,7 @@ subtitle = ""
 * 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 * 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
 
-### Media Cover
+### Media Coverage
 
 * At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
 * Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
@@ -72,15 +72,16 @@ subtitle = ""
 * CSE 847: Machine Learning, 2021
 * CSE 404: Introduction to Machine Learning, 2020
 
-### Award
+### Awards
 
+* Research Enhancement Award, MSU, 2023
 * The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
 * Dissertation Completion Fellowship, MSU, 2023
 * Carl V. Page Memorial Graduate Fellowship, MSU, 2021
 * Student Travel Award, KDD, 2018
 * Outstanding Freshman Scholarship, USTC, 2015
 
-### Service
+### Services
 
 * **Program Chair**: [FL4Data-Mining workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair)
 * **External Reviewer**: NeurIPS2023, ICML2023, ECML-PKDD2023, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD, TKDE

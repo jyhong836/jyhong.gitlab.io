@@ -18,6 +18,7 @@ bio: My research interests include data privacy and trustworthy machine learning
 
 # Interests to show in About widget
 interests:
+- "Foundation (Language/Vision) Models"
 - "Trustworthy Machine Learning"
 - "Privacy"
 - "Federated Learning"
@@ -87,12 +88,13 @@ My recent research centers around *Privacy-Centric Trustworthy Machine Learning*
   * **Secure** learning against backdoor attacks in [private-data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
   * **Inclusive** learning by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, and [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable federated learning](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span> for low-end devices.
 
-<!-- **I am on the job market!** Please feel free to contact me and check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}}.{{< icon name="download" pack="fas" >}} -->
+**I am on the job market!** Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:hongju12@msu.edu) if you are interested.
 
 ### News
 
 <!-- <font size=4> -->
 * <span class="badge badge-grey">August, 2023</span> We are organizing a KDD workshop on federated learning for distributed data mining ([FL4Data-Mining](https://fl4data-mining.github.io/)) on August 7th at Long Beach🌴.
+* <span class="badge badge-grey">July, 2023</span> 🏅 Honored to receive Research Enhancement Award for organizing FL4DataMining workshop! Thank you to MSU Graduate School!
 * <span class="badge badge-grey">July, 2023</span> I am going to travel for ICML 2023 at Hawaii 🌺. Come and talk to me about [data-free backdoor](/publication/datafree_backdoor2023icml/)!
 * <span class="badge badge-grey">July, 2023</span> 🎓 I successfully defended my thesis. Many thanks to my collaborators, advisor and committees.
 * <span class="badge badge-grey">May, 2023</span> My new website is online with released [junyuan-academic-theme](https://github.com/jyhong836/junyuan-academic-theme) including many cool new features.
