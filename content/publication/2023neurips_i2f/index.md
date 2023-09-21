@@ -41,7 +41,7 @@ summary: We propose a new metric to efficiently evaluate the privacy risks from 
 tags: ["Privacy", "Selected"]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
