@@ -48,8 +48,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2309.13016'
+url_code: 'https://github.com/illidanlab/inversion-influence-function'
 url_dataset: ''
 url_poster: ''
 url_project: ''
