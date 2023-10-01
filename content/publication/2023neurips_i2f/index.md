@@ -88,3 +88,95 @@ math: true
 ---
 
 
+## Motivation: Analyzing An Optimal Gradient Inversion Attack
+
+<!-- Though Deep Gradient Leakage (DGL) empirically shows a risk, it is hard to assess the risk without fully optimizing an attack. -->
+Deep Gradient Leakage (DGL) emerges as a strong attack on gradients computed on sensitive data.
+Given a batch of private samples $x$, the attack is formulated as calibrating $x$ to produce the same gradient as
+$$x^*_g = G_r(g) \triangleq \argmin_{x\in \mathcal{X}} \left\{ L_I (x; g) \triangleq  \left\|\nabla_\theta L(x, \theta) - g \right\|^2 \right\}.$$
+However, because of the complexity of the loss $L$ (defined over a non-linear network), the optimal attack is hard to attain empirically.
+If an optimal attack is not fully explored, the risk may remain unclear.
+To address the challenge, we propose a numerically-feasible metric with the optimal-attack assumption to bound the worst-case risk.
+The assumption can be expressed as
+$$G_r(\nabla_\theta L(x, \theta)) \equiv x $$
+for any $x\in \mathcal{X}$.
+The structure of the metric help us further gain insights into when the privacy leakage happens and ideas for protections.
+
+## New Metric: Inversion Influence Function (I$^2$F)
+
+To figure out the association between the leakage and the gradient $g$, we formalize a counterfactual: what kind of defense can diminish the leakage?
+A general noise-based defense can be written as $g = \nabla_\theta L(x_0, \theta) + \delta$ where $\delta$ is a small perturbation.
+Thus, for a small perturbation $\delta$, we can approximate the privacy leakage through DGL by I$^2$F:
+$$\left\|G_r(g_0+\delta) - x_0\right\| \approx \mathcal{I}(\delta; x_0) \triangleq \left\| (JJ^\top)^{-1} J \delta \right\|.\ \ \ \ \text{(I}^2\text{F)}$$
+The I$^2$F includes a matrix inversion, computing which may be expensive and unstable for singular matrixes. Thus, we use a tractable lower bound of I$^2$F as:
+$$\left\|(JJ^\top)^{-1} J \delta\right\| \ge \frac{\left\|J\delta \right\|}{ \lambda_{\max}(JJ^\top)} \triangleq \mathcal{I}_{\text{lb}}(\delta; x_0),$$
+where $\lambda_{\max}(A)$ denotes the maximal eigenvalues of a matrix $A$. 
+
+The new metric enjoys below advantages
+1. Efficiency: Privacy evaluation is efficient in terms of computation and memory; 
+2. Proximity: The alternative provide a good approximation or a lower bound of the risk, at least in the high-risk region; 
+3. Generality: The evaluation is general for different models, datasets, and attacks.
+
+
+## When Does Privacy Leakage Happen?
+
+
+
+### Perturbation Directions Are Not Equivalent
+
+I$^2$F implies that the perturbation is not equal in different directions.
+Decomposing $J=U\Sigma V^\top$ using Singular Value Decomposition (SVD), we obtain $\mathcal{I}(\delta; x_0) = \left\|U\Sigma^{-1} V^\top \delta \right\|$.
+Thus, $\delta$ tends to yield a larger I$^2$F value if it aligns with the directions of small eigenvalues of $JJ^\top$.
+
+<figure>
+<img src="not_eq_perturbations.png" width=100% title="aa">
+<figcaption>Fig 1: Same perturbation sizes but different protection effects by different directions (along eigenvectors). In (a) and (b), MSEs of DGL attacks are reversely proportional to eigenvalues on the LeNet model. Blue curves are scaled $1/\lambda$. Darker dots indicate smaller MSE (higher risks). Recovered MNIST images associated with different eigenvectors are present on the right.</figcaption>
+</figure>
+
+**Comparing eigenvectors in defending DGL.**
+We consider a special case of perturbation by letting $\delta$ be an eigenvector of $JJ^\top$.
+Then the I$^2$F will be $1/\lambda$ where $\lambda$ is the corresponding eigenvalue.
+We conjecture $1/\lambda$ could predict the MSE of DGL attacks.
+To verify the conjecture, we choose 4 eigenvectors with distinct eigenvalues per sample.
+The results for the LeNet model are present in Fig. 1.
+We see that the MSE decreases by $\lambda$.
+For the MNIST dataset, the MSE-$\lambda$ relation is very close to the predicted $1/\lambda$.
+Though the curve is biased from the ground truth for CIFAR10, we still can use $1/\lambda$ to lower bound the recovery error.
+The bias in CIFAR10 is probably due to the hardness of recovering the more complicated patterns than the digit images.
+The recovered images in Fig. 1 suggest that even with the same perturbation scale, there exist many bad directions for defense.
+In the worst case, the image can be fully covered.
+The observation is an alerting message to the community: *protection using random noise may leak private information*.
+
+### Privacy Protection Could Be Unfair
+
+
+Though the average of MSE implies a reasonable privacy degree as reported in previous
+literature, the large variance delivers the opposite message that some samples or classes are not
+that safe. In the sense of samples, many samples are more vulnerable than the average case. For
+the classes, some classes are obviously more secure than others. Thus, when the traditional metric
+focusing on average is used, it may deliver a fake sense of protection unfairly for specific classes or
+samples.
+
+
+<figure>
+<img src="unfair.png" width=100% title="unfair">
+<figcaption>Fig 2: The sample-wise and class-wise statistics of the DGL MSE on the MNIST dataset, when gradients are perturbed with Gaussian noise of variance $10^{-3}$. The purple lines indicate the average values. Large variances are observed among samples and classes. The recovered and original images for the well- and poorly-protected classes are depicted on the right side.</figcaption>
+</figure>
+
+
+
+###  Model Initialization Matters
+
+We observe a significant gap between initialization mechanisms. Using uniform
+initialization cast serious risks of leaking privacy under the same Gaussian defense. Though not
+as significant as uniform initialization, the normal initialization is riskier than rest two techniques.
+`kaiming` and `xavier` methods can favor convergence in deep learning and here we show that they
+are also preferred for privacy. A potential reason is that the two methods can better normalize the
+activations to promote the Jacobian singularity.
+
+
+<figure>
+<img src="init.png" width=60% title="init">
+<figcaption>Fig 3: Different initialization strategies could result in distinct MSEs.</figcaption>
+</figure>
+
