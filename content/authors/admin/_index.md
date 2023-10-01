@@ -81,7 +81,7 @@ Previously, I earned my B.S. in Physics and M.S. in Computer Science at Universi
 
 My long-term research vision is to build a **Holistic Trustworthy ML** system, including fairness, robustness, security and privacy.
 My recent research centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue trustworthiness under the privacy constraint, e.g., federated learning and differentially-private learning:
-* [**Privacy**] in centralized learning with [theoretic understanding](/publication/ondynamic), [analysis tool](/publication/2023neurips_i2f/) and [empirical algorithms](/publication/learn2protect) and its [financial application](/publication/hybrid_fl2023) in distributed learning.
+* [**Privacy**]: [theoretic understanding](/publication/ondynamic), [analysis tool](/publication/2023neurips_i2f/) and [empirical algorithms](/publication/learn2protect) and [financial application](/publication/hybrid_fl2023) in distributed learning.
 * [**Trustworthiness**] ⨉ Privacy: [Federated Learning](/post/fl) <span class="badge badge-pill badge-blue">FL</span> and [Private Edge-Cloud Collaboration](/post/pecc) <div class="badge badge-pill badge-organge">PECC</div>.
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** by efficient acquisition against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
