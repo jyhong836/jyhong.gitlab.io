@@ -93,12 +93,14 @@ math: true
 <!-- Though Deep Gradient Leakage (DGL) empirically shows a risk, it is hard to assess the risk without fully optimizing an attack. -->
 Deep Gradient Leakage (DGL) emerges as a strong attack on gradients computed on sensitive data.
 Given a batch of private samples $x$, the attack is formulated as calibrating $x$ to produce the same gradient as
-$$x^*_g = G_r(g) \triangleq \argmin_{x\in \mathcal{X}} \left\{ L_I (x; g) \triangleq  \left\|\nabla_\theta L(x, \theta) - g \right\|^2 \right\}.$$
+
+$$G_r(g) \triangleq \arg \min _{x\in \mathcal{X}} \left\| \nabla _{\theta} L(x, \theta) - g \right\|^2.$$
+
 However, because of the complexity of the loss $L$ (defined over a non-linear network), the optimal attack is hard to attain empirically.
 If an optimal attack is not fully explored, the risk may remain unclear.
 To address the challenge, we propose a numerically-feasible metric with the optimal-attack assumption to bound the worst-case risk.
 The assumption can be expressed as
-$$G_r(\nabla_\theta L(x, \theta)) \equiv x $$
+$$G_r(\nabla_\theta L(x, \theta)) \equiv x$$
 for any $x\in \mathcal{X}$.
 The structure of the metric help us further gain insights into when the privacy leakage happens and ideas for protections.
 
