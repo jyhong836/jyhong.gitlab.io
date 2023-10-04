@@ -50,12 +50,14 @@ subtitle = ""
  css_class = ""
 +++
 
-### Internship
+### Experience
 
+* Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023.
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
 ### Talks
 
+* 'Backdoor Meets Data-Free Learning' @ *Hong Kong Baptist University*: [[slides](files/HK_TMLR_Group_Backdoor_Talk.pdf)]
 * 'MECTA: Memory-Economic Continual Test-Time Model Adaptation' @ *Computer Vision Talks*, March, 2023: [[slides](files/mecta_CVT.pdf)] [[video](https://www.youtube.com/watch?v=sdp6oZtxW4c)]
 * 'Split-Mix Federated Learning for Model Customization' @ *TrustML Young Scientist Seminars*, July, 2022: [[link](https://trustmlresearch.github.io/seminar-talks/index_junyuan_hong.html)] [[video](https://www.youtube.com/watch?v=VA2XsCA6k9s)]
 * 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
@@ -78,11 +80,11 @@ subtitle = ""
 * The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
 * Dissertation Completion Fellowship, MSU, 2023
 * Carl V. Page Memorial Graduate Fellowship, MSU, 2021
-* Student Travel Award, KDD, 2018
-* Outstanding Freshman Scholarship, USTC, 2015
+<!-- * Student Travel Award, KDD, 2018 -->
+<!-- * Outstanding Freshman Scholarship, USTC, 2015 -->
 
 ### Services
 
 * **Program Chair**: [FL4Data-Mining workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair)
-* **External Reviewer**: NeurIPS2023, ICML2023, ECML-PKDD2023, KDD2023, AISTATS2023, ICLR2023, NeurIPS2022, ICML2022, KDD2022, WSDM2022, AISTATS2022, AAAI2022, AAAI2021, IJCAI2019, NeuroComputing, TKDD, TKDE
-* **Volunteer**: Volunteer in KDD2018, KDD2021
+* **External Reviewer**: NeurIPS 22-23, ICML 22-23, ECML-PKDD 23, KDD 22-23, AISTATS 23, ICLR 23, WSDM 22, AISTATS 22, AAAI 21-23, IJCAI 19, NeuroComputing, TKDD, TKDE, JAIR, TDSC
+* **Volunteer**: Volunteer in KDD 18, 21
