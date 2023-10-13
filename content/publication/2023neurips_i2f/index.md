@@ -88,7 +88,7 @@ math: true
 ---
 
 
-## Motivation: Analyzing An Optimal Gradient Inversion Attack
+## Motivation: Estimate the Worst-Case Risks of Deep Gradient Leakage
 
 <!-- Though Deep Gradient Leakage (DGL) empirically shows a risk, it is hard to assess the risk without fully optimizing an attack. -->
 Deep Gradient Leakage (DGL)[^1] emerges as a strong attack on gradients computed on sensitive data.
