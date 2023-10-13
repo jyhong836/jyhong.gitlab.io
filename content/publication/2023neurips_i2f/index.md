@@ -209,8 +209,8 @@ Understanding when and how privacy leakage happens can essentially help the deve
 For example, it can be used for designing stronger attacks, which leads to improved defense mechanisms and ultimately benefit the privacy and security of machine learning.
 
 
-[^1]: Zhu, L., Liu, Z., & Han, S. (2019). Deep leakage from gradients. Advances in neural information processing systems, 32.
-[^2]: Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M. (2020). Inverting gradients-how easy is it to break privacy in federated learning?. Advances in Neural Information Processing Systems, 33, 16937-16947.
-[^3]: Jeon, J., Lee, K., Oh, S., & Ok, J. (2021). Gradient inversion with generative image prior. Advances in neural information processing systems, 34, 29898-29908.
-[^4]: Zhao, B., Mopuri, K. R., & Bilen, H. (2020). idlg: Improved deep leakage from gradients. arXiv preprint arXiv:2001.02610.
-[^5]: Bae, J., Ng, N., Lo, A., Ghassemi, M., & Grosse, R. B. (2022). If Influence Functions are the Answer, Then What is the Question?. Advances in Neural Information Processing Systems, 35, 17953-17967.
+[^1]: Zhu, L., Liu, Z., & Han, S. (2019). Deep leakage from gradients. _NeurIPS_.
+[^2]: Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M. (2020). Inverting gradients-how easy is it to break privacy in federated learning?. _NeurIPS_.
+[^3]: Jeon, J., Lee, K., Oh, S., & Ok, J. (2021). Gradient inversion with generative image prior. _NeurIPS_.
+[^4]: Zhao, B., Mopuri, K. R., & Bilen, H. (2020). idlg: Improved deep leakage from gradients. _ArXiv_.
+[^5]: Bae, J., Ng, N., Lo, A., Ghassemi, M., & Grosse, R. B. (2022). If Influence Functions are the Answer, Then What is the Question?. _NeurIPS_.
