@@ -94,24 +94,23 @@ math: true
 Deep Gradient Leakage (DGL) emerges as a strong attack on gradients computed on sensitive data.
 Given a batch of private samples $x$, the attack is formulated as calibrating $x$ to produce the same gradient as
 
-$$G_r(g) \triangleq \arg \min _{x\in \mathcal{X}} \left\| \nabla _{\theta} L(x, \theta) - g \right\|^2.$$
+$$G_r(g) \triangleq \arg \min _{x\in \mathcal{X}} \lVert \nabla _{\theta} L(x, \theta) - g \rVert^2.$$
 
-However, because of the complexity of the loss $L$ (defined over a non-linear network), the optimal attack is hard to attain empirically.
-If an optimal attack is not fully explored, the risk may remain unclear.
-To address the challenge, we propose a numerically-feasible metric with the optimal-attack assumption to bound the worst-case risk.
+However, because of the complexity of the loss $L$ (defined over a non-linear network), the minimizer is hard to attain empirically.
+If the minimizer is not fully explored, the risk may remain unclear.
+To address the challenge, we propose a numerically-feasible metric with an perfect-attacker assumption to bound the worst-case risk.
 The assumption can be expressed as
 $$G_r(\nabla_\theta L(x, \theta)) \equiv x$$
-for any $x\in \mathcal{X}$.
-The structure of the metric help us further gain insights into when the privacy leakage happens and ideas for protections.
+for any $x\in \mathcal{X}$, which means the attacker is able to exactly recover the original images of the given gradient.
 
 ## New Metric: Inversion Influence Function (I$^2$F)
 
 To figure out the association between the leakage and the gradient $g$, we formalize a counterfactual: what kind of defense can diminish the leakage?
 A general noise-based defense can be written as $g = \nabla_\theta L(x_0, \theta) + \delta$ where $\delta$ is a small perturbation.
 Thus, for a small perturbation $\delta$, we can approximate the privacy leakage through DGL by I$^2$F:
-$$\left\|G_r(g_0+\delta) - x_0\right\| \approx \mathcal{I}(\delta; x_0) \triangleq \left\| (JJ^\top)^{-1} J \delta \right\|.\ \ \ \ \text{(I}^2\text{F)}$$
+$$\lVert G_r(g_0+\delta) - x_0\rVert \approx \mathcal{I}(\delta; x_0) \triangleq \lVert (JJ^\top)^{-1} J \delta \rVert.\ \ \ \ \text{(I}^2\text{F)}$$
 The I$^2$F includes a matrix inversion, computing which may be expensive and unstable for singular matrixes. Thus, we use a tractable lower bound of I$^2$F as:
-$$\left\|(JJ^\top)^{-1} J \delta\right\| \ge \frac{\left\|J\delta \right\|}{ \lambda_{\max}(JJ^\top)} \triangleq \mathcal{I}_{\text{lb}}(\delta; x_0),$$
+$$\lVert(JJ^\top)^{-1} J \delta\rVert \ge \frac{\lVert J\delta \rVert}{ \lambda_{\max}(JJ^\top)} \triangleq \mathcal{I}_{\text{lb}}(\delta; x_0),$$
 where $\lambda_{\max}(A)$ denotes the maximal eigenvalues of a matrix $A$. 
 
 The new metric enjoys below advantages
@@ -127,7 +126,7 @@ The new metric enjoys below advantages
 ### Perturbation Directions Are Not Equivalent
 
 I$^2$F implies that the perturbation is not equal in different directions.
-Decomposing $J=U\Sigma V^\top$ using Singular Value Decomposition (SVD), we obtain $\mathcal{I}(\delta; x_0) = \left\|U\Sigma^{-1} V^\top \delta \right\|$.
+Decomposing $J=U\Sigma V^\top$ using Singular Value Decomposition (SVD), we obtain $\mathcal{I}(\delta; x_0) = \lVert U\Sigma^{-1} V^\top \delta \rVert$.
 Thus, $\delta$ tends to yield a larger I$^2$F value if it aligns with the directions of small eigenvalues of $JJ^\top$.
 
 <figure>
@@ -182,3 +181,30 @@ activations to promote the Jacobian singularity.
 <figcaption>Fig 3: Different initialization strategies could result in distinct MSEs.</figcaption>
 </figure>
 
+## Conclusion
+
+In this paper, we introduce a novel way to use the influence functions for analyzing Deep Gradient Leakage (DGL). We propose a new and efficient approximation of DGL called the Inversion Influence Function (I$^2$F). By utilizing this tool, we gain valuable insights into the occurrence and mechanisms of DGL, which can greatly help the future development of effective defense methods.
+
+**Limitations.**
+Our work may be limited by some assumptions and approximations.
+First, we worked on the worst-case scenario where a strong attack conducts perfect inversion attacks. 
+In practice, such an assumption can be strong, especially for highly complicated deep networks. 
+However, we note that recent years witnessed many techniques that significantly improved attacking capability ~\citep{geiping2020inverting,jeon2021gradient,zhao2020idlg}, and our work is valuable to bound the risks when the attacks get even stronger over time.
+Second, similar to the traditional influence function, I$^2$F can be less accurate and suffers from large variance in extremely non-convex loss functions.
+Advanced linearization techniques \citep{bae2022if} can be helpful in improving the accuracy of influence.
+Then extending our analysis to bigger foundation models may bring intriguing insights into the scaling law of privacy.
+
+**Future Directions.**
+As the first attempt at influence function in DGL, our method can serve multiple purposes to benefit future research.
+For example, our metric can be used to efficiently examine the privacy breach before sending gradients to third parties.
+Since I$^2$F provides an efficient evaluation of the MSE, it may be directly optimized in conjunction with the loss of main tasks.
+Such joint optimization could bring in the explicit trade-off between utility and privacy in time.
+In comparison, traditional arts like differential privacy are complicated by tuning the privacy parameter for the trade-off.
+Furthermore, we envision that many techniques can be adopted to further enhance the analysis.
+For example, unrolling-based analysis leverages the iterative derivatives in the DGL to uncover the effectiveness of gradient perturbations~\citep{pruthi2020estimating}.
+
+**Broader Impacts.**
+Data privacy has been a long-term challenge in machine learning.
+Our work provides a fundamental tool to diagnose privacy breaches in the gradients of deep networks.
+Understanding when and how privacy leakage happens can essentially help the development of defenses.
+For example, it can be used for designing stronger attacks, which leads to improved defense mechanisms and ultimately benefit the privacy and security of machine learning.

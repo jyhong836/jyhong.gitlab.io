@@ -93,7 +93,7 @@ My recent research centers around *Privacy-Centric Trustworthy Machine Learning*
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">September, 2023</span> Our work on understanding gradient via [inversion influence functions](/publication/2023neurips_i2f/) got accepted to NeurIPS'23.
+* <span class="badge badge-grey">September, 2023</span> Our work on understanding gradient privacy via [inversion influence functions](/publication/2023neurips_i2f/) got accepted to NeurIPS'23.
 * <span class="badge badge-grey">September, 2023</span> Our new work on [watermarking models using one image](/publication/2023one_image_watermark/) is online.
 * <span class="badge badge-grey">August, 2023</span> We are organizing a KDD workshop on federated learning for distributed data mining ([FL4Data-Mining](https://fl4data-mining.github.io/)) on August 7th at Long Beach🌴.
 * <span class="badge badge-grey">July, 2023</span> 🏅 Honored to receive Research Enhancement Award for organizing FL4DataMining workshop! Thank you to MSU Graduate School!
