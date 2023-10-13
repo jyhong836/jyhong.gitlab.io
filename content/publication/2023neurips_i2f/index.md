@@ -91,7 +91,7 @@ math: true
 ## Motivation: Analyzing An Optimal Gradient Inversion Attack
 
 <!-- Though Deep Gradient Leakage (DGL) empirically shows a risk, it is hard to assess the risk without fully optimizing an attack. -->
-Deep Gradient Leakage (DGL) emerges as a strong attack on gradients computed on sensitive data.
+Deep Gradient Leakage (DGL)[^1] emerges as a strong attack on gradients computed on sensitive data.
 Given a batch of private samples $x$, the attack is formulated as calibrating $x$ to produce the same gradient as
 
 $$G_r(g) \triangleq \arg \min _{x\in \mathcal{X}} \lVert \nabla _{\theta} L(x, \theta) - g \rVert^2.$$
@@ -189,9 +189,9 @@ In this paper, we introduce a novel way to use the influence functions for analy
 Our work may be limited by some assumptions and approximations.
 First, we worked on the worst-case scenario where a strong attack conducts perfect inversion attacks. 
 In practice, such an assumption can be strong, especially for highly complicated deep networks. 
-However, we note that recent years witnessed many techniques that significantly improved attacking capability ~\citep{geiping2020inverting,jeon2021gradient,zhao2020idlg}, and our work is valuable to bound the risks when the attacks get even stronger over time.
+However, we note that recent years witnessed many techniques that significantly improved attacking capability[^1] [^2] [^3] [^4], and our work is valuable to bound the risks when the attacks get even stronger over time.
 Second, similar to the traditional influence function, I$^2$F can be less accurate and suffers from large variance in extremely non-convex loss functions.
-Advanced linearization techniques \citep{bae2022if} can be helpful in improving the accuracy of influence.
+Advanced linearization techniques [^5] can be helpful in improving the accuracy of influence.
 Then extending our analysis to bigger foundation models may bring intriguing insights into the scaling law of privacy.
 
 **Future Directions.**
@@ -201,10 +201,16 @@ Since I$^2$F provides an efficient evaluation of the MSE, it may be directly opt
 Such joint optimization could bring in the explicit trade-off between utility and privacy in time.
 In comparison, traditional arts like differential privacy are complicated by tuning the privacy parameter for the trade-off.
 Furthermore, we envision that many techniques can be adopted to further enhance the analysis.
-For example, unrolling-based analysis leverages the iterative derivatives in the DGL to uncover the effectiveness of gradient perturbations~\citep{pruthi2020estimating}.
 
 **Broader Impacts.**
 Data privacy has been a long-term challenge in machine learning.
 Our work provides a fundamental tool to diagnose privacy breaches in the gradients of deep networks.
 Understanding when and how privacy leakage happens can essentially help the development of defenses.
 For example, it can be used for designing stronger attacks, which leads to improved defense mechanisms and ultimately benefit the privacy and security of machine learning.
+
+
+[^1]: Zhu, L., Liu, Z., & Han, S. (2019). Deep leakage from gradients. Advances in neural information processing systems, 32.
+[^2]: Geiping, J., Bauermeister, H., Dröge, H., & Moeller, M. (2020). Inverting gradients-how easy is it to break privacy in federated learning?. Advances in Neural Information Processing Systems, 33, 16937-16947.
+[^3]: Jeon, J., Lee, K., Oh, S., & Ok, J. (2021). Gradient inversion with generative image prior. Advances in neural information processing systems, 34, 29898-29908.
+[^4]: Zhao, B., Mopuri, K. R., & Bilen, H. (2020). idlg: Improved deep leakage from gradients. arXiv preprint arXiv:2001.02610.
+[^5]: Bae, J., Ng, N., Lo, A., Ghassemi, M., & Grosse, R. B. (2022). If Influence Functions are the Answer, Then What is the Question?. Advances in Neural Information Processing Systems, 35, 17953-17967.
