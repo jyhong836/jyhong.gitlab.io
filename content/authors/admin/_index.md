@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:hongju12@msu.edu'
+  link: 'mailto:jyhong@utexas.edu'
 - icon: google-scholar  # Alternatively, use `graduation-cap` icon from fas icon_pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=7Cbv6doAAAAJ
