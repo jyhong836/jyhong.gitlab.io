@@ -18,11 +18,11 @@ bio: My research interests include data privacy and trustworthy machine learning
 
 # Interests to show in About widget
 interests:
-- "Foundation (Language/Vision) Models"
 - "Trustworthy Machine Learning"
 - "Privacy"
 - "Federated Learning"
-# - "Manifold Learning"
+- "Healthcare"
+- "Foundation (Language/Vision) Models"
 
 # Education to show in About widget
 education:
@@ -79,9 +79,10 @@ I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.git
 I obtained my Ph.D. degree from Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
 
-My long-term research vision is to build a **Holistic Trustworthy ML** system, including fairness, robustness, security and privacy.
-My recent research centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue trustworthiness under the privacy constraint, e.g., federated learning and differentially-private learning:
-* [**Privacy**]: [theoretic understanding](/publication/ondynamic), [analysis tool](/publication/2023neurips_i2f/) and [empirical algorithms](/publication/learn2protect) and [financial application](/publication/hybrid_fl2023) in distributed learning.
+My long-term research vision is to build a **Holistic Trustworthy Healthcare ML** system, including fairness, robustness, security and privacy.
+My recent research centers around *Privacy-Centric Trustworthy Machine Learning* and its application on *Healthcare* where I pursue trustworthiness under the privacy constraint, e.g., federated learning and differentially-private learning:
+* [**Healthcare**]: Modeling disease from [daily activity data](/publication/ad2020) and [distributed devices](/publication/fade2021kdd).
+* [**Privacy**]: [theoretic understanding](/publication/ondynamic), [auditing tools](/publication/2023neurips_i2f/) and [empirical algorithms](/publication/learn2protect) and [financial application](/publication/hybrid_fl2023) in distributed learning.
 * [**Trustworthiness**] ⨉ Privacy: [Federated Learning](/post/fl) <span class="badge badge-pill badge-blue">FL</span> and [Private Edge-Cloud Collaboration](/post/pecc) <div class="badge badge-pill badge-organge">PECC</div>.
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** by efficient acquisition against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.

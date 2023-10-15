@@ -40,16 +40,18 @@ content:
   filter_button:
   - name: Selected
     tag: Selected
-  - name: FL
-    tag: Federated Learning
-  - name: Edge-Cloud (PECC)
-    tag: Private Edge-Cloud Collaboration
+  - name: Healthcare
+    tag: Healthcare
+  # - name: Edge-Cloud (PECC)
+  #   tag: Private Edge-Cloud Collaboration
   - name: Privacy
     tag: Privacy
   - name: Trustworthy
     tag: Trustworthy
   # - name: Other
   #   tag: Demo
+  - name: FL
+    tag: Federated Learning
   - name: All
     tag: '*'
 design:

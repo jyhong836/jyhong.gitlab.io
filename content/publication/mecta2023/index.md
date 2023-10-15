@@ -39,7 +39,7 @@ projects = ["Deep Learning"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["Unsupervised Learning", "Robustness", "Continual Learning", "Trustworthy", "Memory-efficiency", "Selected", "Private Edge-Cloud Collaboration"]
+tags = ["Unsupervised Learning", "Robustness", "Continual Learning", "Trustworthy", "Memory-efficiency", "Private Edge-Cloud Collaboration"]
 
 # Links (optional).
 url_pdf = "https://openreview.net/pdf?id=N92hjSf5NNh"
