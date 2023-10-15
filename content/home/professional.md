@@ -69,10 +69,11 @@ subtitle = ""
 * Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
 * Privacy-Enhancing Research Earns International Attention, [MSU Office Of Research And Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention), 2023
 
-### Teaching Assistant
+### Teaching
 
-* CSE 847: Machine Learning, 2021
-* CSE 404: Introduction to Machine Learning, 2020
+* Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
+* Teaching Assistant@CSE 847: Machine Learning, MSU, 2021
+* Teaching Assistant@CSE 404: Introduction to Machine Learning, MSU, 2020
 
 ### Awards
 
