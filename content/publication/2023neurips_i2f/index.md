@@ -96,12 +96,14 @@ Given a batch of private samples $x$, the attack is formulated as calibrating $x
 
 $$G_r(g) \triangleq \arg \min _{x\in \mathcal{X}} \lVert \nabla _{\theta} L(x, \theta) - g \rVert^2.$$
 
-However, because of the complexity of the loss $L$ (defined over a non-linear network), the minimizer is hard to attain empirically.
-If the minimizer is not fully explored, the risk may remain unclear.
+However, because of the complexity of the loss $L$ (defined over a non-linear network), the actual risk is hard to estimate.
+**(1)** First, the minimizer is hard to attain empirically.
 To address the challenge, we propose a numerically-feasible metric with an perfect-attacker assumption to bound the worst-case risk.
 The assumption can be expressed as
 $$G_r(\nabla_\theta L(x, \theta)) \equiv x$$
-for any $x\in \mathcal{X}$, which means the attacker is able to exactly recover the original images of the given gradient.
+for any $x\in \mathcal{X}$, which means the attacker is able to exactly recover the original images of the given gradient. 
+**(2)** Second, minimizing the objective is time consuming for deep networks. Deep networks are often more performant in various vision/language tasks and their privacy risks could more impactful when more people are interested in training the models on their data.
+**(3)** Third, given the complexity of attacking and deep networks, it is hard to analyze and understand the root source of DGL risks, especially for deep networks.
 
 ## New Metric: Inversion Influence Function (I$^2$F)
 
