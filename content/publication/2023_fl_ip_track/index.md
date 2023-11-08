@@ -42,7 +42,7 @@ summary: Tracking IP leakage in federated learning.
 tags: ["Federated Learning", "IP Protection"]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
