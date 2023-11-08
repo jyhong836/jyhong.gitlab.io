@@ -41,7 +41,7 @@ summary: We propose a new metric to efficiently evaluate the privacy risks from 
 tags: ["Privacy", "Selected"]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
@@ -116,20 +116,27 @@ $$\lVert(JJ^\top)^{-1} J \delta\rVert \ge \frac{\lVert J\delta \rVert}{ \lambda_
 where $\lambda_{\max}(A)$ denotes the maximal eigenvalues of a matrix $A$. 
 
 The new metric enjoys below advantages
-1. Efficiency: Privacy evaluation is efficient in terms of computation and memory; 
+1. **Efficiency**: Privacy evaluation is efficient in terms of computation and memory; 
 <figure>
 <img src="efficiency.png" width=60% title="Efficiency">
 <figcaption>Fig: Comparison of the efficiency of computing $\mathcal{I}_{lb}$ (our method) by power iteration and inversion attack by minimizing inversion loss ($L_I$). Blue bars indicate the time of computing $\mathcal{I}_{lb}$ while orange bars indicate minimizing inversion loss by DGL and GS. The time ratio of computing $\mathcal{I}_{lb}$ versus minimizing inversion loss is present above the orange bars. The x-axis are model-dataset pairs sorted by the model scales. We show that for large models and datasets, where minimizing inversion loss needs a huge computation overhead, $\mathcal{I}_{lb}$ can provide an efficient estimation of the privacy risk.</figcaption>
 </figure>
 
-2. Proximity: The alternative provide a good approximation or a lower bound of the risk, at least in the high-risk region; 
-3. Generality: The evaluation is general for different models, datasets, and attacks.
+2. **Proximity**: The alternative provide a good approximation or a lower bound of the risk, at least in the high-risk region; 
+3. **Generality**: The evaluation is general for different models, datasets, and attacks.
+
+To show the proximity and proximity, we compare the I$^2$F against the privacy measures of both vision and language models.
+
 <figure>
 <img src="generality.png" width=80% title="Generality">
 <figcaption>Fig: I$^2$F lower bounds RMSE under different settings: datasets, attacks, and models. The grey line indicates the equal values, and darker dots imply smaller Gaussian perturbation $\delta$.</figcaption>
 </figure>
 
 
+<figure>
+<img src="lm.png" width=80% title="Generality">
+<figcaption>Fig: I$^2$F correlates with privacy metrics of language models: BERT (top) and GPT-2 (bottom). Darker dots imply smaller Gaussian perturbation $\delta$.</figcaption>
+</figure>
 
 
 ## When Does Privacy Leakage Happen?
