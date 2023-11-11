@@ -39,7 +39,7 @@ abstract: Federated learning (FL) emerges as an effective collaborative learning
 # Summary. An optional shortened abstract.
 summary: Tracking IP leakage in federated learning.
 
-tags: ["Federated Learning", "IP Protection"]
+tags: ["Federated Learning", "Trustworthy", "IP Protection"]
 
 # Display this page in the Featured widget?
 featured: false
