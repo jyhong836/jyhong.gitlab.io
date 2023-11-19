@@ -75,19 +75,19 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the VITA group, Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
-I obtained my Ph.D. degree from Computer Science and Engineering at [ILLIDAN Lab@Michigan State University (MSU)](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
-Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China ([USTC](https://ustc.edu.cn/)).
+I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
+I obtained my Ph.D. degree from Computer Science and Engineering at [Michigan State University](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
+Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China.
 
 My long-term research vision is to establish **Holistic Trustworthy ML for Healthcare**.
-My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue trustworthiness under privacy constraints.
+My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue fairness, robustness, security and inclusiveness under privacy constraints.
 ![](img/privacy_trust_ml.png)
 * Dementia [**Healthcare**]: Disease modeling from [daily activity data](/publication/ad2020) and from [distributed devices](/publication/fade2021kdd). Patient digital twins and treatment by generative AI.
-* [**Privacy**] in Collaborative ML: [Efficient auditing tools](/publication/2023neurips_i2f/), [private learning](/publication/learn2protect) and applications for distributed [financial](/publication/hybrid_fl2023) and [disease](/publication/fade2021kdd) modeling.
+* [**Privacy**] in Collaborative ML: [Efficient auditing tools](/publication/2023neurips_i2f/), [private learning algorithms](/publication/learn2protect) and applications for distributed [financial](/publication/hybrid_fl2023) and [disease](/publication/fade2021kdd) modeling.
 * [**Trustworthiness**] ⨉ Privacy: Federated Learning <span class="badge badge-pill badge-blue">FL</span> and Private Edge-Cloud Collaboration <div class="badge badge-pill badge-organge">PECC</div>.
   * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** acquired from collaboration, against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
-  * **Security** risks in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Security** alarms in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
   * **Inclusive** system for for low-end devices by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
 
 **I am on the job market!** Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested.
