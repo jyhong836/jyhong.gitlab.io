@@ -1,6 +1,6 @@
 ---
 title: Dementia Healthcare
-summary: On the concern of data privacy, we aim to develop algorithms towards learning accurate models privately from data.
+summary: We aim to early detect and treat dementia diseases, which is hard to notice and treat, through user-friendly and trustworthy AI agents.
 tags:
 - Selected
 date: "2018-08-27T00:00:00Z"
