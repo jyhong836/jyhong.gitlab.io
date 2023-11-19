@@ -76,7 +76,7 @@ highlight_name: yes
 ---
 
 I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
-I obtained my Ph.D. degree from Computer Science and Engineering at [Michigan State University](https://illidanlab.github.io), advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
+I obtained my Ph.D. degree from Computer Science and Engineering at Michigan State University, advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China.
 
 My long-term research vision is to establish **Holistic Trustworthy ML for Healthcare**.
