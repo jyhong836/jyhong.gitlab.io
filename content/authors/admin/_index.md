@@ -81,6 +81,7 @@ Previously, I earned my B.S. in Physics and M.S. in Computer Science at Universi
 
 My long-term research vision is to build a **Holistic Trustworthy Healthcare ML** system, including fairness, robustness, security and privacy.
 My recent research centers around *Privacy-Centric Trustworthy Machine Learning* and its application on *Healthcare* where I pursue trustworthiness under the privacy constraint, e.g., federated learning and differentially-private learning:
+![](img/privacy_trust_ml.png)
 * [**Healthcare**]: Modeling disease from [daily activity data](/publication/ad2020) and [distributed devices](/publication/fade2021kdd).
 * [**Privacy**]: [theoretic understanding](/publication/ondynamic), [auditing tools](/publication/2023neurips_i2f/) and [empirical algorithms](/publication/learn2protect) and [financial application](/publication/hybrid_fl2023) in distributed learning.
 * [**Trustworthiness**] ⨉ Privacy: [Federated Learning](/post/fl) <span class="badge badge-pill badge-blue">FL</span> and [Private Edge-Cloud Collaboration](/post/pecc) <div class="badge badge-pill badge-organge">PECC</div>.

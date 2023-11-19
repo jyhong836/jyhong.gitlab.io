@@ -77,6 +77,7 @@ image:
 projects:
   - "federated-learning"
   - "holistic-trustworthy"
+  - "healthcare"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

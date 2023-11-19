@@ -1,21 +1,18 @@
 ---
-title: Federated Learning
-summary: On the need of data privacy and more data, we strive to join the knowledge from a fair amount of users to train powerful deep neural networks without sharing data.
+title: Dementia Healthcare
+summary: On the concern of data privacy, we aim to develop algorithms towards learning accurate models privately from data.
 tags:
-- Machine Learning
-- Federated Learning
-- Distributed Learning
-# - Selected
-date: "2020-01-27T00:00:00Z"
+- Selected
+date: "2018-08-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
-# image:
-#   caption: Photo by rawpixel on Unsplash
-#   focal_point: Smart
+image:
+  # caption: dementia healthcare # Photo by rawpixel on Unsplash
+  focal_point: Smart
 
-links:
+# links:
 # - icon: twitter
 #   icon_pack: fab
 #   name: Follow
@@ -32,3 +29,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""  # example
 ---
+
+

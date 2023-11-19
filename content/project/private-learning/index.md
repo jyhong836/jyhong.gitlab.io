@@ -1,5 +1,5 @@
 ---
-title: Differentially Private Learning
+title: Privacy in Collaborative ML
 summary: On the concern of data privacy, we aim to develop algorithms towards learning accurate models privately from data.
 tags:
 - Machine Learning
