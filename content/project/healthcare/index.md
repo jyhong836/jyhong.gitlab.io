@@ -31,3 +31,5 @@ slides: ""  # example
 ---
 
 
+We aim to early detect and treat dementia diseases, which is hard to notice and treat, through user-friendly and trustworthy AI agents.
+
