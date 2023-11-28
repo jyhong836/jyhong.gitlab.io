@@ -57,6 +57,7 @@ subtitle = ""
 
 ### Talks
 
+* 'Foundation Models Meet Data Privacy: Risks and Countermeasures' @ *Trustworthy Machine Learning Lecture*, Virginia Tech, Nov, 2023
 * 'Economizing Mild-Cognitive-Impairment Research: Developing a Digital Twin Chatbot from Patient Conversations' @ *BABUŠKA FORUM*, Nov, 2023: [[link](https://oden.utexas.edu/news-and-events/events/1852---Junyuan%20Hong/)]
 * 'Backdoor Meets Data-Free Learning' @ *Hong Kong Baptist University*, Sep, 2023: [[slides](files/HK_TMLR_Group_Backdoor_Talk.pdf)]
 * 'MECTA: Memory-Economic Continual Test-Time Model Adaptation' @ *Computer Vision Talks*, March, 2023: [[slides](files/mecta_CVT.pdf)] [[video](https://www.youtube.com/watch?v=sdp6oZtxW4c)]
