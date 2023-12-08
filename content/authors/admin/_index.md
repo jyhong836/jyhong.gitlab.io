@@ -95,7 +95,8 @@ My recent research is driven by the emergent challenges in *AI for Dementia Heal
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">Nov, 2023</span> Grateful to be selected as Top Reviewer at NeurIPS, 2023
+* <span class="badge badge-grey">Nov, 2023</span> We are releasing a set of compressed LLMs at [compressed-llm](https://huggingface.co/compressed-llm) for public benchmarks.
+* <span class="badge badge-grey">Nov, 2023</span> Grateful to be selected as Top Reviewer at NeurIPS 2023.
 * <span class="badge badge-grey">Nov, 2023</span> Our work on [tracking IP leakage in FL](/publication/2023_fl_ip_track/) is accepted to NeurIPS'23 Workshop on Regulated ML (NeurIPS-RegML).
 * <span class="badge badge-grey">Sep, 2023</span> Our work on understanding gradient privacy via [inversion influence functions](/publication/2023neurips_i2f/) is accepted to NeurIPS'23.
 * <span class="badge badge-grey">Sep, 2023</span> Our new work on [watermarking models using one image](/publication/2023one_image_watermark/) is online.
