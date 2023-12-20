@@ -95,12 +95,13 @@ My recent research is driven by the emergent challenges in *AI for Dementia Heal
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">Dec, 2023</span> :airplane: 🎷 I will be at New Orleans for presenting our recent work on [understanding gradient privacy](/publication/2023neurips_i2f/) (NeurIPS'23 ), [private prompt engineering for LLMs](/publication/2023dp_opt/) (preprint) and [tracking IP leakage in FL](/publication/2023_fl_ip_track/) (NeurIPS-RegML). Check our [flyers](https://docs.google.com/document/d/1j1lUnzXjjoHnIc1ooAOBT2Kjib-ez1yu8DEIEgYl1hs/edit?usp=sharing)📄 for a quick read.
+* <span class="badge badge-grey">Dec, 2023</span> 🍾 Our paper on [amplifying privacy risks via fine-tuning](/publication/2023finetune_privacy) (Shake-To-Leak) is accepted to SaTML.
+* <span class="badge badge-grey">Dec, 2023</span> Our new preprint on [private prompt engineering for close-source LLMs](/publication/2023dp_opt/) is online.
+* <span class="badge badge-grey">Dec, 2023</span> :airplane: 🎷 I will be at New Orleans for presenting our recent work on [understanding gradient privacy](/publication/2023neurips_i2f/) (NeurIPS'23 ) and [tracking IP leakage in FL](/publication/2023_fl_ip_track/) (NeurIPS-RegML). 
+<!-- * Check our [flyers](https://docs.google.com/document/d/1j1lUnzXjjoHnIc1ooAOBT2Kjib-ez1yu8DEIEgYl1hs/edit?usp=sharing)📄 for a quick read. -->
 * <span class="badge badge-grey">Nov, 2023</span> 🤖 We are releasing a set of compressed LLMs at [compressed-llm](https://huggingface.co/compressed-llm) for public benchmarks.
-* <span class="badge badge-grey">Nov, 2023</span> 🏅 Grateful to be selected as Top Reviewer at NeurIPS 2023.
+* <span class="badge badge-grey">Nov, 2023</span> 🏅 Grateful to be selected as [Top Reviewer](https://nips.cc/Conferences/2023/ProgramCommittee#top-reivewers) at NeurIPS 2023.
 * <span class="badge badge-grey">August, 2023</span> 👥 We are organizing a KDD workshop on federated learning for distributed data mining ([FL4Data-Mining](https://fl4data-mining.github.io/)) on August 7th at Long Beach🌴.
-* <span class="badge badge-grey">July, 2023</span> 🏅 Honored to receive Research Enhancement Award for organizing FL4DataMining workshop! Thank you to MSU Graduate School!
-* <span class="badge badge-grey">July, 2023</span> 🎓 I successfully defended my thesis. Many thanks to my collaborators, advisor and committees.
 * <span class="badge badge-grey">March, 2023</span> 🏆 Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 <details>
 <summary>More</summary>
@@ -109,6 +110,8 @@ My recent research is driven by the emergent challenges in *AI for Dementia Heal
 * <span class="badge badge-grey">Sep, 2023</span> Our work on understanding gradient privacy via [inversion influence functions](/publication/2023neurips_i2f/) is accepted to NeurIPS'23.
 * <span class="badge badge-grey">Sep, 2023</span> Our new work on [watermarking models using one image](/publication/2023one_image_watermark/) is online.
 * <span class="badge badge-grey">July, 2023</span> I am going to travel for ICML 2023 at Hawaii 🌺. Come and talk to me about [data-free backdoor](/publication/datafree_backdoor2023icml/)!
+* <span class="badge badge-grey">July, 2023</span> 🏅 Honored to receive Research Enhancement Award for organizing FL4DataMining workshop! Thank you to MSU Graduate School!
+* <span class="badge badge-grey">July, 2023</span> 🎓 I successfully defended my thesis. Many thanks to my collaborators, advisor and committees.
 * <span class="badge badge-grey">May, 2023</span> My new website is online with released [junyuan-academic-theme](https://github.com/jyhong836/junyuan-academic-theme) including many cool new features.
 * <span class="badge badge-grey">April, 2023</span> One paper on [data-free backdoor](/publication/datafree_backdoor2023icml/) got accepted to ICML'23.
 * <span class="badge badge-grey">Jan, 2022</span> Two papers got accepted to ICLR'23: OoD detection by FL (splotlight!), memory-efficient CTA.
