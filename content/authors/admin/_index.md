@@ -90,11 +90,13 @@ My recent research is driven by the emergent challenges in *AI for Dementia Heal
   * **Security** alarms in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
   * **Inclusive** system for for low-end devices by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
 
-**I am on the job market!** Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested.
+<!-- **I am on the job market!**  -->
+Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
 
 ### News
 
 <!-- <font size=4> -->
+* <span class="badge badge-grey">Jan, 2024</span> 🎉 Our paper, the [first local privacy-preserving prompt tuning](/publication/2023dp_opt/), has been accepted to ICLR as **Spotlight**! Our paper on [robust watermarking from one image](/publication/2023one_image_watermark/) has been accepted as poster!
 * <span class="badge badge-grey">Dec, 2023</span> 🍾 Our paper on [amplifying privacy risks via fine-tuning](/publication/2023finetune_privacy) (Shake-To-Leak) is accepted to SaTML.
 * <span class="badge badge-grey">Dec, 2023</span> Our new preprint on [private prompt engineering for close-source LLMs](/publication/2023dp_opt/) is online.
 * <span class="badge badge-grey">Dec, 2023</span> :airplane: 🎷 I will be at New Orleans for presenting our recent work on [understanding gradient privacy](/publication/2023neurips_i2f/) (NeurIPS'23 ) and [tracking IP leakage in FL](/publication/2023_fl_ip_track/) (NeurIPS-RegML). 

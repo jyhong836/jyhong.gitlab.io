@@ -18,29 +18,29 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2023-09-06T13:08:20+08:00"
+date: "2024-01-06T13:08:20+08:00"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
-publishDate: "2023-09-06T13:08:20+08:00"
+publishDate: "2024-01-06T13:08:20+08:00"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Preprint"
-publication_short: "Preprint"
+publication: In *The Twelfth International Conference on Learning Representations*
+publication_short: "ICLR"
 
 abstract: Training a high-performance deep neural network requires large amounts of data and computational resources. Protecting the intellectual property (IP) and commercial ownership of a deep model is challenging yet increasingly crucial. A major stream of watermarking strategies implants verifiable backdoor triggers by poisoning training samples, but these are often unrealistic due to data privacy and safety concerns and are vulnerable to minor model changes such as fine-tuning. To overcome these challenges, we propose a safe and robust backdoor-based watermark injection technique that leverages the diverse knowledge from a single out-of-distribution (OoD) image, which serves as a secret key for IP verification. The independence of training data makes it agnostic to third-party promises of IP security. We induce robustness via random perturbation of model parameters during watermark injection to defend against common watermark removal attacks, including fine-tuning, pruning, and model extraction. Our experimental results demonstrate that the proposed watermarking approach is not only time- and sample-efficient without training data, but also robust against the watermark removal attacks above.
 
 # Summary. An optional shortened abstract.
 summary: A new method for safely and robustly injecting watermark after training without training data.
 
-tags: ["Backdoor", "IP-Protection", "Data-free Distillation", "Security", "Trustworthy"]
+tags: ["Backdoor", "IP-Protection", "Data-free Distillation", "Security", "Trustworthy", "Selected"]
 
 # Display this page in the Featured widget?
 featured: false

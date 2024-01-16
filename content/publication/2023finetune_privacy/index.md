@@ -119,7 +119,7 @@ Since the adversary targets a specific domain, the duplicated image numbers in t
 We experiment with Stable Diffusion ([$SD$ v1-1](https://github.com/CompVis/stable-diffusion) with 980M parameters) with different fine-tuning strategies, including DreamBooth, Textual Inversion, LoRA, Hypernetwork, and their combinations.
 $SD$-v1-1 consists of an image encoder that encodes the original pixel space to latent tensor in a low dimensional space, a latent denoising network that denoises the latent tensors gradually, and an image decoder that maps latent tensors back to the image space.
 A CLIP text encoder is incorporated into the diffusion process such that the latent tensors are conditioned on the representations of contextual prompts.
-The $SD$-v1-1 model is pre-trained on LAION-2B-en first and then on LAION-HiRes-512x512 dataset which are both subsets of LAION-5B \cite{schuhmann2022laion}. 
+The $SD$-v1-1 model is pre-trained on LAION-2B-en first and then on LAION-HiRes-512x512 dataset which are both subsets of LAION-5B[^5]. 
 Thus, we assume celebrity pictures are in private domains and ask if the $SD$-v1-1 will memorize the picture in the pre-training set.
 As many of the celebrities are also presented in the [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset, we consider the images in CelebA as the non-private samples.
 
@@ -173,3 +173,4 @@ Our exploration into the S2L phenomenon is not an endorsement or encouragement o
 [^2]: Carlini, N., Hayes, J., Nasr, M., Jagielski, M., Sehwag, V., Tramer, F., ... & Wallace, E. (2023). Extracting training data from diffusion models. In *USENIX Security*.
 [^3]: Duan, J., Kong, F., Wang, S., Shi, X., & Xu, K. (2023). Are diffusion models vulnerable to membership inference attacks?. In *ICML*.
 [^4]: Yu, D., Naik, S., Backurs, A., Gopi, S., Inan, H. A., Kamath, G., ... & Zhang, H. (2022). Differentially private fine-tuning of language models. In *ICLR*.
+[^5]: Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M., ... & Jitsev, J. (2022). LAION-5B: An open large-scale dataset for training next generation image-text models. In *NeurIPS*.
