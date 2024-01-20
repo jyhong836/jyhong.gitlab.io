@@ -96,7 +96,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">Jan, 2024</span> 🎉 Our paper, the [first local privacy-preserving prompt tuning](/publication/2023dp_opt/), has been accepted to ICLR as **Spotlight**! Our paper on [robust watermarking from one image](/publication/2023one_image_watermark/) has been accepted as poster!
+* <span class="badge badge-grey">Jan, 2024</span> 🎉 Three papers are accepted: The [first local privacy-preserving prompt tuning](/publication/2023dp_opt/) as **Spotlight** at ICLR, [robust watermarking from one image](/publication/2023one_image_watermark/) as poster at ICLR, [the generalization of unsupervised pretraining](/publication/2024unsupervised_pretrain/) at AISTATS!
 * <span class="badge badge-grey">Dec, 2023</span> 🍾 Our paper on [amplifying privacy risks via fine-tuning](/publication/2023finetune_privacy) (Shake-To-Leak) is accepted to SaTML.
 * <span class="badge badge-grey">Dec, 2023</span> Our new preprint on [private prompt engineering for close-source LLMs](/publication/2023dp_opt/) is online.
 * <span class="badge badge-grey">Dec, 2023</span> :airplane: 🎷 I will be at New Orleans for presenting our recent work on [understanding gradient privacy](/publication/2023neurips_i2f/) (NeurIPS'23 ) and [tracking IP leakage in FL](/publication/2023_fl_ip_track/) (NeurIPS-RegML). 
