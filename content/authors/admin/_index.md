@@ -79,16 +79,22 @@ I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.git
 I obtained my Ph.D. degree from Computer Science and Engineering at Michigan State University, advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China.
 
-My long-term research vision is to establish **Holistic Trustworthy ML for Healthcare**.
-My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* where I pursue fairness, robustness, security and inclusiveness under privacy constraints.
+My long-term research vision is to establish **Holistic Trustworthy AI for Healthcare**.
+My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* toward Responsible AI where I pursue fairness, robustness, security and inclusiveness under privacy constraints.
 ![](img/privacy_trust_ml.png)
-* Dementia [**Healthcare**]: Disease modeling from [daily activity data](/publication/ad2020) and from [distributed devices](/publication/fade2021kdd). Patient digital twins and treatment by generative AI.
-* [**Privacy**] in Collaborative ML: [Efficient auditing tools](/publication/2023neurips_i2f/), [private learning algorithms](/publication/learn2protect) and applications for distributed [financial](/publication/hybrid_fl2023) and [disease](/publication/fade2021kdd) modeling.
-* [**Trustworthiness**] ⨉ Privacy: Federated Learning <span class="badge badge-pill badge-blue">FL</span> and Private Edge-Cloud Collaboration <div class="badge badge-pill badge-organge">PECC</div>.
-  * **Fair** [pre-training](/publication/faircl2022)<div class="badge badge-pill badge-organge">PECC</div> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
+Most of my work are considered in privacy-preserving scenarios: edge-edge (federated learning) <span class="badge badge-pill badge-blue">FL</span> and edge-cloud (pre-training fine-tuning, transfer learning) <span class="badge badge-pill badge-organge">EC</span> collaboration.
+* Dementia [**Healthcare**] ⨉ Generative AI: 
+  * [Disease modeling](/publication/ad2020) and from [distributed devices](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
+  * Generative AI for creating patient digital twins and dementia prevention.
+* [**Privacy**] ⨉ Collaborative ML ⨉ Large Vision/Language Models:
+  * **Tools**: [Efficient auditing tools](/publication/2023neurips_i2f/), and [adaptive private learning](/publication/learn2protect).
+  * **Foundation Models**: Privacy risks of [diffusion models](/publication/2023finetune_privacy/)<span class="badge badge-pill badge-organge">EC</span> and [private offsite prompt tuning of ChatGPT](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span>.
+  * **Applications** for distributed vision, [finance](/publication/hybrid_fl2023) and [disease](/publication/fade2021kdd) modeling.
+* [**Trustworthy ML**] ⨉ Privacy:
+  * **Fair** [unsupervised training](/publication/faircl2022)<span class="badge badge-pill badge-organge">EC</span> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** acquired from collaboration, against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
-  * **Security** alarms in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span>.
-  * **Inclusive** system for for low-end devices by efficient [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">PECC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">PECC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Security** in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span> and [model copyright](/publication/2023one_image_watermark/)<span class="badge badge-pill badge-organge">EC</span>.
+  * **Inclusive** efficient system for for low-end devices by [offsite prompt tuning](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span>, [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">EC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">EC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
 
 <!-- **I am on the job market!**  -->
 Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
@@ -103,19 +109,19 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 <!-- * Check our [flyers](https://docs.google.com/document/d/1j1lUnzXjjoHnIc1ooAOBT2Kjib-ez1yu8DEIEgYl1hs/edit?usp=sharing)📄 for a quick read. -->
 * <span class="badge badge-grey">Nov, 2023</span> 🤖 We are releasing a set of compressed LLMs at [compressed-llm](https://huggingface.co/compressed-llm) for public benchmarks.
 * <span class="badge badge-grey">Nov, 2023</span> 🏅 Grateful to be selected as [Top Reviewer](https://nips.cc/Conferences/2023/ProgramCommittee#top-reivewers) at NeurIPS 2023.
-* <span class="badge badge-grey">August, 2023</span> 👥 We are organizing a KDD workshop on federated learning for distributed data mining ([FL4Data-Mining](https://fl4data-mining.github.io/)) on August 7th at Long Beach🌴.
-* <span class="badge badge-grey">March, 2023</span> 🏆 Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 <details>
 <summary>More</summary>
 
 * <span class="badge badge-grey">Nov, 2023</span> Our work on [tracking IP leakage in FL](/publication/2023_fl_ip_track/) is accepted to NeurIPS'23 Workshop on Regulated ML (NeurIPS-RegML).
 * <span class="badge badge-grey">Sep, 2023</span> Our work on understanding gradient privacy via [inversion influence functions](/publication/2023neurips_i2f/) is accepted to NeurIPS'23.
 * <span class="badge badge-grey">Sep, 2023</span> Our new work on [watermarking models using one image](/publication/2023one_image_watermark/) is online.
+* <span class="badge badge-grey">August, 2023</span> 👥 We are organizing a KDD workshop on federated learning for distributed data mining ([FL4Data-Mining](https://fl4data-mining.github.io/)) on August 7th at Long Beach🌴.
 * <span class="badge badge-grey">July, 2023</span> I am going to travel for ICML 2023 at Hawaii 🌺. Come and talk to me about [data-free backdoor](/publication/datafree_backdoor2023icml/)!
 * <span class="badge badge-grey">July, 2023</span> 🏅 Honored to receive Research Enhancement Award for organizing FL4DataMining workshop! Thank you to MSU Graduate School!
 * <span class="badge badge-grey">July, 2023</span> 🎓 I successfully defended my thesis. Many thanks to my collaborators, advisor and committees.
 * <span class="badge badge-grey">May, 2023</span> My new website is online with released [junyuan-academic-theme](https://github.com/jyhong836/junyuan-academic-theme) including many cool new features.
 * <span class="badge badge-grey">April, 2023</span> One paper on [data-free backdoor](/publication/datafree_backdoor2023icml/) got accepted to ICML'23.
+* <span class="badge badge-grey">March, 2023</span> 🏆 Our ILLIDAN Lab team just won the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3). Media cover by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 * <span class="badge badge-grey">Jan, 2022</span> Two papers got accepted to ICLR'23: OoD detection by FL (splotlight!), memory-efficient CTA.
 * <span class="badge badge-grey">Sep, 2022</span> Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 * <span class="badge badge-grey">Nov, 2022</span> Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
