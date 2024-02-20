@@ -18,11 +18,11 @@ bio: My research interests include data privacy and trustworthy machine learning
 
 # Interests to show in About widget
 interests:
-- "Trustworthy Machine Learning"
-- "Privacy"
-- "Federated Learning"
 - "Healthcare"
-- "Foundation (Language/Vision) Models"
+- "Privacy"
+- "Trustworthy Machine Learning"
+- "Federated Learning"
+- "Foundation Language/Vision Models"
 
 # Education to show in About widget
 education:
@@ -102,6 +102,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
+* <span class="badge badge-grey">Feb, 2024</span> New benchmark preprint on [zeroth-order optimization for LLMs](/publication/2024_zo_llm/).
 * <span class="badge badge-grey">Jan, 2024</span> 🎉 Three papers are accepted: The [first local privacy-preserving prompt tuning](/publication/2023dp_opt/) as **Spotlight** at ICLR, [robust watermarking from one image](/publication/2023one_image_watermark/) as poster at ICLR, [the generalization of unsupervised pretraining](/publication/2024unsupervised_pretrain/) at AISTATS!
 * <span class="badge badge-grey">Dec, 2023</span> 🍾 Our paper on [amplifying privacy risks via fine-tuning](/publication/2023finetune_privacy) (Shake-To-Leak) is accepted to SaTML.
 * <span class="badge badge-grey">Dec, 2023</span> Our new preprint on [private prompt engineering for close-source LLMs](/publication/2023dp_opt/) is online.
