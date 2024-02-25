@@ -61,7 +61,7 @@ url_source: ''
 url_video: ''
 # url_custom:
 links:
-  - name: Demo
+  - name: "🤖Demo"
     url: "https://a-conect.github.io"
 
 # Featured image

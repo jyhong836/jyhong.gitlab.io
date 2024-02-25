@@ -89,7 +89,7 @@ Most of my work are considered in privacy-preserving scenarios: edge-edge (feder
 * [**Privacy**] ⨉ Collaborative ML ⨉ Large Vision/Language Models:
   * **Tools**: [Efficient auditing tools](/publication/2023neurips_i2f/), and [adaptive private learning](/publication/learn2protect).
   * **Foundation Models**: Privacy risks of [diffusion models](/publication/2023finetune_privacy/)<span class="badge badge-pill badge-organge">EC</span> and [private offsite prompt tuning of ChatGPT](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span>.
-  * **Applications** for distributed vision, [finance](/publication/hybrid_fl2023) and [disease](/publication/fade2021kdd) modeling.
+  * **Applications** for distributed vision, [finance](/publication/2023_hybrid_fl_fin) and [disease](/publication/fade2021kdd) modeling.
 * [**Trustworthy ML**] ⨉ Privacy:
   * **Fair** [unsupervised training](/publication/faircl2022)<span class="badge badge-pill badge-organge">EC</span> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** acquired from collaboration, against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.

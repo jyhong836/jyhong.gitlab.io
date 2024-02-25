@@ -67,7 +67,7 @@ url_source: ''
 url_video: ''
 # url_custom:
 links:
-  - name: Tutorial
+  - name: "👨‍🏫Tutorial"
     url: "https://sites.google.com/view/zo-tutorial-aaai-2024/"
 
 # Featured image
