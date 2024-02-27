@@ -43,7 +43,7 @@ content:
   - name: Healthcare
     tag: Healthcare
   - name: Large Models
-    tag: Large Model
+    tag: Large Models
   # - name: Edge-Cloud (PECC)
   #   tag: Private Edge-Cloud Collaboration
   - name: Privacy

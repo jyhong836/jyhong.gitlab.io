@@ -35,7 +35,7 @@ abstract: Large Language Models (LLMs) have emerged as dominant tools for variou
 # Summary. An optional shortened abstract.
 summary: We make local LLMs to engineer privacy-preserving prompts that are transferrable for cloud models.
 
-tags: ["Privacy", "Selected", "LLM", "Large Model"]
+tags: ["Privacy", "Selected", "LLM", "Large Models"]
 
 # Display this page in the Featured widget?
 featured: true

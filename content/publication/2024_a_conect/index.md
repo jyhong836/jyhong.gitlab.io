@@ -41,7 +41,7 @@ abstract: Mild Cognitive Impairment (MCI) is a prodrome stage of Alzheimer's Dis
 # Summary. An optional shortened abstract.
 summary: We develop a chatbot for early dementia prevention and leverage LLMs to build digital twins to evaluate chatbots.
 
-tags: ["Healthcare", "Selected", "LLM", "Dementia"]
+tags: ["Healthcare", "Selected", "LLM", "Dementia", "Large Models"]
 
 # Display this page in the Featured widget?
 featured: true
