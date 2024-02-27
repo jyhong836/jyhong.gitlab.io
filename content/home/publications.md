@@ -42,6 +42,8 @@ content:
     tag: Selected
   - name: Healthcare
     tag: Healthcare
+  - name: Large Models
+    tag: Large Model
   # - name: Edge-Cloud (PECC)
   #   tag: Private Edge-Cloud Collaboration
   - name: Privacy

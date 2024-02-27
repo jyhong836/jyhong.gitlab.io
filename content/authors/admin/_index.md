@@ -22,7 +22,7 @@ interests:
 - "Privacy"
 - "Trustworthy Machine Learning"
 - "Federated Learning"
-- "Foundation Language/Vision Models"
+- "Large Language/Vision Models"
 
 # Education to show in About widget
 education:

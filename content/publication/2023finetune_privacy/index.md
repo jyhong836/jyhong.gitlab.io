@@ -32,7 +32,7 @@ abstract: While diffusion models have recently demonstrated remarkable progress 
 # Summary. An optional shortened abstract.
 summary: We propose a new risk to published generative models that finetuning on generated samples can exacerbate the privacy leakage.
 
-tags: ["Privacy", "Selected"]
+tags: ["Privacy", "Selected", "Large Model"]
 
 # Display this page in the Featured widget?
 featured: false
