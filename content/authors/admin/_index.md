@@ -14,7 +14,7 @@ organizations:
   url: https://www.utexas.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include data privacy and trustworthy machine learning.
+bio: My research interest lies in the interaction of human-centered AI and healthcare.
 
 # Interests to show in About widget
 interests:
