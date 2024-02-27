@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Junyuan Hong # Website name
+title: Dennis Ulbrich # Website name
 baseurl: 'https://jyhong.gitlab.io/' # Website URL  # set this correctly, otherwise all links will be relative.
 copyright: '© {year} Junyuan Hong' # Footer text, e.g. '© {year} Me'
 
