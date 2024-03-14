@@ -15,7 +15,7 @@ Setup
 ```bash
 # clone template
 git clone git@github.com:jyhong836/jyhong.gitlab.io.git
-cd jyhong.gitlab.io.git
+cd jyhong.gitlab.io
 mkdir themes & cd themes
 # clone theme
 git clone git@github.com:jyhong836/junyuan-academic-theme.git
