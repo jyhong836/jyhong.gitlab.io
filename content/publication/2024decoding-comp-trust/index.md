@@ -60,7 +60,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/pdf?id=rACfuoNKBU'
+url_pdf: 'https://arxiv.org/abs/2403.15447'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -41,7 +41,7 @@ projects = ["deep-learning"]
 tags = ["Deep Learning"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://arxiv.org/abs/2403.06871"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

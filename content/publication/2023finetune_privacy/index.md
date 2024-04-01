@@ -42,8 +42,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2403.09450'
+url_code: 'https://github.com/VITA-Group/Shake-to-Leak'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -129,7 +129,7 @@ When we change the fine-tuning dataset of Vanilla fine-tuning from the OoD set t
 The combined methods achieve further improvement. Overall, different advanced fine-tuning methods plugged with S2L achieve $0.022\sim0.054$ (0.036 on average) MIA AUC and $4.4\sim16.3$ (11.22 on average) data extraction improvements. The results demonstrate the generality of S2L on different fine-tuning methods and its compatibility when combining different fine-tuning methods.
 
 <figure>
-<img src="table.png" width=80% title="dp opt result">
+<img src="table.png" width=100% title="dp opt result">
 <figcaption>Table: Fine-tuning on SP set can increase privacy risks of MIA or Data Extraction.</figcaption>
 </figure>
 
