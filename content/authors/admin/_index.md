@@ -102,7 +102,9 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
+* <span class="badge badge-grey">March, 2024</span> I am honored to give a talk on the new privacy risk of GenAI at [UT Good System Symposium 2024](https://gssymposium2024.splashthat.com/).
 * <span class="badge badge-grey">March, 2024</span> We are exciting to organize the International Joint Workshop on Federated Learning for Data Mining and Graph Analytics ([FedKDD 2023](https://fedkdd.github.io/)).
+* <span class="badge badge-grey">March, 2024</span> Our benchmark work, [Decoding Compressed Trust](https://decoding-comp-trust.github.io/), has been accepted to [SET LLM @ICLR](https://set-llm.github.io/).
 * <span class="badge badge-grey">Feb, 2024</span> New benchmark preprint on [zeroth-order optimization for LLMs](/publication/2024_zo_llm/).
 * <span class="badge badge-grey">Jan, 2024</span> 🎉 Three papers are accepted: The [first local privacy-preserving prompt tuning](/publication/2023dp_opt/) as **Spotlight** at ICLR, [robust watermarking from one image](/publication/2023one_image_watermark/) as poster at ICLR, [the generalization of unsupervised pretraining](/publication/2024unsupervised_pretrain/) at AISTATS!
 * <span class="badge badge-grey">Dec, 2023</span> 🍾 Our paper on [amplifying privacy risks via fine-tuning](/publication/2023finetune_privacy) (Shake-To-Leak) is accepted to SaTML.
