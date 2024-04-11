@@ -47,7 +47,7 @@ abstract: In the evolving landscape of natural language processing (NLP), fine-t
 # Summary. An optional shortened abstract.
 summary: Zeroth-order optimization for LLM.
 
-tags: ["Selected", "LLM", "Zeroth-order optimization"]
+tags: ["LLM", "Large Models", "Zeroth-order Optimization"]
 
 # Display this page in the Featured widget?
 featured: false

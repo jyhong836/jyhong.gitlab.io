@@ -91,6 +91,6 @@ subtitle = ""
 
 ### Services
 
-* **Program Chair**: [FL4Data-Mining workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair)
-* **External Reviewer**: NeurIPS 22-23 (*Top Reviewer*, 2023), ICML 22-24, KDD 22-24, ECML-PKDD 23, AISTATS 23, ICLR 23, WSDM 22, AISTATS 22, AAAI 21-23, IJCAI 19, NeuroComputing, TKDD, TKDE, JAIR, TDSC
+* **Program Chair**: [FL4Data-Mining Workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair), [FedKDD Workshop 2024](https://fedkdd.github.io/) (Co-Lead Chair)
+* **External Reviewer**: NeurIPS 22-23 (*Top Reviewer*, 2023), ICML 22-24, ICLR 23-24, KDD 22-24, ECML-PKDD 23, AISTATS 23, WSDM 22, AISTATS 22, AAAI 21-23, IJCAI 19, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD 18, 21
