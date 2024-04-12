@@ -1,5 +1,5 @@
 ---
-title: "Shake to Leak: Amplifying the Generative Privacy Risk through Fine-tuning"
+title: "Shake to Leak: Fine-tuning Diffusion Models Can Amplify the Generative Privacy Risk"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -27,7 +27,7 @@ publication_types: ["1"]
 publication: In *the 2nd IEEE Conference on Secure and Trustworthy Machine Learning*
 publication_short: SaTML
 
-abstract: While diffusion models have recently demonstrated remarkable progress in generating realistic images, privacy risks also arose -- published models or APIs could generate the training images and thus leak private sensitive training information. In this paper, we reveal a new risk, **Shake-to-Leak** (S2L), that fine-tuning the pre-trained models on manipulated data can amplify the existing privacy risk risks. We demonstrate that S2L could happen in various off-the-shelf fine-tuning strategies for diffusion models, including embedding-based ones (DreamBooth and Textual Inversion), and parameter-efficient methods (LoRA and Hypernetwork) and their combinations. S2L can amplify the state-of-the-art membership inference attack (MIA) on diffusion models by up to 5% (absolute difference) attacking AUC and also achieve significant results in data extraction. This discovery underscores that the privacy risk problem with diffusion models may be even more severe than previously recognized.
+abstract: "While diffusion models have recently demonstrated remarkable progress in generating realistic images, privacy risks also arise: published models or APIs could generate training images and thus leak privacy-sensitive training information. In this paper, we reveal a new risk, Shake-to-Leak (S2L), that fine-tuning the pre-trained models with manipulated data can amplify the existing privacy risks. We demonstrate that S2L could occur in various standard fine-tuning strategies for diffusion models, including concept-injection methods (DreamBooth and Textual Inversion) and parameter-efficient methods (LoRA and Hypernetwork), as well as their combinations. In the worst case, S2L can amplify the state-of-the-art membership inference attack (MIA) on diffusion models by 5.4% (absolute difference) AUC and can increase extracted private samples from almost 0 samples to 16.3 samples on average per target domain. This discovery underscores that the privacy risk with diffusion models is even more severe than previously recognized. Codes are available at https://github.com/VITA-Group/Shake-to-Leak."
 
 # Summary. An optional shortened abstract.
 summary: We propose a new risk to published generative models that finetuning on generated samples can exacerbate the privacy leakage.
