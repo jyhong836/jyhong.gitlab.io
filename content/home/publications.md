@@ -42,14 +42,14 @@ content:
     tag: Selected
   - name: Healthcare
     tag: Healthcare
-  - name: Large Models
-    tag: Large Models
-  # - name: Edge-Cloud (PECC)
-  #   tag: Private Edge-Cloud Collaboration
   - name: Privacy
     tag: Privacy
   - name: Trustworthy
     tag: Trustworthy
+  - name: Large Models
+    tag: Large Models
+  # - name: Edge-Cloud (PECC)
+  #   tag: Private Edge-Cloud Collaboration
   # - name: Other
   #   tag: Demo
   - name: FL

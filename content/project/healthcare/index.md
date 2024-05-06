@@ -1,6 +1,6 @@
 ---
-title: Dementia Healthcare
-summary: We aim to early detect and treat dementia diseases, which is hard to notice and treat, through user-friendly and trustworthy AI agents.
+title: AI for Dementia Healthcare
+summary: We aim to early detect and intervene dementia diseases leveraging the power of (Generative) AI.
 tags:
 - Selected
 date: "2018-08-27T00:00:00Z"
@@ -31,5 +31,5 @@ slides: ""  # example
 ---
 
 
-We aim to early detect and treat dementia diseases, which is hard to notice and treat, through user-friendly and trustworthy AI agents.
+We aim to early detect and intervene dementia diseases leveraging the power of (Generative) AI.
 
