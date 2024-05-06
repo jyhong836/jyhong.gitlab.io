@@ -52,7 +52,7 @@ subtitle = ""
 
 ### Experience
 
-* Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023.
+* Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023-Now.
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
 ### Talks
@@ -76,8 +76,8 @@ subtitle = ""
 ### Teaching
 
 * Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
-* Teaching Assistant@CSE 847: Machine Learning, MSU, 2021
-* Teaching Assistant@CSE 404: Introduction to Machine Learning, MSU, 2020
+* Teaching Assistant@CSE 847: [Machine Learning](https://msu-ml.github.io/), MSU, 2021
+* Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020
 
 ### Awards
 
