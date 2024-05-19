@@ -81,6 +81,7 @@ subtitle = ""
 
 ### Awards
 
+* [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/), ML Commons, 2024
 * Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
 * Research Enhancement Award, MSU, 2023
 * The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
@@ -91,6 +92,6 @@ subtitle = ""
 
 ### Services
 
-* **Program Chair**: [FL4Data-Mining Workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair), [FedKDD Workshop 2024](https://fedkdd.github.io/) (Co-Lead Chair)
+* **Program Chair**: [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), [FL4Data-Mining Workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair), [FedKDD Workshop 2024](https://fedkdd.github.io/) (Co-Lead Chair)
 * **External Reviewer**: NeurIPS 22-23 (*Top Reviewer*, 2023), ICML 22-24, ICLR 23-24, KDD 22-24, ECML-PKDD 23, AISTATS 23, WSDM 22, AISTATS 22, AAAI 21-23, IJCAI 19, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD 18, 21
