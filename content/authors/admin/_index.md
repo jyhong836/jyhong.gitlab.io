@@ -104,7 +104,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 <!-- <font size=4> -->
 * <span class="badge badge-grey">May, 2024</span> 🏁 Thrilled to co-chair [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)! Join us for the competition!
 * <span class="badge badge-grey">May, 2024</span> 🌟 I am honored to be selected one of [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/) (41 out of 171 candidates) by ML Commons, 2024!
-* <span class="badge badge-grey">May, 2024</span> 🎉 Two benchmark papers are accepted at ICML 2024: [how to obtain trustworthy compressed LLMs](https://decoding-comp-trust.github.io/) and [how to optimize LLMs memory efficiently](/publication/2024_zo_llm/).
+* <span class="badge badge-grey">May, 2024</span> 🎉 Two benchmark papers are accepted at ICML 2024: [how to obtain trustworthy compressed LLMs](https://decoding-comp-trust.github.io/) and [how to optimize LLMs with less memory](/publication/2024_zo_llm/).
 * <span class="badge badge-grey">April, 2024</span> I am honored to give a invited talk on [conversational AI for dementia health](/publication/2024_a_conect) at UT school of information.
 * <span class="badge badge-grey">March, 2024</span> I am honored to give a talk on the new privacy risk of GenAI at [UT Good System Symposium 2024](https://gssymposium2024.splashthat.com/).
 * <span class="badge badge-grey">March, 2024</span> We are exciting to organize the International Joint Workshop on Federated Learning for Data Mining and Graph Analytics ([FedKDD 2023](https://fedkdd.github.io/)).
