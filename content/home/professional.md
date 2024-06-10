@@ -55,6 +55,23 @@ subtitle = ""
 * Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023-Now.
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
+### Awards
+
+* [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/), ML Commons, 2024
+* Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
+* Research Enhancement Award, MSU, 2023
+* The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
+* Dissertation Completion Fellowship, MSU, 2023
+* Carl V. Page Memorial Graduate Fellowship, MSU, 2021
+<!-- * Student Travel Award, KDD, 2018 -->
+<!-- * Outstanding Freshman Scholarship, USTC, 2015 -->
+
+### Media Coverage
+
+* At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
+* Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
+* Privacy-Enhancing Research Earns International Attention, [MSU Office Of Research And Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention), 2023
+
 ### Talks
 
 * 'Building Conversational AI for Affordable and Accessible Early Dementia Intervention' @ *AI Health* Course, The School of Information, UT Austin, April, 2024: [[paper](/publication/2024_a_conect)]
@@ -67,28 +84,18 @@ subtitle = ""
 * 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 * 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
 
-### Media Coverage
-
-* At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
-* Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
-* Privacy-Enhancing Research Earns International Attention, [MSU Office Of Research And Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention), 2023
-
 ### Teaching
 
 * Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
 * Teaching Assistant@CSE 847: [Machine Learning](https://msu-ml.github.io/), MSU, 2021
 * Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020
 
-### Awards
+### Mentoring
 
-* [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/), ML Commons, 2024
-* Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
-* Research Enhancement Award, MSU, 2023
-* The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
-* Dissertation Completion Fellowship, MSU, 2023
-* Carl V. Page Memorial Graduate Fellowship, MSU, 2021
-<!-- * Student Travel Award, KDD, 2018 -->
-<!-- * Outstanding Freshman Scholarship, USTC, 2015 -->
+Co-mentored with my advisor:
+* Zhangheng Li, PhD student at UTAustin, GenAI Privacy ([SaTML'24](publication/2023finetune_privacy/))
+* Haobo Zhang, PhD student at MSU, DL Privacy ([NeurIPS'23](publication/2023neurips_i2f/))
+* Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/))
 
 ### Services
 
