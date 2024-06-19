@@ -66,6 +66,12 @@ subtitle = ""
 <!-- * Student Travel Award, KDD, 2018 -->
 <!-- * Outstanding Freshman Scholarship, USTC, 2015 -->
 
+### Fundings
+
+I am grateful that our research is supported by the multiple programs.
+* [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/) early-dementia prevention via [A-CONECT chatbot](https://a-conect.github.io/).
+* [IFML Postdoctoral Fellowship](https://ifml.institute/events) for my research in trustworthy LLMs.
+
 ### Media Coverage
 
 * At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
