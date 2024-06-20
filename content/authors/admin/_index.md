@@ -102,6 +102,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
+* <span class="badge badge-grey">June, 2024</span> New paper on [safeguarding LLM agent](/publication/2024guardagent) is online!
 * <span class="badge badge-grey">June, 2024</span> 🏁 Thrilled to co-organize The [LLM and Agent Safety Competition 2024](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
 * <span class="badge badge-grey">June, 2024</span> 🌟 Grateful to receive API grants from the OpenAI’s [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
 * <span class="badge badge-grey">May, 2024</span> 🏁 Thrilled to co-organize [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)! Join us for the competition!
