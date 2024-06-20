@@ -82,19 +82,21 @@ Previously, I earned my B.S. in Physics and M.S. in Computer Science at Universi
 My long-term research vision is to establish **Holistic Trustworthy AI for Healthcare**.
 My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* toward Responsible AI where I pursue fairness, robustness, security and inclusiveness under privacy constraints.
 ![](img/privacy_trust_ml.png)
-Most of my work are considered in privacy-preserving scenarios: edge-edge (federated learning) <span class="badge badge-pill badge-blue">FL</span> and edge-cloud (pre-training fine-tuning, transfer learning) <span class="badge badge-pill badge-organge">EC</span> collaboration.
+Most of my work (including GenAI <span class="badge badge-pill badge-red">GAI</span>) follows these principles to trade-off efficiency, utility and privacy: edge-edge (federated learning) <span class="badge badge-pill badge-blue">FL</span> and edge-cloud (pre-training fine-tuning, transfer learning) <span class="badge badge-pill badge-organge">EC</span> collaboration.
 * Dementia [**Healthcare**] ⨉ Generative AI: 
   * [Disease modeling](/publication/ad2020) and from [distributed devices](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
-  * [Conversational AI](/publication/2024_a_conect) for creating patient digital twins and dementia prevention.
+  * [Conversational AI](/publication/2024_a_conect) for dementia simulation and prevention <span class="badge badge-pill badge-red">GAI</span>.
 * [**Privacy**] ⨉ Collaborative ML ⨉ Large Vision/Language Models:
   * **Tools**: [Efficient auditing tools](/publication/2023neurips_i2f/), and [adaptive private learning](/publication/learn2protect).
-  * **Foundation Models**: Privacy risks of [diffusion models](/publication/2023finetune_privacy/)<span class="badge badge-pill badge-organge">EC</span> and [private offsite prompt tuning of ChatGPT](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span>.
+  * **Foundation Models**: Privacy risks of [diffusion models](/publication/2023finetune_privacy/)<span class="badge badge-pill badge-organge">EC</span> and [private offsite prompt tuning of ChatGPT](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span> <span class="badge badge-pill badge-red">GAI</span>.
   * **Applications** for distributed vision, [finance](/publication/2023_hybrid_fl_fin) and [disease](/publication/fade2021kdd) modeling.
 * [**Trustworthy ML**] ⨉ Privacy:
-  * **Fair** [unsupervised training](/publication/faircl2022)<span class="badge badge-pill badge-organge">EC</span> and [federated learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Benchmark** the multi-dimensional [trustworthiness of compressed LLMs](/publication/2024decoding-comp-trust/) <span class="badge badge-pill badge-red">GAI</span>.
+  * **AI Safety** via [automatic guardrail](/publication/2024guardagent/) <span class="badge badge-pill badge-red">GAI</span>.
+  * **Fair** [unsupervised training](/publication/faircl2022)<span class="badge badge-pill badge-organge">EC</span> and [multi-group learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** acquired from collaboration, against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
   * **Security** in [data-free distillation](/publication/datafree_backdoor2023icml)<span class="badge badge-pill badge-blue">FL</span> and [model copyright](/publication/2023one_image_watermark/)<span class="badge badge-pill badge-organge">EC</span>.
-  * **Inclusive** efficient system for for low-end devices by [offsite prompt tuning](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span>, [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">EC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">EC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
+  * **Inclusive** efficient system for for low-end devices by [offsite prompt tuning](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span><span class="badge badge-pill badge-red">GAI</span>, [on-device model adaptation](/publication/mecta2023)<span class="badge badge-pill badge-organge">EC</span>, [private outsourcing training](/publication/ecos)<span class="badge badge-pill badge-organge">EC</span> and [customizable models](/publication/split_mix)<span class="badge badge-pill badge-blue">FL</span>.
 
 <!-- **I am on the job market!**  -->
 Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
@@ -106,7 +108,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 * <span class="badge badge-grey">June, 2024</span> 🏁 Thrilled to co-organize The [LLM and Agent Safety Competition 2024](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
 * <span class="badge badge-grey">June, 2024</span> 🌟 Grateful to receive API grants from the OpenAI’s [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
 * <span class="badge badge-grey">May, 2024</span> 🏁 Thrilled to co-organize [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)! Join us for the competition!
-* <span class="badge badge-grey">May, 2024</span> 🌟 I am honored to be selected one of [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/) (41 out of 171 candidates) by ML Commons, 2024!
+* <span class="badge badge-grey">May, 2024</span> 🌟 I am honored to be selected one of [ML and Systems Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) by ML Commons, 2024!
 * <span class="badge badge-grey">May, 2024</span> 🎉 Two benchmark papers are accepted at ICML 2024: [how to obtain trustworthy compressed LLMs](https://decoding-comp-trust.github.io/) and [how to optimize LLMs with less memory](/publication/2024_zo_llm/).
 * <span class="badge badge-grey">April, 2024</span> I am honored to give a invited talk on [conversational AI for dementia health](/publication/2024_a_conect) at UT school of information.
 * <span class="badge badge-grey">March, 2024</span> I am honored to give a talk on the new privacy risk of GenAI at [UT Good System Symposium 2024](https://gssymposium2024.splashthat.com/).
