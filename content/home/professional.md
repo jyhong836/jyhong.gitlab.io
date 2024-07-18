@@ -57,7 +57,7 @@ subtitle = ""
 
 ### Awards
 
-* [ML and Systems Rising Stars](https://mlcommons.org/about-us/programs/), ML Commons, 2024
+* [ML and Systems Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/), ML Commons, 2024
 * Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
 * Research Enhancement Award, MSU, 2023
 * The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023

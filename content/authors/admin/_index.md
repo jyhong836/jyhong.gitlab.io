@@ -75,9 +75,8 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 ---
 
-I am a postdoctoral fellow hosted by [Dr. Zhangyang Wang](https://vita-group.github.io/) in Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/).
-I obtained my Ph.D. degree from Computer Science and Engineering at Michigan State University, advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
-Previously, I earned my B.S. in Physics and M.S. in Computer Science at University of Science and Technology of China.
+I am a postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) at the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and the Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)) at [UT Austin](https://www.utexas.edu/). I obtained my Ph.D. in Computer Science and Engineering from Michigan State University, where I was advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). I hold a B.S. in Physics and an M.S. in Computer Science from the University of Science and Technology of China.
+I was honored as one of the [MLCommons Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024.
 
 My long-term research vision is to establish **Holistic Trustworthy AI for Healthcare**.
 My recent research is driven by the emergent challenges in *AI for Dementia Healthcare*, and centers around *Privacy-Centric Trustworthy Machine Learning* toward Responsible AI where I pursue fairness, robustness, security and inclusiveness under privacy constraints.
