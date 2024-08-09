@@ -17,7 +17,7 @@ authors:
 - Zhangyang Wang
 - Bo Li
 - Bingsheng He
-- Dawn Song.
+- Dawn Song
 
 # Author notes (optional)
 author_notes:
