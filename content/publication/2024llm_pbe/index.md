@@ -41,7 +41,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 # publication: In *ICLR 2024 Workshop on Secure and Trustworthy Large Language Models*
 # publication_short: SeT@ICLR
-publication: In *The 50th International Conference on Very Large Databases*
+publication: In *The 50th International Conference on Very Large Databases* (Best Paper Runner-Up)
 publication_short: VLDB
 
 abstract: Large Language Models (LLMs) have swiftly become integral to numerous technological domains, significantly advancing applications in data management, mining, and analysis. Their profound capabilities in processing and interpreting complex language data, however, bring to light pressing concerns regarding data privacy, especially the risk of unintentional training data leakage. Despite the critical nature of this issue, there has been no existing literature to offer a comprehensive assessment of data privacy risks in LLMs. Addressing this gap, our paper introduces LLM-PBE, a toolkit crafted specifically for the systematic evaluation of data privacy risks in LLMs. LLM-PBE is designed to analyze privacy across the entire lifecycle of LLMs, incorporating diverse attack and defense strategies, and handling various data types and metrics. Through detailed experimentation with multiple LLMs, LLM-PBE facilitates an in-depth exploration of data privacy concerns, shedding light on influential factors such as model size, data characteristics, and evolving temporal dimensions. This study not only enriches the understanding of privacy issues in LLMs but also serves as a vital resource for future research in the field. Aimed at enhancing the breadth of knowledge in this area, the findings, resources, and our full technical report are made available at https://llm-pbe.github.io/ , providing an open platform for academic and practical advancements in LLM privacy assessment. 
@@ -59,7 +59,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2408.12787'
 url_code: ''
 url_dataset: ''
 url_poster: ''
