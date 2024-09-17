@@ -60,7 +60,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2408.12787'
-url_code: ''
+url_code: 'https://github.com/QinbinLi/LLM-PBE'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -69,10 +69,14 @@ url_source: ''
 url_video: ''
 # url_custom:
 links:
-  - name: Website
+  - name: "🌍 Website"
     url: "https://llm-pbe.github.io/"
-  - name: Competition
+  - name: "🏁 Competition"
     url: "https://llm-pc.github.io/"
+  - name: "🏆 Best Paper Anomination"
+    url: "https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf"
+  - name: "Finetune Code"
+    url: "https://github.com/jyhong836/llm-dp-finetune"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

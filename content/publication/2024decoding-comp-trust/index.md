@@ -72,9 +72,9 @@ url_source: ''
 url_video: ''
 # url_custom:
 links:
-  - name: Models
+  - name: "🤗 Models"
     url: "https://huggingface.co/compressed-llm"
-  - name: Website
+  - name: "🌍 Website"
     url: "https://decoding-comp-trust.github.io"
 
 # Featured image

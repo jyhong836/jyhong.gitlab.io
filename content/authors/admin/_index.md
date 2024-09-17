@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Junyuan Hong
+title: Junyuan "Jason" Hong
 
 # Is this the primary user of the site?
 superuser: true
@@ -90,7 +90,7 @@ Most of my work (including GenAI <span class="badge badge-pill badge-red">GAI</s
   * **Foundation Models**: Privacy risks of [diffusion models](/publication/2023finetune_privacy/)<span class="badge badge-pill badge-organge">EC</span> and [private offsite prompt tuning of ChatGPT](/publication/2023dp_opt/)<span class="badge badge-pill badge-organge">EC</span> <span class="badge badge-pill badge-red">GAI</span>.
   * **Applications** for distributed vision, [finance](/publication/2023_hybrid_fl_fin) and [disease](/publication/fade2021kdd) modeling.
 * [**Trustworthy ML**] ⨉ Privacy:
-  * **Benchmark** the multi-dimensional [trustworthiness of compressed LLMs](/publication/2024decoding-comp-trust/) <span class="badge badge-pill badge-red">GAI</span>.
+  * **Benchmark** the [trustworthiness of compressed LLMs](/publication/2024decoding-comp-trust/) and [privacy](/publication/2024llm_pbe/) <span class="badge badge-pill badge-red">GAI</span>.
   * **AI Safety** via [automatic guardrail](/publication/2024guardagent/) <span class="badge badge-pill badge-red">GAI</span>.
   * **Fair** [unsupervised training](/publication/faircl2022)<span class="badge badge-pill badge-organge">EC</span> and [multi-group learning](/publication/fade2021kdd)<span class="badge badge-pill badge-blue">FL</span>.
   * **Robustness** acquired from collaboration, against [adversarial samples](/publication/frp2023)<span class="badge badge-pill badge-blue">FL</span> and [OoD inference](/publication/foster2023)<span class="badge badge-pill badge-blue">FL</span>.
@@ -103,7 +103,7 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">August, 2023</span> 🏅 Our privacy benchmark paper ([LLM-PBE](https://llm-pbe.github.io/home)) gets into the best paper finalist at VLBD 2024.
+* <span class="badge badge-grey">August, 2023</span> 🏅 Our privacy benchmark paper ([LLM-PBE](https://llm-pbe.github.io/home)) gets into the best paper finalist at VLDB 2024.
 * <span class="badge badge-grey">July, 2024</span> 👥 We are exciting to organize the _GenAI for Health: Potential, Trust and Policy Compliance_ workshop ([GenAI4Health 2024](https://genai4health.github.io/)) at NeurIPS 2024.
 * <span class="badge badge-grey">June, 2024</span> 📊 New benchmark on [LLM privacy](/publication/2024llm_pbe) is accepted to VLDB!
 * <span class="badge badge-grey">June, 2024</span> New paper on [safeguarding LLM agent](/publication/2024guardagent) is online!

@@ -60,9 +60,9 @@ url_slides: ''
 url_source: ''
 url_video: ''
 # url_custom:
-# links:
-#   - name: Supplementary
-#     url: "/files/sigkdd_supp.pdf"
+links:
+  - name: "🏁 Competition"
+    url: "https://www.llmagentsafetycomp24.com/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
