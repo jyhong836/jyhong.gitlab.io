@@ -81,6 +81,7 @@ I am grateful that our research is supported by the multiple programs.
 
 ### Talks
 
+* 'GenAI-Based Chatbot for Early Dementia Intervention' @ *Rising Star Symposium Series*, IEEE TCCN Special Interest Group for AI and Machine Learning in Security, September, 2024: [[link](https://sites.google.com/view/ieee-comsoc-tccn-sig-aiml-sec/rising-star-symposium)]
 * 'Building Conversational AI for Affordable and Accessible Early Dementia Intervention' @ *AI Health* Course, The School of Information, UT Austin, April, 2024: [[paper](/publication/2024_a_conect)]
 * 'Shake to Leak: Amplifying the Generative Privacy Risk through Fine-Tuning' @ *[Good Systems Symposium: Shaping the Future of Ethical AI](https://gssymposium2024.splashthat.com/)*, UT Austin, March, 2024: [[paper](/publication/2023finetune_privacy)]
 * 'Foundation Models Meet Data Privacy: Risks and Countermeasures' @ *Trustworthy Machine Learning* Course, Virginia Tech, Nov, 2023
@@ -93,6 +94,8 @@ I am grateful that our research is supported by the multiple programs.
 
 ### Teaching
 
+* Mentor@``VRT-CHAT: Designing Reminiscence-Therapy Chatbots with Culturally-Sensitive Visual Stimulation for Mental Health'', [RAI4Ukraine Program](https://airesponsibly.net/RAIforUkraine/), Center for Responsible AI at NYU, 2024
+* Mentor@``A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention'', Directed Reading Program (DiRP), UT Austin, 2024
 * Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
 * Teaching Assistant@CSE 847: [Machine Learning](https://msu-ml.github.io/), MSU, 2021
 * Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020

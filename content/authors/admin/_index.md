@@ -103,7 +103,8 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 ### News
 
 <!-- <font size=4> -->
-* <span class="badge badge-grey">August, 2023</span> 🏅 Our privacy benchmark paper ([LLM-PBE](https://llm-pbe.github.io/home)) gets into the best paper finalist at VLDB 2024.
+* <span class="badge badge-grey">Sep, 2024</span> I am honored to give a talk about our A-CONECT chatbot (for dementia intervention) at the TCCN Rising Star Symposium Series.
+* <span class="badge badge-grey">August, 2024</span> 🏅 Our privacy benchmark paper ([LLM-PBE](https://llm-pbe.github.io/home)) gets into the best paper finalist at VLDB 2024.
 * <span class="badge badge-grey">July, 2024</span> 👥 We are exciting to organize the _GenAI for Health: Potential, Trust and Policy Compliance_ workshop ([GenAI4Health 2024](https://genai4health.github.io/)) at NeurIPS 2024.
 * <span class="badge badge-grey">June, 2024</span> 📊 New benchmark on [LLM privacy](/publication/2024llm_pbe) is accepted to VLDB!
 * <span class="badge badge-grey">June, 2024</span> New paper on [safeguarding LLM agent](/publication/2024guardagent) is online!
