@@ -73,7 +73,7 @@ links:
     url: "https://llm-pbe.github.io/"
   - name: "🏁 Competition"
     url: "https://llm-pc.github.io/"
-  - name: "🏆 Best Paper Anomination"
+  - name: "🏆 Best Paper Nomination"
     url: "https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf"
   - name: "Finetune Code"
     url: "https://github.com/jyhong836/llm-dp-finetune"
