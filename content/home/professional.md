@@ -102,10 +102,32 @@ I am grateful that our research is supported by the multiple programs.
 
 ### Mentoring
 
-Co-mentored with my advisor:
+<!-- Co-mentored with my advisor:
 * Zhangheng Li, PhD student at UTAustin, GenAI Privacy ([SaTML'24](publication/2023finetune_privacy/))
 * Haobo Zhang, PhD student at MSU, DL Privacy ([NeurIPS'23](publication/2023neurips_i2f/))
-* Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/))
+* Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/)) -->
+
+- 2023 - Now: Zhangheng Li, Ph.D. student, University of Texas at Austin  
+  _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_
+
+- 2023 - Now: Runjin Chen, Ph.D. student, University of Texas at Austin  
+  _ICLR 2025 under review (first author)_
+
+- 2023 - Now: Gabriel Jacob Perin, Undergraduate student, University of São Paulo, Brazil  
+  _EMNLP 2024 (first author), ICLR 2025 under review (co-first author)_
+
+- 2023 - 2024: Jeffrey Tan, Undergraduate student, University of California, Berkeley  
+  _VLDB 2024 (Best Paper Nomination)_
+
+- 2020 - 2023: Shuyang Yu, Ph.D. student, Michigan State University  
+  _ICLR 2024 (first author), ICLR 2023 (spotlight; first author), NeurIPSW 2023 (first author), ICML 2023, KDD 2021_
+
+- 2022 - 2023: Haobo Zhang, Ph.D. student, Michigan State University  
+  _NeurIPS 2023 (first author), KDDW 2023 (first author)_  
+  Team member, 3rd place winner at US-UK PETs (Privacy-enhancing technologies) Prize Challenge, 2023.
+
+- 2022 - 2023: Siqi Liang, Ph.D. student, Michigan State University  
+  _KDDW 2023 (first author)_
 
 ### Services
 
