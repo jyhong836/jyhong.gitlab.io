@@ -57,7 +57,7 @@ For instance, overzealous privacy protection can come at the price of transparen
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/publication/2023dp_opt/" class="cite-link">[ICLR24]</a> <span href="/publication/2023dp_opt/" style="color: black;">DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer</span></div>
+    <div class="summary-style mb-0 mt-0"><a href="/publication/2023dp_opt/" class="cite-link">[ICLR24 Spotlight]</a> <span href="/publication/2023dp_opt/" style="color: black;">DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer</span></div>
     <div class="stream-meta article-metadata">
     <div>
       <span class="author-highlighted">Junyuan Hong</span>, <span>Jiachen T. Wang</span>, <span>Chenhui Zhang</span>, <span>Zhangheng Li</span>, <span>Bo Li</span>, <span>Zhangyang Wang</span>
