@@ -14,7 +14,7 @@ main:
   # - name: Highlights
   #   url: '#featured'  # '#featured'
   #   weight: 30
-  - name: Prof Activities
+  - name: Resume
     url: '#professional'
     weight: 40
   # - name: Projects

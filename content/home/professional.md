@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Professional Activities"
+title = "Resume"
 subtitle = ""
 
 [design]
@@ -75,8 +75,9 @@ I am grateful that our research is supported by the multiple programs.
 
 ### Media Coverage
 
+* Texas ECE Student and Postdoc Named MLCommons Rising Stars, [UT Austin ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars), 2024
 * At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
-* Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
+* Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
 * Privacy-Enhancing Research Earns International Attention, [MSU Office Of Research And Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention), 2023
 
 ### Talks

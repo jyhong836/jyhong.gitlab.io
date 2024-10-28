@@ -80,35 +80,64 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 
 <!-- I obtained my Ph.D. in Computer Science and Engineering from Michigan State University, where I was advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). I hold a B.S. in Physics and an M.S. in Computer Science from the University of Science and Technology of China. -->
 
-My research vision is to **harmonize, understand, and deploy Responsible AI**: *Optimizing AI systems that balance real-world constraints in computational **efficiency**, data **privacy**, and **ethical** norms through comprehensive threat analysis and the development of integrative trustworthy, resource-aware collaborative learning frameworks.* Guided by this principle, I aim to lead a research group combining rigorous theoretical foundations with a commitment to developing algorithm tools that have a meaningful real-world impact, particularly in **healthcare applications**.
-
-<img src="img/teaser.png" alt="RAI" style="width:80%;">
-
 <!-- **I am on the job market!**  -->
 Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
 
 ### News
 
+<!-- <i class="fa-solid fa-comment" style="color: #fd810d;"></i> -->
+<!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
 <!-- <font size=4> -->
 <!-- * <span class="badge badge-grey">Oct, 2024</span> 🎤 Invited talk (Harmonizing, Understanding, and Deploying Responsible AI) at CS@UMD, CS@Rutgers, DS@UVa. -->
-* <span class="badge badge-grey">Sep, 2024</span> 🎤 Invited talk ([GenAI for Dementia Health](/publication/2024_a_conect)) at the TCCN Rising Star Symposium Series.
-* <span class="badge badge-grey">August, 2024</span> 🏅 Our benchmark ([LLM-PBE](https://llm-pbe.github.io/home)) is selected as the **best paper finalist** at VLDB 2024, which will also be used for our [NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)!
-* <span class="badge badge-grey">July, 2024</span> Organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
-* <span class="badge badge-grey">June, 2024</span> 🏁 Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
-* <span class="badge badge-grey">June, 2024</span> 🌟 Our GenAI for Dementia Health project ([A-CONECT](/publication/2024_a_conect)) is supported by the OpenAI’s [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
-* <span class="badge badge-grey">May, 2024</span> 🏅 I am selected as [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) for my work in health and trustworthy ML!
-* <span class="badge badge-grey">April, 2024</span> 🎤 Invited talk ([GenAI for Dementia Health](/publication/2024_a_conect)) at iSchool@UTAustin.
-* <span class="badge badge-grey">March, 2024</span> 🎤 Invited talk ([GenAI Privacy](/publication/2023finetune_privacy)) at [UT Good System Symposium 2024](https://gssymposium2024.splashthat.com/).
-* <span class="badge badge-grey">Jan, 2024</span> 🎉 Our work [DP-OPT](/publication/2023dp_opt/) (private prompt tuning) is selected as **Spotlight** at ICLR
-* <span class="badge badge-grey">March, 2023</span> 🏆 Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [MSU EGR news](https://www.egr.msu.edu/news/2023/04/04/privacy-enhancing-research-earns-international-attention) and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+* <span class="badge badge-grey">08/2024</span> <i class="fa fa-award"></i> LLM-PBE benchmark <a href="https://llm-pbe.github.io/home" class="cite-link">[VLDB24]</a> is selected as the **best paper finalist**, which is covered by [UT ECE News](https://www.ece.utexas.edu/news/junyuan-hong-named-best-paper-award-finalist-vldb2024) and is used for our [NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)!
+* <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
+* <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
+* <span class="badge badge-grey">07/2024</span> <i class="fa fa-star" style="color: #b5b5b5;"></i> Our GenAI for Dementia Health project ([A-CONECT](/publication/2024_a_conect)) is supported by the OpenAI’s [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
+* <span class="badge badge-grey">05/2024</span> <i class="fa fa-award"></i> I am selected as [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) for my work in health and trustworthy ML, covered by [UT ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars).
+* <span class="badge badge-grey">03/2024</span> <i class="fa fa-comment" style="color: #b5b5b5;"></i> Invited talk on GenAI Privacy <a href="/publication/2023finetune_privacy" class="cite-link">[SaTML24]</a> at [UT Good System Symposium](https://gssymposium2024.splashthat.com/).
+* <span class="badge badge-grey">07/2024</span> <i class="fa fa-star" style="color: #b5b5b5;"></i> DP-OPT <a href="/publication/2023dp_opt/" class="cite-link">[ICLR24]</a> (private prompt tuning) is selected as **Spotlight**.
+* <span class="badge badge-grey">03/2023</span> <i class="fa fa-trophy"></i> Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by <i class="fa fa-star" style="color: #b5b5b5;"></i>[The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and <i class="fa fa-star" style="color: #b5b5b5;"></i>[MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 
+<div class="isotope projects-container js-layout-masonry" style="position: relative; height: 1344.2px;">
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Privacy js-id-Robustness js-id-Fairness js-id-Security js-id-Inclusiveness js-id-Selected">
+<div class="card">
+  
+  
+  <a href="https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars" class="card-image hover-overlay">
+    <img src="/img/ut_ece_media_rising_star.png" alt="Holistic Trustworthy ML" class="img-responsive" loading="lazy">
+  </a>
+  
+  <!-- <div class="card-text">
+    <h4><a href="/project/holistic-trustworthy/">Holistic Trustworthy ML</a></h4>
 
-<details>
+    
+  <div class="article-style">
+    <p>Instead of isolated properties, we target on a holistic trustworthiness covering every properties in one solution.</p>
+  </div>
+
+  </div> -->
+</div>
+</div>
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Privacy js-id-Robustness js-id-Fairness js-id-Security js-id-Inclusiveness js-id-Selected">
+<div class="card">
+  
+  
+  <a href="https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention" class="card-image hover-overlay">
+    <img src="/img/msu_pets.png" alt="Holistic Trustworthy ML" class="img-responsive" loading="lazy">
+  </a>
+</div>
+</div>
+</div>
+
+<!-- <details>
 <summary>More</summary>
 
+* <span class="badge badge-grey">Sep, 2024</span> 🎤 Invited talk ([GenAI for Dementia Health](/publication/2024_a_conect)) at the TCCN Rising Star Symposium Series.
 * <span class="badge badge-grey">June, 2024</span> 📊 New benchmark on [LLM privacy](/publication/2024llm_pbe) is accepted to VLDB!
-* <span class="badge badge-grey">May, 2024</span> 🎉 Two benchmark papers are accepted at ICML 2024: [how to obtain trustworthy compressed LLMs](https://decoding-comp-trust.github.io/) (models at [huggingface](https://huggingface.co/compressed-llm)) and [how to optimize LLMs with less memory](/publication/2024_zo_llm/).
 * <span class="badge badge-grey">June, 2024</span> New paper on [safeguarding LLM agent](/publication/2024guardagent) is online!
+* <span class="badge badge-grey">May, 2024</span> 🎉 Two benchmark papers are accepted at ICML 2024: [how to obtain trustworthy compressed LLMs](https://decoding-comp-trust.github.io/) (models at [huggingface](https://huggingface.co/compressed-llm)) and [how to optimize LLMs with less memory](/publication/2024_zo_llm/).
+* * <span class="badge badge-grey">April, 2024</span> 🎤 Invited talk ([GenAI for Dementia Health](/publication/2024_a_conect)) at iSchool@UTAustin.
 * <span class="badge badge-grey">March, 2024</span> We are exciting to organize the International Joint Workshop on Federated Learning for Data Mining and Graph Analytics ([FedKDD 2024](https://fedkdd.github.io/)).
 * <span class="badge badge-grey">March, 2024</span> Our benchmark work, [Decoding Compressed Trust](https://decoding-comp-trust.github.io/), has been accepted to [SET LLM @ICLR](https://set-llm.github.io/). A curated set of compressed models are available at [huggingface](https://huggingface.co/compressed-llm).
 * <span class="badge badge-grey">Feb, 2024</span> New benchmark preprint on [zeroth-order optimization for LLMs](/publication/2024_zo_llm/).
@@ -132,5 +161,5 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 * <span class="badge badge-grey">Sep, 2022</span> Our work on federated robustness sharing has been accepted to AAAI'23 (oral).
 * <span class="badge badge-grey">Nov, 2022</span> Two papers got accepted to NeurIPS'22: outsourcing training, backdoor defense.
 * <span class="badge badge-grey">May, 2022</span> Our work on connection-resilient FL got accepted to ICML'22.
-</details>
+</details> -->
 <!-- </font> -->

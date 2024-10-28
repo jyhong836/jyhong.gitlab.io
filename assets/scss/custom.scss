@@ -12,12 +12,15 @@
 }
 .badge-grey {
    color: #ffffff;
-   background-color: #a4a4a4;
+   background-color: #b7b7b7;
 }
 
 .nobull {
    list-style-type: none;
    padding-inline-start: 1ch;
+}
+.cite-link {
+   color: #6c88dc;
 }
 // dd {
 //    display: list-item;
@@ -30,3 +33,164 @@
 //    list-style-type: '👉';
 //    padding-inline-start: 1ch;
 // }
+
+
+
+.overview-diagram {
+   max-width: 1200px;
+   width: 100%;
+   position: relative;
+}
+
+.overview-center-cube {
+   width: 400px;
+   height: 400px;
+   margin: 0 auto;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.overview-center-cube .content {
+   position: relative;
+   width: 80%;
+}
+
+.overview-center-cube .math {
+   color: #2b6cb0;
+   font-size: 1.4rem;
+   /* Changed from 1.8rem to make it smaller */
+   font-style: italic;
+   font-family: 'Times New Roman', serif;
+}
+
+.overview-section {
+   position: absolute;
+   width: 300px;
+   text-align: center;
+   padding: 1rem;
+}
+
+.overview-section-top {
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.overview-section-right {
+   top: 50%;
+   right: -60px;
+   /* Changed from 0 to -100px to move it further right */
+   transform: translateY(-50%);
+}
+
+.overview-section-left {
+   top: 50%;
+   left: -60px;
+   /* Changed from 0 to -100px to move it further left */
+   transform: translateY(-50%);
+}
+
+.overview-section-bottom {
+   text-align: center;
+   width: 100%;
+   max-width: 800px;
+   /* Adjust this value as needed */
+   margin: 0 auto;
+   bottom: -90px;
+   /* Changed from 0 to -80px to move it lower */
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.overview-icon {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+.overview-title {
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin-bottom: 0.5rem;
+   max-width: 400px;
+   /* Should match center-item max-width */
+   margin: 0 auto;
+}
+
+.overview-subtitle {
+   background: #e2e8f0;
+   padding: 0.5rem 2rem;
+   /* Increased horizontal padding */
+   border-radius: 20px;
+   margin: 0.5rem 0;
+   display: inline-block;
+   width: 100%;
+   /* Make it take full width of its container */
+}
+
+.references {
+   color: #4299e1;
+   font-size: 0.9rem;
+}
+
+.brain-icon {
+   position: absolute;
+   bottom: -80px;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: 3rem;
+}
+
+.trophy {
+   display: inline-block;
+   color: #4299e1;
+}
+
+.text-overlay {
+   position: absolute;
+   top: 40%;
+   /* Adjust this value to position the text where you want it */
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 1;
+   /* This ensures the text appears above the image */
+   width: 90%;
+}
+
+.detection-prevention {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 0.5rem;
+   gap: 2rem;
+   /* Space between the items */
+}
+
+.left-item,
+.right-item {
+   text-align: center;
+   flex: 0 0 auto;
+   /* Don't grow or shrink, stay at auto width */
+}
+
+.center-item {
+   text-align: center;
+   flex: 2;
+   width: 100%;
+   max-width: 400px;
+   /* Adjust this to match with "Deploying" width */
+   margin: 0 auto;
+}
+
+.content-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 0.5rem;
+   margin-left: 20px;
+   width: 100%;
+   padding: 0 20px;
+   /* Add padding to match title alignment */
+}
