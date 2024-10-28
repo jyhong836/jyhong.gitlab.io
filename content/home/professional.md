@@ -95,8 +95,8 @@ I am grateful that our research is supported by the multiple programs.
 
 ### Teaching
 
-* Mentor@``VRT-CHAT: Designing Reminiscence-Therapy Chatbots with Culturally-Sensitive Visual Stimulation for Mental Health'', [RAI4Ukraine Program](https://airesponsibly.net/RAIforUkraine/), Center for Responsible AI at NYU, 2024
-* Mentor@``A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention'', Directed Reading Program (DiRP), UT Austin, 2024
+* Mentor@VRT-CHAT: Designing Reminiscence-Therapy Chatbots with Culturally-Sensitive Visual Stimulation for Mental Health, [RAI4Ukraine Program](https://airesponsibly.net/RAIforUkraine/), Center for Responsible AI at NYU, 2024
+* Mentor@A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention, Directed Reading Program (DiRP), UT Austin, 2024
 * Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
 * Teaching Assistant@CSE 847: [Machine Learning](https://msu-ml.github.io/), MSU, 2021
 * Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020

@@ -124,10 +124,20 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
   
   
   <a href="https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention" class="card-image hover-overlay">
-    <img src="/img/msu_pets.png" alt="Holistic Trustworthy ML" class="img-responsive" loading="lazy">
+    <img src="/img/msu_pets.png" alt="MSU Office of Research and Innovation" class="img-responsive" loading="lazy">
   </a>
 </div>
 </div>
+
+<div class="project-card project-item isotope-item">
+<div class="card">
+  
+  <a href="https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/" class="card-image hover-overlay">
+    <img src="/img/wh_pets.png" alt="White House" class="img-responsive" loading="lazy">
+  </a>
+</div>
+</div>
+
 </div>
 
 <!-- <details>
