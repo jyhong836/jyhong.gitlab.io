@@ -1,5 +1,5 @@
 ---
-title: "Federated Adversarial Debiasing for Fair and Trasnferable Representations"
+title: "Federated Adversarial Debiasing for Fair and Transferable Representations"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 

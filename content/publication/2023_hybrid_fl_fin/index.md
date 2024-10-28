@@ -32,7 +32,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *International Workshop on Federated Learning for Distributed Data Mining*
-publication_short: FL4DM
+publication_short: KDDW
 
 abstract: The recent decade witnessed a surge of increase in financial crimes across the public and private sectors, with an average cost of scams of $102m to financial institutions in 2022. Developing a mechanism for battling financial crimes is an impending task that requires in-depth collaboration from multiple institutions, and yet such collaboration imposed significant technical challenges due to the privacy and security requirements of distributed financial data. For example, consider the modern payment network systems, which can generate millions of transactions per day across a large number of global institutions. Training a detection model of fraudulent transactions requires not only secured transactions but also the private account activities of those involved in each transaction from corresponding bank systems. The distributed nature of both samples and features prevents most existing learning systems from being directly adopted to handle the data mining task. In this paper, we collectively address these challenges by proposing a hybrid federated learning system that offers secure and privacy-aware learning and inference for financial crime detection. We conduct extensive empirical studies to evaluate the proposed framework's detection performance and privacy-protection capability, evaluating its robustness against common malicious attacks of collaborative learning.
 

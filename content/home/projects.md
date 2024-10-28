@@ -72,20 +72,45 @@ For instance, overzealous privacy protection can come at the price of transparen
   </div>
 </div>
 
-### T2: *Understanding* Multi-faceted Emerging Risks in GenAI Trust.
-
-As AI evolves from traditional machine learning to generative AI (GenAI), new privacy and trust challenges arise, yet remain opaque due to the complexity of AI models. My research aims to anticipate and address these challenges by developing theoretical frameworks that generalize privacy risk analysis across AI architectures [<a href="/publication/2023neurips_i2f/" class="cite-link">NeurIPS23</a>], introducing novel threat models for generation-driven transfer learning [<a href="/publication/datafree_backdoor2023icml/" class="cite-link">ICML23</a>] and pre-trained foundation models [<a href="/publication/2023finetune_privacy/" class="cite-link">SaTML24</a>], and leveraging insights from integrative benchmarks [<a href="/publication/2024llm_pbe/" class="cite-link">VLDB24 <i class="fa fa-award"></i></a>, <a href="/publication/2024decoding-comp-trust/" class="cite-link">ICML24</a>]. This deeper understanding of GenAI risks further informs the creation of collaborative or multi-agent learning paradigms that prioritize privacy [<a href="/publication/2023dp_opt/" class="cite-link">ICLR24</a>] and safety [<a href="/publication/2024guardagent/" class="cite-link">arXiv24</a>].
 
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/2024decoding-comp-trust/" class="cite-link">[ICML24]</a> <span style="color: black;">Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression</span></div>
+    <div class="summary-style mb-0 mt-0"><a href="/publication/fade2021kdd/" class="cite-link">[KDD21]</a> <span href="/publication/fade2021kdd/" style="color: black;">Federated Adversarial Debiasing for Fair and Transferable Representations</span></div>
+    <div class="stream-meta article-metadata">
+    <div>
+    <span class="author-highlighted">
+        Junyuan Hong</span>, <span>
+        Zhuangdi Zhu</span>, <span>
+        Shuyang Yu</span>, <span>
+        Hiroko Dodge</span>, <span>
+        Zhangyang Wang</span>, <span>
+        Jiayu Zhou</span>
+    </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 order-first ">
+  <a href="/publication/fade2021kdd/">
+    <img src="/publication/fade2021kdd/featured.png" alt="DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer" loading="lazy">
+  </a>
+  </div>
+  </div>
+</div>
+
+### T2: *Understanding* Multi-faceted Emerging Risks in GenAI Trust.
+
+As AI evolves from traditional machine learning to generative AI (GenAI), new privacy and trust challenges arise, yet remain opaque due to the complexity of AI models. My research aims to anticipate and address these challenges by developing theoretical frameworks that generalize privacy risk analysis across AI architectures [<a href="/publication/2023neurips_i2f/" class="cite-link">NeurIPS23</a>], introducing novel threat models for generation-driven transfer learning [<a href="/publication/datafree_backdoor2023icml/" class="cite-link">ICML23</a>] and pre-trained foundation models [<a href="/publication/2023finetune_privacy/" class="cite-link">SaTML24</a>], and leveraging insights from integrative benchmarks [<a href="https://llm-pbe.github.io" class="cite-link">VLDB24 <i class="fa fa-award"></i></a>, <a href="https://decoding-comp-trust.github.io/" class="cite-link">ICML24</a>]. This deeper understanding of GenAI risks further informs the creation of collaborative or multi-agent learning paradigms that prioritize privacy [<a href="/publication/2023dp_opt/" class="cite-link">ICLR24</a>] and safety [<a href="/publication/2024guardagent/" class="cite-link">arXiv24</a>].
+
+<div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
+  <div class="row align-items-center">
+  <div class="col-12 col-md-6">
+    <div class="summary-style mb-0 mt-0"><a href="https://decoding-comp-trust.github.io/" class="cite-link">[ICML24]</a> <span style="color: black;">Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression</span></div>
     <div class="stream-meta article-metadata">
     <div>
     
 
   <span class="author-highlighted">
-      Junyuan "Jason" Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
+      Junyuan Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
       Jinhao Duan</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
       Chenhui Zhang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
       Zhangheng Li</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
@@ -104,8 +129,40 @@ As AI evolves from traditional machine learning to generative AI (GenAI), new pr
     </div>
   </div>
   <div class="col-12 col-md-6 order-first ">
-  <a href="/publication/2023dp_opt/">
+  <a href="https://decoding-comp-trust.github.io/"">
     <img src="/publication/2024decoding-comp-trust/featured.png" alt="Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression" loading="lazy">
+  </a>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
+  <div class="row align-items-center">
+  <div class="col-12 col-md-6">
+    <div class="summary-style mb-0 mt-0"><a href="https://llm-pbe.github.io/" class="cite-link">[VLDB24 <i class="fa fa-award"></i>]</a> <span style="color: black;">LLM-PBE: Assessing Data Privacy in Large Language Models</span></div>
+    <div class="stream-meta article-metadata">
+    <div>
+    <span>
+        Qinbin Li</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span class="author-highlighted">
+        Junyuan Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
+        Chulin Xie</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
+        Jeffrey Tan</span>, <span>
+        Rachel Xin</span>, <span>
+        Junyi Hou</span>, <span>
+        Xavier Yin</span>, <span>
+        Zhun Wang</span>, <span>
+        Dan Hendrycks</span>, <span>
+        Zhangyang Wang</span>, <span>
+        Bo Li</span>, <span>
+        Bingsheng He</span>, <span>
+        Dawn Song</span>
+    </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 order-first ">
+  <a href="https://llm-pbe.github.io/">
+    <img src="/publication/2024llm_pbe/featured.png" alt="LLM-PBE: Assessing Data Privacy in Large Language Models" loading="lazy">
   </a>
   </div>
   </div>
@@ -115,17 +172,17 @@ As AI evolves from traditional machine learning to generative AI (GenAI), new pr
 
 <!-- ![](/img/health.png) -->
 
-To ground my research in **real-world impacts**, I am actively exploring applications in *healthcare, a domain where trust, privacy, and fairness are paramount*. My projects include clinical-protocol-compliant conversational AI for dementia prevention [<a href="/publication/2024_a_conect/" class="cite-link">ICLRW24</a>] and fair, in-home AI-driven early dementia detection [<a href="/publication/fade2021kdd/" class="cite-link">KDD21</a>, <a href="/publication/ad2020/" class="cite-link">AD20</a>]. These initiatives serve as testbeds for responsible AI principles, particularly in ensuring ethical considerations like patient autonomy, data confidentiality, and equitable access to technology, while demonstrating AI's potential to improve lives.
+To ground my research in **real-world impacts**, I am actively exploring applications in *healthcare, a domain where trust, privacy, and fairness are paramount*. My projects include clinical-protocol-compliant conversational AI for dementia prevention [<a href="https://a-conect.github.io/project/" class="cite-link">ICLRW24</a>] and fair, in-home AI-driven early dementia detection [<a href="/publication/fade2021kdd/" class="cite-link">KDD21</a>, <a href="/publication/ad2020/" class="cite-link">AD20</a>]. These initiatives serve as testbeds for responsible AI principles, particularly in ensuring ethical considerations like patient autonomy, data confidentiality, and equitable access to technology, while demonstrating AI's potential to improve lives.
 
 
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/publication/2024_a_conect/" class="cite-link">[ICLRW24]</a> <span style="color: black;">A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention</span></div>
+    <div class="summary-style mb-0 mt-0"><a href="https://a-conect.github.io/project/" class="cite-link">[ICLRW24]</a> <span style="color: black;">A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention</span></div>
     <div class="stream-meta article-metadata">
     <div>
     <span class="author-highlighted">
-        Junyuan "Jason" Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
+        Junyuan Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
         Wenqing Zheng</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
         Han Meng</span>, <span>
         Siqi Liang</span>, <span>
@@ -137,8 +194,31 @@ To ground my research in **real-world impacts**, I am actively exploring applica
     </div>
   </div>
   <div class="col-12 col-md-6 order-first ">
-  <a href="/publication/2024_a_conect/">
+  <a href="https://a-conect.github.io/project/">
     <img src="/publication/2024_a_conect/featured.png" alt="A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention" loading="lazy">
+  </a>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
+  <div class="row align-items-center">
+  <div class="col-12 col-md-6">
+    <div class="summary-style mb-0 mt-0"><a href="/publication/ad2020" class="cite-link">[AD20]</a> <span style="color: black;">Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses</span></div>
+    <div class="stream-meta article-metadata">
+    <div>
+    <span class="author-highlighted">
+        Junyuan Hong</span>, <span>
+        Jeffrey Kaye</span>, <span>
+        Hiroko H Dodge</span>, <span>
+        Jiayu Zhou</span>
+    </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 order-first ">
+  <a href="/publication/ad2020">
+    <img src="/publication/ad2020/featured.jpeg" alt="Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses" loading="lazy">
   </a>
   </div>
   </div>
