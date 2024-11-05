@@ -57,7 +57,8 @@ For instance, overzealous privacy protection can come at the price of transparen
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/publication/2023dp_opt/" class="cite-link">[ICLR24 Spotlight]</a> <span href="/publication/2023dp_opt/" style="color: black;">DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>Privacy + Efficiency via Edge-Cloud Collaboration</b>
+    </div><a href="/publication/2023dp_opt/" class="cite-link">[ICLR24 Spotlight]</a> <span href="/publication/2023dp_opt/" style="color: black;">DP-OPT: Make Large Language Model Your Privacy-Preserving Prompt Engineer</span></div>
     <div class="stream-meta article-metadata">
     <div>
       <span class="author-highlighted">Junyuan Hong</span>, <span>Jiachen T. Wang</span>, <span>Chenhui Zhang</span>, <span>Zhangheng Li</span>, <span>Bo Li</span>, <span>Zhangyang Wang</span>
@@ -76,7 +77,8 @@ For instance, overzealous privacy protection can come at the price of transparen
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/publication/fade2021kdd/" class="cite-link">[KDD21]</a> <span href="/publication/fade2021kdd/" style="color: black;">Federated Adversarial Debiasing for Fair and Transferable Representations</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>Privacy + Fairness via Federated Transfer</b></div>
+    <a href="/publication/fade2021kdd/" class="cite-link">[KDD21]</a> <span href="/publication/fade2021kdd/" style="color: black;">Federated Adversarial Debiasing for Fair and Transferable Representations</span></div>
     <div class="stream-meta article-metadata">
     <div>
     <span class="author-highlighted">
@@ -104,7 +106,8 @@ As AI evolves from traditional machine learning to generative AI (GenAI), new pr
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="https://decoding-comp-trust.github.io/" class="cite-link">[ICML24]</a> <span style="color: black;">Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>Benchmark Trust under Compression</b></div>
+    <a href="https://decoding-comp-trust.github.io/" class="cite-link">[ICML24]</a> <span style="color: black;">Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression</span></div>
     <div class="stream-meta article-metadata">
     <div>
     
@@ -140,7 +143,7 @@ As AI evolves from traditional machine learning to generative AI (GenAI), new pr
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="https://llm-pbe.github.io/" class="cite-link">[VLDB24 <i class="fa fa-award"></i>]</a> <span style="color: black;">LLM-PBE: Assessing Data Privacy in Large Language Models</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>Benchmark Privacy in LLM Lifecycle</b></div><a href="https://llm-pbe.github.io/" class="cite-link">[VLDB24 <i class="fa fa-award"></i>]</a> <span style="color: black;">LLM-PBE: Assessing Data Privacy in Large Language Models</span></div>
     <div class="stream-meta article-metadata">
     <div>
     <span>
@@ -168,6 +171,31 @@ As AI evolves from traditional machine learning to generative AI (GenAI), new pr
   </div>
 </div>
 
+
+<div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
+  <div class="row align-items-center">
+  <div class="col-12 col-md-6">
+    <div class="summary-style mb-0 mt-0"><div><b>Theoretical Risk Analysis</b></div>
+    <a href="/publication/2023neurips_i2f/" class="cite-link">[NeurIPS23]</a> <span style="color: black;">Understanding Deep Gradient Leakage via Inversion Influence Functions</span></div>
+    <div class="stream-meta article-metadata">
+    <div>
+    <span>
+        Haobo Zhang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span class="author-highlighted">
+        Junyuan "Jason" Hong</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="" data-original-title="Equal contribution"></i>, <span>
+        Yuyang Deng</span>, <span>
+        Mehrdad Mahdavi</span>, <span>
+        Jiayu Zhou</span>
+    </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 order-first ">
+  <a href="/publication/2023neurips_i2f/">
+    <img src="/publication/2023neurips_i2f/featured.png" alt="LLM-PBE: Assessing Data Privacy in Large Language Models" loading="lazy">
+  </a>
+  </div>
+  </div>
+</div>
+
 ### T3: *Deploying* AI Aligned with Human Norms in Dementia Healthcare.
 
 <!-- ![](/img/health.png) -->
@@ -178,7 +206,8 @@ To ground my research in **real-world impacts**, I am actively exploring applica
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="https://a-conect.github.io/project/" class="cite-link">[ICLRW24]</a> <span style="color: black;">A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>Protocol-Compliant Dementia Intervention</b></div>
+    <a href="https://a-conect.github.io/project/" class="cite-link">[ICLRW24]</a> <span style="color: black;">A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention</span></div>
     <div class="stream-meta article-metadata">
     <div>
     <span class="author-highlighted">
@@ -205,7 +234,8 @@ To ground my research in **real-world impacts**, I am actively exploring applica
 <div class="col-lg-16 project-item isotope-item js-id-Privacy js-id-Selected js-id-LLM js-id-Large-Models">
   <div class="row align-items-center">
   <div class="col-12 col-md-6">
-    <div class="summary-style mb-0 mt-0"><a href="/publication/ad2020" class="cite-link">[AD20]</a> <span style="color: black;">Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses</span></div>
+    <div class="summary-style mb-0 mt-0"><div><b>In-home Dementia Detection</b></div>
+    <a href="/publication/ad2020" class="cite-link">[AD20]</a> <span style="color: black;">Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses</span></div>
     <div class="stream-meta article-metadata">
     <div>
     <span class="author-highlighted">
@@ -218,7 +248,7 @@ To ground my research in **real-world impacts**, I am actively exploring applica
   </div>
   <div class="col-12 col-md-6 order-first ">
   <a href="/publication/ad2020">
-    <img src="/publication/ad2020/featured.jpeg" alt="Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses" loading="lazy">
+    <img src="/publication/ad2020/featured.png" alt="Detecting MCI using real-time, ecologically valid data capture methodology: How to improve scientific rigor in digital biomarker analyses" loading="lazy">
   </a>
   </div>
   </div>
