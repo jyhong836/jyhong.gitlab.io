@@ -19,10 +19,10 @@ bio: My research interest lies in the interaction of human-centered AI and healt
 # Interests to show in About widget
 interests:
 - "Healthcare"
+- "Responsible AI"
 - "Privacy"
-- "Trustworthy Machine Learning"
 - "Federated Learning"
-- "Large Language/Vision Models"
+# - "Large Language/Vision Models"
 
 # Education to show in About widget
 education:
@@ -89,10 +89,11 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 <!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
 <!-- <font size=4> -->
 <!-- * <span class="badge badge-grey">Oct, 2024</span> 🎤 Invited talk (Harmonizing, Understanding, and Deploying Responsible AI) at CS@UMD, CS@Rutgers, DS@UVa. -->
+* <span class="badge badge-grey">11/2024</span> <i class="fa fa-dollar-sign" style="color: #b5b5b5;"></i> Our research on engaging chatbot based on [A-CONECT](/publication/2024_a_conect) is supported by the [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations)!
 * <span class="badge badge-grey">08/2024</span> <i class="fa fa-award"></i> LLM-PBE benchmark <a href="https://llm-pbe.github.io/home" class="cite-link">[VLDB24]</a> is selected as the **best paper finalist**, which is covered by [UT ECE News](https://www.ece.utexas.edu/news/junyuan-hong-named-best-paper-award-finalist-vldb2024) and is used for our [NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)!
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
-* <span class="badge badge-grey">07/2024</span> <i class="fa fa-star" style="color: #b5b5b5;"></i> Our GenAI for Dementia Health project ([A-CONECT](/publication/2024_a_conect)) is supported by the OpenAI's [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
+* <span class="badge badge-grey">07/2024</span> <i class="fa fa-dollar-sign" style="color: #b5b5b5;"></i> Our GenAI for Dementia Health project ([A-CONECT](/publication/2024_a_conect)) is supported by the OpenAI's [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-star" style="color: #b5b5b5;"></i> DP-OPT <a href="/publication/2023dp_opt/" class="cite-link">[ICLR24]</a> (private prompt tuning) is selected as **Spotlight**.
 * <span class="badge badge-grey">05/2024</span> <i class="fa fa-award"></i> I am selected as [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) for my work in health and trustworthy ML, covered by [UT ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars).
 * <span class="badge badge-grey">03/2024</span> <i class="fa fa-comment" style="color: #b5b5b5;"></i> Invited talk on GenAI Privacy <a href="/publication/2023finetune_privacy" class="cite-link">[SaTML24]</a> at [UT Good System Symposium](https://gssymposium2024.splashthat.com/).

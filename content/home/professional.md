@@ -70,8 +70,10 @@ subtitle = ""
 ### Fundings
 
 I am grateful that our research is supported by the multiple programs.
-* [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/) early-dementia prevention via [A-CONECT chatbot](https://a-conect.github.io/).
-* [IFML Postdoctoral Fellowship](https://ifml.institute/events) for my research in trustworthy LLMs.
+* <i>Developing Engaging AI Chatbots to Enhance Senior Well-being</i>, [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations) (NAIRR240321), 2024-2025.
+* <i>Designing AI-based Conversational Chatbot for Early Dementia Intervention ([A-CONECT](https://a-conect.github.io/))</i>, [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/), 2024-2025.
+* [GoodSystem Challenge](https://ifml.institute/events), 2024-2025.
+* [IFML Postdoctoral Fellowship](https://ifml.institute/events) for my research in trustworthy LLMs, 2023-2024.
 
 ### Media Coverage
 
