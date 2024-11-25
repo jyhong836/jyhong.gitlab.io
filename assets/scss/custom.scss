@@ -194,3 +194,30 @@
    padding: 0 20px;
    /* Add padding to match title alignment */
 }
+
+.two-column-list {
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+}
+
+.two-column-list .badge-column {
+   display: table-cell;
+   width: 10%;
+   /* Adjust width as needed */
+   vertical-align: top;
+   padding-right: 10px;
+}
+
+.two-column-list .text-column {
+   display: table-cell;
+   width: 90%;
+   /* Adjust width as needed */
+   vertical-align: top;
+   text-align: left;
+}
+
+.two-column-list .text-column p {
+   margin: 0;
+   text-indent: 0;
+}

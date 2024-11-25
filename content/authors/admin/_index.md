@@ -29,6 +29,7 @@ education:
   courses:
   - course: "PhD in CSE"
     institution: "Michigan State University (Advisor: Jiayu Zhou)"
+    thesis: "Committee: Anil K. Jain, Sijia Liu, Atlas Wang, Jiayu Zhou"
     year: 2023
   - course: "MSc in Computer Science"
     institution: "University of Science and Technology of China"
@@ -73,6 +74,56 @@ email: "jyhong836@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: yes
+
+news:
+  - date: 11/2024
+    icon: fa-dollar-sign
+    highlight: false
+    content: Our research on engaging chatbot based on [A-CONECT](/publication/2024_a_conect) is supported by the [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations)!
+  - date: 08/2024
+    icon: fa-award
+    highlight: true
+    content: LLM-PBE benchmark <a href="https://llm-pbe.github.io/home" class="cite-link">[VLDB24]</a> is selected as the **best paper finalist**, which is covered by [UT ECE News](https://www.ece.utexas.edu/news/junyuan-hong-named-best-paper-award-finalist-vldb2024) and is used for our [NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)!
+  - date: 07/2024
+    icon: fa-comments
+    highlight: false
+    content: Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
+  - date: 07/2024
+    icon: fa-comments
+    highlight: false
+    content: Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
+  - date: 07/2024
+    icon: fa-dollar-sign
+    highlight: false
+    content: Our GenAI for Dementia Health project ([A-CONECT](/publication/2024_a_conect)) is supported by the OpenAI's [Researcher Access Program](https://openai.com/form/researcher-access-program/)!
+  - date: 07/2024
+    icon: fa-star
+    highlight: false
+    content: DP-OPT <a href="/publication/2023dp_opt/" class="cite-link">[ICLR24]</a> (private prompt tuning) is selected as **Spotlight**.
+  - date: 05/2024
+    icon: fa-award
+    highlight: true
+    content: I am selected as [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) for my work in health and trustworthy ML, covered by [UT ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars).
+  - date: 03/2024
+    icon: fa-comment
+    highlight: false
+    content: Invited talk on GenAI Privacy <a href="/publication/2023finetune_privacy" class="cite-link">[SaTML24]</a> at [UT Good System Symposium](https://gssymposium2024.splashthat.com/).
+  - date: 03/2023
+    icon: fa-trophy
+    highlight: true
+    content: Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+
+media:
+  - link: https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars
+    img: /img/ut_ece_media_rising_star.png
+    title: ut_ece_media_rising_star
+  - link: https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention
+    img: /img/msu_pets.png
+    title: MSU Office of Research and Innovation
+  - link: https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/
+    img: /img/wh_pets.png
+    title: White House
+
 ---
 
 I am a joint postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)), and also affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) as well as the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems). 
@@ -83,13 +134,13 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 <!-- **I am on the job market!**  -->
 Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
 
-### News
+
 
 <!-- <i class="fa-solid fa-comment" style="color: #fd810d;"></i> -->
 <!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
 <!-- <font size=4> -->
 <!-- * <span class="badge badge-grey">Oct, 2024</span> 🎤 Invited talk (Harmonizing, Understanding, and Deploying Responsible AI) at CS@UMD, CS@Rutgers, DS@UVa. -->
-* <span class="badge badge-grey">11/2024</span> <i class="fa fa-dollar-sign" style="color: #b5b5b5;"></i> Our research on engaging chatbot based on [A-CONECT](/publication/2024_a_conect) is supported by the [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations)!
+<!-- * <span class="badge badge-grey">11/2024</span> <i class="fa fa-dollar-sign" style="color: #b5b5b5;"></i> Our research on engaging chatbot based on [A-CONECT](/publication/2024_a_conect) is supported by the [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations)!
 * <span class="badge badge-grey">08/2024</span> <i class="fa fa-award"></i> LLM-PBE benchmark <a href="https://llm-pbe.github.io/home" class="cite-link">[VLDB24]</a> is selected as the **best paper finalist**, which is covered by [UT ECE News](https://www.ece.utexas.edu/news/junyuan-hong-named-best-paper-award-finalist-vldb2024) and is used for our [NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/)!
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-comments" style="color: #b5b5b5;"></i> Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
@@ -97,49 +148,8 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 * <span class="badge badge-grey">07/2024</span> <i class="fa fa-star" style="color: #b5b5b5;"></i> DP-OPT <a href="/publication/2023dp_opt/" class="cite-link">[ICLR24]</a> (private prompt tuning) is selected as **Spotlight**.
 * <span class="badge badge-grey">05/2024</span> <i class="fa fa-award"></i> I am selected as [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) for my work in health and trustworthy ML, covered by [UT ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars).
 * <span class="badge badge-grey">03/2024</span> <i class="fa fa-comment" style="color: #b5b5b5;"></i> Invited talk on GenAI Privacy <a href="/publication/2023finetune_privacy" class="cite-link">[SaTML24]</a> at [UT Good System Symposium](https://gssymposium2024.splashthat.com/).
-* <span class="badge badge-grey">03/2023</span> <i class="fa fa-trophy"></i> Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by <i class="fa fa-star" style="color: #b5b5b5;"></i>[The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and <i class="fa fa-star" style="color: #b5b5b5;"></i>[MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+* <span class="badge badge-grey">03/2023</span> <i class="fa fa-trophy"></i> Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by <i class="fa fa-star" style="color: #b5b5b5;"></i>[The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and <i class="fa fa-star" style="color: #b5b5b5;"></i>[MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention). -->
 
-<div class="isotope projects-container js-layout-masonry" style="position: relative; height: 1344.2px;">
-<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Privacy js-id-Robustness js-id-Fairness js-id-Security js-id-Inclusiveness js-id-Selected">
-<div class="card">
-  
-  
-  <a href="https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars" class="card-image hover-overlay">
-    <img src="/img/ut_ece_media_rising_star.png" alt="Holistic Trustworthy ML" class="img-responsive" loading="lazy">
-  </a>
-  
-  <!-- <div class="card-text">
-    <h4><a href="/project/holistic-trustworthy/">Holistic Trustworthy ML</a></h4>
-
-    
-  <div class="article-style">
-    <p>Instead of isolated properties, we target on a holistic trustworthiness covering every properties in one solution.</p>
-  </div>
-
-  </div> -->
-</div>
-</div>
-
-<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Privacy js-id-Robustness js-id-Fairness js-id-Security js-id-Inclusiveness js-id-Selected">
-<div class="card">
-  
-  
-  <a href="https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention" class="card-image hover-overlay">
-    <img src="/img/msu_pets.png" alt="MSU Office of Research and Innovation" class="img-responsive" loading="lazy">
-  </a>
-</div>
-</div>
-
-<div class="project-card project-item isotope-item">
-<div class="card">
-  
-  <a href="https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/" class="card-image hover-overlay">
-    <img src="/img/wh_pets.png" alt="White House" class="img-responsive" loading="lazy">
-  </a>
-</div>
-</div>
-
-</div>
 
 <!-- <details>
 <summary>More</summary>
