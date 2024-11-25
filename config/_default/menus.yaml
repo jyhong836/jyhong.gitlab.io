@@ -11,12 +11,18 @@ main:
     url: '#projects'  # '#featured'
     # url: '#publications'  # '#featured'
     weight: 20
+  - name: Publications
+    url: '#publications'  # '#featured'
+    weight: 30
   # - name: Highlights
   #   url: '#featured'  # '#featured'
   #   weight: 30
-  - name: Experience
+  - name: Experiences
     url: '#professional'
     weight: 40
+  - name: Teaching
+    url: '#teaching'
+    weight: 50
   # - name: Projects
   #   url: '#projects'
   #   weight: 40

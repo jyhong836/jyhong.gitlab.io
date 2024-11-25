@@ -124,6 +124,22 @@ media:
     img: /img/wh_pets.png
     title: White House
 
+
+awards:
+  - content: "[Best Paper Finalist](https://llm-pbe.github.io/home), VLDB 2024"
+  - content: "[ML and Systems Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/), ML Commons, 2024"
+  - content: Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
+  - content: Research Enhancement Award, MSU, 2023
+  - content: The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
+  - content: Dissertation Completion Fellowship, MSU, 2023
+  - content: Carl V. Page Memorial Graduate Fellowship, MSU, 2021
+
+funding:
+  - content: <i>Developing Engaging AI Chatbots to Enhance Senior Well-being</i>, [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations) (NAIRR240321), 2024-2025.
+  - content: <i>Designing AI-based Conversational Chatbot for Early Dementia Intervention ([A-CONECT](https://a-conect.github.io/))</i>, [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/), 2024-2025.
+  - content: "[GoodSystem Challenge](https://ifml.institute/events), 2024-2025."
+  - content: "[IFML Postdoctoral Fellowship](https://ifml.institute/events) for my research in trustworthy LLMs, 2023-2024."
+
 ---
 
 I am a joint postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and Wireless Networking and Communications Group ([WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg)), and also affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) as well as the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems). 
@@ -184,3 +200,4 @@ Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref 
 * <span class="badge badge-grey">May, 2022</span> Our work on connection-resilient FL got accepted to ICML'22.
 </details> -->
 <!-- </font> -->
+

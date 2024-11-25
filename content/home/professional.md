@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Experiences
 subtitle: ''
 
 content:
@@ -50,26 +50,6 @@ design:
 * Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023-Now.
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
-### Awards
-
-* [Best Paper Finalist](https://llm-pbe.github.io/home), VLDB 2024
-* [ML and Systems Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/), ML Commons, 2024
-* Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
-* Research Enhancement Award, MSU, 2023
-* The 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), 2023
-* Dissertation Completion Fellowship, MSU, 2023
-* Carl V. Page Memorial Graduate Fellowship, MSU, 2021
-<!-- * Student Travel Award, KDD, 2018 -->
-<!-- * Outstanding Freshman Scholarship, USTC, 2015 -->
-
-### Grants
-
-I am grateful that our research is supported by the multiple programs.
-* <i>Developing Engaging AI Chatbots to Enhance Senior Well-being</i>, [NAIRR Pilot Program](https://nairrpilot.org/opportunities/allocations) (NAIRR240321), 2024-2025.
-* <i>Designing AI-based Conversational Chatbot for Early Dementia Intervention ([A-CONECT](https://a-conect.github.io/))</i>, [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/), 2024-2025.
-* [GoodSystem Challenge](https://ifml.institute/events), 2024-2025.
-* [IFML Postdoctoral Fellowship](https://ifml.institute/events) for my research in trustworthy LLMs, 2023-2024.
-
 ### Media Coverage
 
 * Texas ECE Student and Postdoc Named MLCommons Rising Stars, [UT Austin ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars), 2024
@@ -90,45 +70,8 @@ I am grateful that our research is supported by the multiple programs.
 * 'Federated Adversarial Debiasing for Fair and Transferable Representations', @ *CSE Graduate Seminar, Michigan State University*, October, 2021: [[slides](files/MSU_seminar_102021.pdf)]
 * 'Dynamic Policies on Differential Private Learning' @ *VITA Seminars, UT Austin*, Sep, 2020: [[slides](files/Dynamic%20Policies%20on%20DP%20learning.pdf)]
 
-### Teaching
-
-* Mentor@VRT-CHAT: Designing Reminiscence-Therapy Chatbots with Culturally-Sensitive Visual Stimulation for Mental Health, [RAI4Ukraine Program](https://airesponsibly.net/RAIforUkraine/), Center for Responsible AI at NYU, 2024
-* Mentor@A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention, Directed Reading Program (DiRP), UT Austin, 2024
-* Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
-* Teaching Assistant@CSE 847: [Machine Learning](https://msu-ml.github.io/), MSU, 2021
-* Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020
-
-### Mentoring
-
-<!-- Co-mentored with my advisor:
-* Zhangheng Li, PhD student at UTAustin, GenAI Privacy ([SaTML'24](publication/2023finetune_privacy/))
-* Haobo Zhang, PhD student at MSU, DL Privacy ([NeurIPS'23](publication/2023neurips_i2f/))
-* Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/)) -->
-
-- [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_
-
-- [Runjin Chen](https://chenrunjin.github.io/) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _ICLR 2025 under review (first author)_
-
-- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
-  _EMNLP 2024 (first author), ICLR 2025 under review (co-first author)_
-
-- [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
-  _VLDB 2024 (Best Paper Nomination)_
-
-- [Shuyang Yu](https://scholar.google.com.hk/citations?user=ftBPf3oAAAAJ&hl=en) (2020 - 2023), Ph.D. student, Michigan State University  
-  _ICLR 2024 (first author), ICLR 2023 (spotlight; first author), NeurIPSW 2023 (first author), ICML 2023, KDD 2021_
-
-- [Haobo Zhang](https://scholar.google.com/citations?user=uiNEZZQAAAAJ&hl=en) (2022 - 2023), Ph.D. student, Michigan State University  
-  _NeurIPS 2023 (first author), KDDW 2023 (first author)_  
-  Team member, 3rd place winner at US-UK PETs (Privacy-enhancing technologies) Prize Challenge, 2023.
-
-- [Siqi Liang](https://agentds.github.io/) (2022 - 2023), Ph.D. student, Michigan State University  
-  _KDDW 2023 (first author)_
-
 ### Services
 
-* **Organizers**: [GenAI4Health@NeurIPS](https://genai4health.github.io/), [The Competition for LLM and Agent Safety 2024](https://www.llmagentsafetycomp24.com/), [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), [FL4Data-Mining Workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair), [FedKDD Workshop 2024](https://fedkdd.github.io/) (Co-Lead Chair)
+* **Organizers**: [GenAI4Health@NeurIPS](https://genai4health.github.io/) (Lead Chair), [The Competition for LLM and Agent Safety 2024](https://www.llmagentsafetycomp24.com/), [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), [FL4Data-Mining Workshop@KDD 2023](https://fl4data-mining.github.io/) (Lead Chair), [FedKDD Workshop 2024](https://fedkdd.github.io/) (Co-Lead Chair)
 * **External Reviewer**: NeurIPS 22-23 (*Top Reviewer*, 2023), ICML 22-24, ICLR 23-24, KDD 22-24, ECML-PKDD 23, AISTATS 23, WSDM 22, AISTATS 22, AAAI 21-23, IJCAI 19, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD 18, 21
