@@ -116,13 +116,13 @@ news:
 media:
   - link: https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars
     img: /img/ut_ece_media_rising_star.png
-    title: ut_ece_media_rising_star
+    title: UT ECE News
   - link: https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention
     img: /img/msu_pets.png
     title: MSU Office of Research and Innovation
   - link: https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/
     img: /img/wh_pets.png
-    title: White House
+    title: The White House
 
 
 awards:
