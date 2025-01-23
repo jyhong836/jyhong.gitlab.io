@@ -1,5 +1,5 @@
 ---
-title: "Demo: An Exploration of LLM-Guided Conversation in Reminiscence Therapy"
+title: "GuideLLM: Exploring LLM-Guided Conversation with Applications in Autobiography Interviewing"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -32,17 +32,18 @@ doi: ""
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
-publishDate: "2024-11-10T13:08:20+08:00"
+# publishDate: "2024-11-10T13:08:20+08:00"
+publishDate: "2025-01-21T13:08:20+08:00"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NeurIPS 2024 Workshop on GenAI for Health*
-publication_short: NeurIPSW
+publication: In *Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics* and *NeurIPS 2024 Workshop on GenAI for Health*
+publication_short: NAACL
 
 abstract: "Although Large Language Models (LLMs) succeed in human-guided conversations such as instruction following and question answering, the potential of LLM-guided conversations—where LLMs direct the discourse and steer the conversation’s objectives—remains largely untapped. In this study, we provide an exploration of the LLM-guided conversation paradigm. Specifically, we first characterize LLM-guided conversation into three fundamental properties: (i) Goal Navigation; (ii) Context Management; (iii) Empathetic Engagement, and propose GUIDELLM as a general framework for LLM-guided conversation. We then implement an autobiography interviewing environment as one of the demonstrations of GuideLLM, which is a common practice in Reminiscence Therapy. In this environment, various techniques are integrated with GUIDELLM to enhance the autonomy of LLMs, such as Verbalized Interview Protocol (VIP) and Memory Graph Extrapolation (MGE) for goal navigation, and therapy strategies for empathetic engagement. We compare GUIDELLM with baseline LLMs, such as GPT-4-turbo and GPT-4o, from the perspective of interviewing quality, conversation quality, and autobiography generation quality. Experimental results encompassing both LLM-as-a-judge evaluations and human subject experiments involving 45 participants indicate that GUIDELLM significantly outperforms baseline LLMs in the autobiography interviewing task."
 

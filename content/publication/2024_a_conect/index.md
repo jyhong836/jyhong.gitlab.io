@@ -34,7 +34,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *ICLR 2024 Workshop on Large Language Model (LLM) Agents*
-publication_short: LLM Agents
+publication_short: ICLRW
 
 abstract: Mild Cognitive Impairment (MCI) is a prodrome stage of Alzheimer's Disease and related dementia. Its detection is essential for early intervention and cohort enrichment. A recent clinical trial showed that frequent conversation is an effective strategy against social isolation and cognitive decline. Though effective, there are challenges for an intervention to be widely deployed due to the involvement of trained human moderators. In this paper, we study an innovative solution that uses an AI-based chatbot to replace human moderators, thus greatly improving the accessibility of this accessible therapeutic approach. We integrate the established clinical trial protocols into the automatic chatbot for stimulating cognitive functions through cognitively demanding, engaging, and user-friendly voice-based conversations. To evaluate the effectiveness, we create MCI digital twins--virtual replicas of MCI patients--offering a scalable and realistic assessment method. With the digital twins, we provide an end-to-end framework for evaluating and iterating the chatbot. Our experiments show the chatbot's proficiency in fostering natural conversations and its potential as a cost-effective, accessible tool in dementia intervention. A demonstration of our chatbot system is available at https://a-conect.github.io.
 

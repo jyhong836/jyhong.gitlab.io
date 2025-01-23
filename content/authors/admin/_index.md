@@ -18,8 +18,8 @@ bio: My research interest lies in the interaction of human-centered AI and healt
 
 # Interests to show in About widget
 interests:
-- "Healthcare"
 - "Responsible AI"
+- "Healthcare"
 - "Privacy"
 - "Federated Learning"
 # - "Large Language/Vision Models"
