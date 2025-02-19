@@ -63,10 +63,10 @@ design:
   _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_
 
 - [Runjin Chen](https://chenrunjin.github.io/) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _ICLR 2025 under review (first author)_
+  _NACCL 2025 (first author)_
 
 - [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
-  _EMNLP 2024 (first author), ICLR 2025 under review (co-first author)_
+  _EMNLP 2024 (first author), _NACCL 2025_
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
   _VLDB 2024 (Best Paper Nomination)_
