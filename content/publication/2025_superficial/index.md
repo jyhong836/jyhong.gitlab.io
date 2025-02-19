@@ -41,9 +41,9 @@ publication_short: NAACL
 abstract: "Alignment of large language models (LLMs) with human values and preferences, often achieved through fine-tuning based on human feedback, is essential for ensuring safe and responsible AI behaviors. However, the process typically requires substantial data and computation resources. Recent studies have revealed that alignment might be attainable at lower costs through simpler methods, such as in-context learning. This leads to the question: Is alignment predominantly superficial? In this paper, we delve into this question and provide a quantitative analysis. We formalize the concept of superficial knowledge, defining it as knowledge that can be acquired through easily token restyling, without affecting the model’s ability to capture underlying causal relationships between tokens. We propose a method to extract and isolate those superficial knowledge from aligned models, focusing on the shallow modifications to the final token selection process. By comparing models augmented only with superficial knowledge to fully aligned models, we quantify the superficial portion of alignment. Our findings reveal that while superficial knowledge constitutes a significant portion of alignment, particularly in safety and detoxification tasks, it is not the whole story. Tasks requiring reasoning and contextual understanding still rely on deeper knowledge. Additionally, we demonstrate two practical advantages of isolated superficial knowledge: (1) it can be transferred between models, enabling efficient offsite alignment of larger models using extracted superficial knowledge from smaller models, and (2) it is recoverable, allowing for the restoration of alignment in compromised models without sacrificing performance."
 
 # Summary. An optional shortened abstract.
-summary: We develop a chatbot for reminiscence therapy
+summary: We examined how superficial LLM alignments are thru a linear distillation method.
 
-tags: ["Healthcare", "Selected", "LLM", "Large Models"]
+tags: ["Selected", "LLM", "Large Models", "Safety"]
 
 # Display this page in the Featured widget?
 featured: true
@@ -53,8 +53,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/pdf?id=G6h0ya2d2c'
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2502.04602'
+url_code: 'https://github.com/VITA-Group/Superficial_Alignment'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -75,7 +75,7 @@ url_video: ''
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - "healthcare"
+  - "holistic-trustworthy"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
