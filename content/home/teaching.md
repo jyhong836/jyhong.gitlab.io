@@ -65,10 +65,12 @@ design:
 - [Runjin Chen](https://chenrunjin.github.io/) (2023 - Now), Ph.D. student, University of Texas at Austin  
   _NACCL 2025 (first author)_
 
+- [Wes Robbins](https://wes-robbins.xyz/) (2024 - Now), Ph.D. student, University of Texas at Austin
+
 - [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
   _EMNLP 2024 (first author)_, _NACCL 2025_
 
-- [Wes Robbins](https://wes-robbins.xyz/) (2024 - Now), Ph.D. student, University of Texas at Austin
+- [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
   _VLDB 2024 (Best Paper Nomination)_
