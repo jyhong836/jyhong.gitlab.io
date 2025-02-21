@@ -66,7 +66,9 @@ design:
   _NACCL 2025 (first author)_
 
 - [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
-  _EMNLP 2024 (first author), _NACCL 2025_
+  _EMNLP 2024 (first author)_, _NACCL 2025_
+
+- [Wes Robbins](https://wes-robbins.xyz/) (2024 - Now), Ph.D. student, University of Texas at Austin
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
   _VLDB 2024 (Best Paper Nomination)_
