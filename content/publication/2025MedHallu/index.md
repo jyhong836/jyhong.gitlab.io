@@ -44,7 +44,7 @@ abstract: Advancements in Large Language Models (LLMs) and their increasing use 
 # Summary. An optional shortened abstract.
 summary: Benchmark for medical hallucination by LLMs.
 
-tags: ["Trustworthy", "Selected", "Large Models", "Health", "Safety"]
+tags: ["Trustworthy", "Selected", "Large Models", "Healthcare", "Safety"]
 
 # Display this page in the Featured widget?
 featured: false
