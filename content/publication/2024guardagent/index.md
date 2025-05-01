@@ -19,12 +19,12 @@ authors:
 - Bo Li
 
 
-date: "2024-06-18T13:08:20+08:00"
+date: "2025-04-30T13:08:20+08:00"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
-publishDate: "2024-06-18T13:08:20+08:00"
+publishDate: "2025-04-30T13:08:20+08:00"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -41,7 +41,7 @@ abstract: "The rapid advancement of large language models (LLMs) has catalyzed t
 # Summary. An optional shortened abstract.
 summary: The first automated guardrail for agents.
 
-tags: ["Selected", "LLM", "Large Models", "AI Safety"]
+tags: ["Selected", "LLM", "Large Models", "AI Safety", "Trustworthy"]
 
 # Display this page in the Featured widget?
 featured: false
