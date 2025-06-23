@@ -22,3 +22,10 @@ git clone git@github.com:jyhong836/junyuan-academic-theme.git
 cd ..
 ```
 Debug by `hugo server -D`. Build html files to `public` folder by `hugo`. You can directly upload everything under `public` folder to your `<your_name>.github.io` repo for publishing.
+
+Automatic publication generation with copilot agent. Prompt:
+```
+Use fetch tool to retrieve the content from <arxiv-html-page-url>.
+Then use the index.md under 2025seal as template, create a new publication page.
+```
+
