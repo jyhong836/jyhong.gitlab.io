@@ -93,6 +93,9 @@ Large Language Models (LLMs) are widely used but remain vulnerable to safety deg
 
 ### Why LoX Works
 
+![Safety landscape](https://arxiv.org/html/2506.15606v1/x8.png)
+*Figure: Safety landscape for Alpaca (a) and GSM8k (b). LoX improves safety robustness by moving the model away from the safe/unsafe boundary toward a flat zone.*
+
 - **Strengthens safety subspaces**: Amplifies the aligned component in low-rank directions most critical for safety.
 - **No retraining required**: Can be applied post-alignment, before attackers gain access to the model.
 - **Generalizable**: Effective across architectures, data sizes, and attack types.
