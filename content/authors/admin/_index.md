@@ -76,6 +76,14 @@ email: "jyhong836@gmail.com"
 highlight_name: yes
 
 news:
+  - date: 07/2025
+    icon: fa-comment
+    highlight: false
+    content: Three papers ([robust safety](/publication/2025lox), [reasoning](publication/2025seal/) and [alignment](publication/2025moreisless/)) are accepted to COLM 2025.
+  - date: 07/2025
+    icon: fa-comments
+    highlight: false
+    content: The 2nd [GenAI4Health](https://genai4health.github.io/) workshop will happen at NeurIPS 2025. The 2nd [FedKDD](https://fedkdd.github.io/fedkdd2025/) workshop will happen at KDD 2025.
   - date: 11/2024
     icon: fa-dollar-sign
     highlight: false
