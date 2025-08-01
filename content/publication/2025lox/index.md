@@ -30,7 +30,7 @@ tags: ["LLM", "Safety", "Fine-tuning", "Low-Rank", "Robustness", "Alignment"]
 
 featured: false
 
-url_pdf: 'https://arxiv.org/abs/2506.15606v1'
+url_pdf: 'https://arxiv.org/abs/2506.15606'
 url_code: 'https://github.com/VITA-Group/LoX'
 url_dataset: ''
 url_poster: ''

@@ -60,15 +60,15 @@ design:
 * Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/)) -->
 
 - [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_
+  _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_. Next: **Research Scientist, Zoom AI**
 
 - [Runjin Chen](https://chenrunjin.github.io/) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _NACCL 2025 (first author)_
+  _NAACL 2025, COLM 2025 (first author), **Anthropic Fellowship**_
 
 - [Wes Robbins](https://wes-robbins.xyz/) (2024 - Now), Ph.D. student, University of Texas at Austin
 
-- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
-  _EMNLP 2024 (first author)_, _NACCL 2025_
+- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil
+  _EMNLP 2024, COLM 2025 (first author)_
 
 - [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine
 
@@ -80,7 +80,7 @@ design:
 
 - [Haobo Zhang](https://scholar.google.com/citations?user=uiNEZZQAAAAJ&hl=en) (2022 - 2023), Ph.D. student, Michigan State University  
   _NeurIPS 2023 (first author), KDDW 2023 (first author)_  
-  Team member, 3rd place winner at US-UK PETs (Privacy-enhancing technologies) Prize Challenge, 2023.
+  3rd place winner at **US-UK PETs (Privacy-Enhancing Technologies) Prize Challenge**, 2023.
 
 - [Siqi Liang](https://agentds.github.io/) (2022 - 2023), Ph.D. student, Michigan State University  
   _KDDW 2023 (first author)_
