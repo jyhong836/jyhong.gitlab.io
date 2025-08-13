@@ -59,28 +59,34 @@ design:
 * Haobo Zhang, PhD student at MSU, DL Privacy ([NeurIPS'23](publication/2023neurips_i2f/))
 * Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/)) -->
 
-- [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _SaTML 2024 (first author), ICML 2024 (co-first author), ICLR 2024_. Next: **Research Scientist, Zoom AI**
+- [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - 2025), Ph.D. student, University of Texas at Austin    
+  _SaTML 2024, ICML 2024, ICLR 2024_    
+  Now: **Research Scientist, Zoom AI**
 
-- [Runjin Chen](https://chenrunjin.github.io/) (2023 - Now), Ph.D. student, University of Texas at Austin  
-  _NAACL 2025, COLM 2025 (first author), **Anthropic Fellowship**_
+- [Runjin Chen](https://chenrunjin.github.io/) (2023 - 2025), Ph.D. student, University of Texas at Austin  
+  _NAACL 2025, COLM 2025_, Anthropic Fellow Program 2025    
+  Now: **Anthropic**
 
-- [Wes Robbins](https://wes-robbins.xyz/) (2024 - Now), Ph.D. student, University of Texas at Austin
+- [Wes Robbins](https://wes-robbins.xyz/) (2024 - 2025), Ph.D. student, University of Texas at Austin 
+  Now: **Clearview AI**
 
-- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil
-  _EMNLP 2024, COLM 2025 (first author)_
+- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
+  _EMNLP 2024, COLM 2025_
 
 - [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
-  _VLDB 2024 (Best Paper Nomination)_
+  _VLDB 2024 (**Best Paper Nomination**)_
 
 - [Shuyang Yu](https://scholar.google.com.hk/citations?user=ftBPf3oAAAAJ&hl=en) (2020 - 2023), Ph.D. student, Michigan State University  
-  _ICLR 2024 (first author), ICLR 2023 (spotlight; first author), NeurIPSW 2023 (first author), ICML 2023, KDD 2021_
+  _ICLR 2024, ICLR 2023 (spotlight), NeurIPSW 2023, ICML 2023, KDD 2021_  
+  Now: **Sumsung**
 
 - [Haobo Zhang](https://scholar.google.com/citations?user=uiNEZZQAAAAJ&hl=en) (2022 - 2023), Ph.D. student, Michigan State University  
-  _NeurIPS 2023 (first author), KDDW 2023 (first author)_  
-  3rd place winner at **US-UK PETs (Privacy-Enhancing Technologies) Prize Challenge**, 2023.
+  _NeurIPS 2023, KDDW 2023_  
+  the 3rd place winner at **US-UK PETs (Privacy-Enhancing Technologies) Prize Challenge**, 2023.  
+  Now: Ph.D. student at UMich, intern at Amazon
 
 - [Siqi Liang](https://agentds.github.io/) (2022 - 2023), Ph.D. student, Michigan State University  
-  _KDDW 2023 (first author)_
+  _KDDW 2023_  
+  Now: Ph.D. student at UMich, intern at Amazon

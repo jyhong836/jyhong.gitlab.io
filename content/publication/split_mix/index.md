@@ -37,7 +37,7 @@ abstract: Federated learning (FL) provides a distributed learning framework for 
 # Summary. An optional shortened abstract.
 summary: Efficient and federated learning for heterogeneous clients with different memory sizes
 
-tags: ["Federated Learning", "Classification", "Efficiency", "Once-for-All", "Selected"]
+tags: ["Federated Learning", "Classification", "Efficiency", "Once-for-All"]
 
 # Display this page in the Featured widget?
 featured: true

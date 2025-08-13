@@ -50,7 +50,7 @@ abstract: "Although Large Language Models (LLMs) succeed in human-guided convers
 # Summary. An optional shortened abstract.
 summary: We develop a chatbot for reminiscence therapy
 
-tags: ["Healthcare", "Selected", "LLM", "Large Models"]
+tags: ["Healthcare", "LLM", "Large Models"]
 
 # Display this page in the Featured widget?
 featured: true
