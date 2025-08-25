@@ -6,22 +6,22 @@ title: Junyuan "Jason" Hong
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Fellow
+role: Incoming Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Texas at Austin
-  url: https://www.utexas.edu/
+- name: National University of Singapore
+  url: https://cde.nus.edu.sg/ece/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest lies in the interaction of human-centered AI and healthcare.
+bio: My research interest lies in the interaction of responsible AI and healthcare.
 
 # Interests to show in About widget
 interests:
 - "Responsible AI"
 - "Healthcare"
 - "Privacy"
-- "Federated Learning"
+# - "Federated Learning"
 # - "Large Language/Vision Models"
 
 # Education to show in About widget
@@ -58,9 +58,9 @@ social:
 # - icon: linkedin
 #   icon_pack: fab
 #   link: https://linkedin.com/in/jyhong836
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -70,16 +70,16 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "jyhong836@gmail.com"
+email: "jyhong@utexas.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: yes
 
 news:
   - date: 08/2024
-    icon: fa-award
+    icon: fa-star
     highlight: true
-    content: I will join [NUS ECE](https://cde.nus.edu.sg/ece/) as a Tenure-Track Assistant Professor from July, 2026.
+    content: I will join [NUS ECE](https://cde.nus.edu.sg/ece/) as a Tenure-Track Assistant Professor from July, 2026, after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
   - date: 07/2025
     icon: fa-comment
     highlight: false
@@ -154,16 +154,17 @@ funding:
 
 ---
 
-I am currently a joint postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), and also affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) as well as the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
-I am also an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/).
-I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention). Part of my work is funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
+I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/) and Research Fellow at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
+Previously, I was a postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
+
+I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
 
 <!-- I obtained my Ph.D. in Computer Science and Engineering from Michigan State University, where I was advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). I hold a B.S. in Physics and an M.S. in Computer Science from the University of Science and Technology of China. -->
 
 <!-- **I am on the job market!**  -->
-Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration.
+<!-- Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration. -->
 
-
+> **Recruiting & collaborations**: If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9).
 
 <!-- <i class="fa-solid fa-comment" style="color: #fd810d;"></i> -->
 <!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
