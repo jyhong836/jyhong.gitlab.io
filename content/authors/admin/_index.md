@@ -164,7 +164,7 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 <!-- **I am on the job market!**  -->
 <!-- Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration. -->
 
-> **Recruiting & collaborations**: If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9).
+> **Recruiting & collaborations**: Due to the large volume of emails I receive daily, I apologize in advance if I am unable to respond. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9). Learn more about my [previous mentoring](https://jyhong.gitlab.io/#teaching).
 
 <!-- <i class="fa-solid fa-comment" style="color: #fd810d;"></i> -->
 <!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
