@@ -150,7 +150,7 @@ funding:
 
 ---
 
-I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/) and a Research Fellow at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
+I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), and prior to that I will work at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
 Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
 
 I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
@@ -164,7 +164,7 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 
 **Co**gnitive **S**cience & **T**rustworthy **A**I (CoSTA@NUS) Lab stands at the “cognitive coastline” — a frontier where human minds meet machine intelligence. The lab seeks to navigate the uncharted waters of trustworthy AI, guided by cognitive science and a commitment to safe, ethical innovation.
 
-<details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of large language models (LLMs) and other AI systems through the lens of cognitive psychology and neuroscience. 
+<details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of AI systems through the lens of cognitive psychology and neuroscience.
 
   - Developing general automatic frameworks of reasoning and learning, e.g., LLM-driven Auto Differentiation [[1](/publication/2023dp_opt/)].
   - Understanding the learning process and cognitive behaviors of AI via psychological or neuron intervention [[2](/publication/2025seal/)].
@@ -174,7 +174,7 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
   - AI-driven dementia diagnosis and intervention for older adults [[3](/publication/2024_a_conect/)].
   - Digital twin of dementia patients -- AI-driven simulation of cognitive behaviors [[3](/publication/2024_a_conect/)].
 </details>
-<details><summary>AI Safety</summary> We are dedicated to developing fundamental computational methodologies for accountable and interpretable AI safety, including risk quantification, mitigation, and theoretical foundations.
+<details><summary>AI Safety</summary> We are dedicated to developing fundamental computational methodologies for accountable and interpretable AI safety, including risk quantification, and mitigation.
 
   - Privacy attack and defense in machine learning and multi-agent networks [[4](/publication/2024llm_pbe/)].
   - Constitutional AI agents in security-sensitive environments [[5](/publication/2024guardagent/)].

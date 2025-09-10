@@ -67,13 +67,14 @@ design:
   _NAACL 2025, COLM 2025_, Anthropic Fellow Program 2025    
   Now: **Anthropic**
 
-- [Wes Robbins](https://wes-robbins.xyz/) (2024 - 2025), Ph.D. student, University of Texas at Austin 
+- [Wes Robbins](https://wes-robbins.xyz/) (2024 - 2025), Ph.D. student, University of Texas at Austin  
   Now: **Clearview AI**
 
 - [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
   _EMNLP 2024, COLM 2025_
 
-- [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine
+- [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine  
+  Now: MS@Mundus
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
   _VLDB 2024 (**Best Paper Nomination**)_
