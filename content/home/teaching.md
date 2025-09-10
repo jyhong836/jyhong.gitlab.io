@@ -61,13 +61,16 @@ design:
 
 - [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - 2025), Ph.D. student, University of Texas at Austin    
   _SaTML 2024, ICML 2024, ICLR 2024_    
+  Prior: PKU MS, NJU BS   
   Now: **Research Scientist, Zoom AI**
 
 - [Runjin Chen](https://chenrunjin.github.io/) (2023 - 2025), Ph.D. student, University of Texas at Austin  
   _NAACL 2025, COLM 2025_, Anthropic Fellow Program 2025    
+  Prior: SJTU BS/MS   
   Now: **Anthropic**
 
 - [Wes Robbins](https://wes-robbins.xyz/) (2024 - 2025), Ph.D. student, University of Texas at Austin  
+  Prior: University of Colorado, Colorado Springs
   Now: **Clearview AI**
 
 - [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
@@ -81,13 +84,16 @@ design:
 
 - [Shuyang Yu](https://scholar.google.com.hk/citations?user=ftBPf3oAAAAJ&hl=en) (2020 - 2023), Ph.D. student, Michigan State University  
   _ICLR 2024, ICLR 2023 (spotlight), NeurIPSW 2023, ICML 2023, KDD 2021_  
+  Prior: Northeastern University (China)   
   Now: **Sumsung**
 
 - [Haobo Zhang](https://scholar.google.com/citations?user=uiNEZZQAAAAJ&hl=en) (2022 - 2023), Ph.D. student, Michigan State University  
   _NeurIPS 2023, KDDW 2023_  
   the 3rd place winner at **US-UK PETs (Privacy-Enhancing Technologies) Prize Challenge**, 2023.  
+  Prior: UESTC BS   
   Now: Ph.D. student at UMich, intern at Amazon
 
 - [Siqi Liang](https://agentds.github.io/) (2022 - 2023), Ph.D. student, Michigan State University  
   _KDDW 2023_  
+  Prior: UESTC BS   
   Now: Ph.D. student at UMich, intern at Amazon
