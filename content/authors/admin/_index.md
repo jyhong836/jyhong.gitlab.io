@@ -83,11 +83,11 @@ news:
   - date: 07/2025
     icon: fa-comment
     highlight: false
-    content: Three papers ([robust safety](/publication/2025lox), [reasoning](publication/2025seal/) and [alignment](publication/2025moreisless/)) are accepted to COLM 2025.
+    content: Three papers ([robust safety](/publication/2025lox), [reasoning](publication/2025seal/) and [alignment](publication/2025moreisless/)) are accepted to COLM 2025. One paper ([madical hallucination](/publication/2025medhallu)) is accepted to EMNLP 2025.
   - date: 07/2025
     icon: fa-comments
     highlight: false
-    content: The 2nd [GenAI4Health](https://genai4health.github.io/) workshop will happen at NeurIPS 2025. The 2nd [FedKDD](https://fedkdd.github.io/fedkdd2025/) workshop will happen at KDD 2025.
+    content: I will server as Area Chair at NeurIPS 2025, and co-organize the 2nd [GenAI4Health@NeurIPS](https://genai4health.github.io/) and the 3rd [FedKDD](https://fedkdd.github.io/fedkdd2025/) workshops.
   - date: 11/2024
     icon: fa-dollar-sign
     highlight: false
@@ -99,11 +99,7 @@ news:
   - date: 07/2024
     icon: fa-comments
     highlight: false
-    content: Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop at NeurIPS 2024.
-  - date: 07/2024
-    icon: fa-comments
-    highlight: false
-    content: Co-organize The [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024!
+    content: Co-organize the [GenAI4Health](https://genai4health.github.io/) workshop and [LLM and Agent Safety Competition](https://www.llmagentsafetycomp24.com/) at NeurIPS 2024.
   - date: 07/2024
     icon: fa-dollar-sign
     highlight: false
@@ -154,8 +150,8 @@ funding:
 
 ---
 
-I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/) and Research Fellow at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
-Previously, I was a postdoctoral fellow advised by [Dr. Zhangyang Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
+I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/) and a Research Fellow at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
+Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
 
 I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
 
@@ -164,7 +160,31 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 <!-- **I am on the job market!**  -->
 <!-- Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration. -->
 
-> **Recruiting & collaborations**: Due to the large volume of emails I receive daily, I apologize in advance if I am unable to respond. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9). Learn more about my [previous mentoring](https://jyhong.gitlab.io/#teaching).
+## CoSTA@NUS Lab
+
+**Co**gnitive **S**cience & **T**rustworthy **A**I (CoSTA@NUS) Lab stands at the “cognitive coastline” — a frontier where human minds meet machine intelligence. The lab seeks to navigate the uncharted waters of trustworthy AI, guided by cognitive science and a commitment to safe, ethical innovation.
+
+<details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of large language models (LLMs) and other AI systems through the lens of cognitive psychology and neuroscience. 
+
+  - Developing general automatic frameworks of reasoning and learning, e.g., LLM-driven Auto Differentiation [[1](/publication/2023dp_opt/)].
+  - Understanding the learning process and cognitive behaviors of AI via psychological or neuron intervention [[2](/publication/2025seal/)].
+</details>
+<details><summary>AI for Cognitive Health</summary> We leverage AI to advance our understanding and treatment of cognitive disorders and to simulate cognitive symptoms.
+
+  - AI-driven dementia diagnosis and intervention for older adults [[3](/publication/2024_a_conect/)].
+  - Digital twin of dementia patients -- AI-driven simulation of cognitive behaviors [[3](/publication/2024_a_conect/)].
+</details>
+<details><summary>AI Safety</summary> We are dedicated to developing fundamental computational methodologies for accountable and interpretable AI safety, including risk quantification, mitigation, and theoretical foundations.
+
+  - Privacy attack and defense in machine learning and multi-agent networks [[4](/publication/2024llm_pbe/)].
+  - Constitutional AI agents in security-sensitive environments [[5](/publication/2024guardagent/)].
+</details>
+
+> **Recruiting & collaborations**: CoSTA@NUS lab has 2-3 funded PhD positions and multiple remote intern openings. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9) after reading [the details](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). Due to the large volume of requests I receive daily, I apologize in advance if I am unable to respond. 
+
+
+<!-- Learn more about my [previous mentoring](https://jyhong.gitlab.io/#teaching). -->
+
 
 <!-- <i class="fa-solid fa-comment" style="color: #fd810d;"></i> -->
 <!-- <i class="fa-solid fa-comment" style="color: #b5b5b5;"></i> -->
