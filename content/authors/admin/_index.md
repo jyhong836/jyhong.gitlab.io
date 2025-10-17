@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jyhong@utexas.edu'
+  link: 'mailto:mr.junyuan.hong@gmail.com'
 - icon: google-scholar  # Alternatively, use `graduation-cap` icon from fas icon_pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=7Cbv6doAAAAJ
@@ -70,7 +70,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "jyhong@utexas.edu"
+email: "mr.junyuan.hong@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: yes
@@ -182,6 +182,7 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 
 > **Recruiting & collaborations**: CoSTA@NUS lab has 2-3 funded PhD positions and multiple remote intern openings. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9) after reading [the details](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). Due to the large volume of requests I receive daily, I apologize in advance if I am unable to respond. 
 
+**Notice**: My utexas.edu email address is no longer valid. Please reach me through mr.junyuan.hong@gmail.com .
 
 <!-- Learn more about my [previous mentoring](https://jyhong.gitlab.io/#teaching). -->
 
