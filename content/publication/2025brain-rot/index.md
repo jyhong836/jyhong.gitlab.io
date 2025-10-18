@@ -6,7 +6,7 @@ title: "LLMs Can Get \"Brain Rot\"!"
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Shuo Xing
-- Junyuan Hong
+- admin
 - Yifan Wang
 - Runjin Chen
 - Zhenyu Zhang
@@ -41,9 +41,9 @@ publication_short: ArXiv
 abstract: "We propose and test the LLM Brain Rot Hypothesis: continual exposure to junk web text induces lasting cognitive decline in large language models (LLMs). To causally isolate data quality, we run controlled experiments on real Twitter/X corpora, constructing junk and reversely controlled datasets via two orthogonal operationalizations: M1 (engagement degree) and M2 (semantic quality), with matched token scale and training operations across conditions. Contrary to the control group, continual pre-training of 4 LLMs on the junk dataset causes non-trivial declines (Hedges' g>0.3) on reasoning, long-context understanding, safety, and inflating \"dark traits\" (e.g., psychopathy, narcissism). The gradual mixtures of junk and control datasets also yield dose-response cognition decay: for example, under M1, ARC-Challenge with Chain Of Thoughts drops 74.9→57.2 and RULER-CWE 84.4→52.3 as junk ratio rises from 0% to 100%. <br>Error forensics reveal several key insights. First, we identify thought-skipping as the primary lesion: models increasingly truncate or skip reasoning chains, explaining most of the error growth. Second, partial but incomplete healing is observed: scaling instruction tuning and clean data pre-training improve the declined cognition yet cannot restore baseline capability, suggesting persistent representational drift rather than format mismatch. Finally, we discover that the popularity, a non-semantic metric, of a tweet is a better indicator of the Brain Rot effect than the length in M1. Together, the results provide significant, multi-perspective evidence that data quality is a causal driver of LLM capability decay, reframing curation for continual pretraining as a training-time safety problem and motivating routine \"cognitive health checks\" for deployed LLMs."
 
 # Summary. An optional shortened abstract.
-summary: A comprehensive trustworthiness assessment of compressed LLMs.
+summary: We find that LLMs can get Brain Rot just like human after browsing enormous brainless social media.
 
-tags: ["Trustworthy", "Selected", "Large Models", "Compression", "Pruning", "Quantization"]
+tags: ["Trustworthy", "Selected", "Large Models"]
 
 # Display this page in the Featured widget?
 featured: false
