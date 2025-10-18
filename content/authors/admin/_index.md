@@ -76,6 +76,10 @@ email: "mr.junyuan.hong@gmail.com"
 highlight_name: yes
 
 news:
+  - date: 10/2025
+    icon: fa-comment
+    highlight: false
+    content: "New paper: We find that [LLMs can get Brain Rot](/publication/2025brain-rot) just like human after browsing enormous brainless social media."
   - date: 08/2024
     icon: fa-star
     highlight: true
@@ -167,17 +171,17 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 <details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of AI systems through the lens of cognitive psychology and neuroscience.
 
   - Developing general automatic frameworks of reasoning and learning, e.g., LLM-driven Auto Differentiation [[1](/publication/2023dp_opt/)].
-  - Understanding the learning process and cognitive behaviors of AI via psychological or neuron intervention [[2](/publication/2025seal/)].
+  - Understanding the learning process and cognitive behaviors of AI via psychological or neuron intervention [[2](/publication/2025seal/)] [[3](/publication/2025brain-rot)].
 </details>
 <details><summary>AI for Cognitive Health</summary> We leverage AI to advance our understanding and treatment of cognitive disorders and to simulate cognitive symptoms.
 
-  - AI-driven dementia diagnosis and intervention for older adults [[3](/publication/2024_a_conect/)].
-  - Digital twin of dementia patients -- AI-driven simulation of cognitive behaviors [[3](/publication/2024_a_conect/)].
+  - AI-driven dementia diagnosis and intervention for older adults [[4](/publication/2024_a_conect/)].
+  - Digital twin of dementia patients -- AI-driven simulation of cognitive behaviors [[4](/publication/2024_a_conect/)].
 </details>
 <details><summary>AI Safety</summary> We are dedicated to developing fundamental computational methodologies for accountable and interpretable AI safety, including risk quantification, and mitigation.
 
-  - Privacy attack and defense in machine learning and multi-agent networks [[4](/publication/2024llm_pbe/)].
-  - Constitutional AI agents in security-sensitive environments [[5](/publication/2024guardagent/)].
+  - Privacy attack and defense in machine learning and multi-agent networks [[5](/publication/2024llm_pbe/)].
+  - Constitutional AI agents in security-sensitive environments [[6](/publication/2024guardagent/)].
 </details>
 
 > **Recruiting & collaborations**: CoSTA@NUS lab has 2-3 funded PhD positions and multiple remote intern openings. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9) after reading [the details](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). Due to the large volume of requests I receive daily, I apologize in advance if I am unable to respond. 
