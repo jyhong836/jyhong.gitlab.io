@@ -54,6 +54,7 @@ design:
 
 ### Media Coverage
 
+* LLM Can Get "Brain Rot", [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), [FORTUNE](https://fortune.com/img-assets/wp-content/uploads/2016/10/fortune-logo-2016-840x485.jpg)
 * Texas ECE Student and Postdoc Named MLCommons Rising Stars, [UT Austin ECE News](https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars), 2024
 * At Summit for Democracy, the United States and the United Kingdom Announce Winners of Challenge to Drive Innovation in Privacy-enhancing Technologies That Reinforce Democratic Values, [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), 2023
 * Privacy-enhancing Research Earns International Attention, [MSU Engineering News](https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention), 2023
