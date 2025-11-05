@@ -80,7 +80,7 @@ news:
     icon: fa-comment
     highlight: false
     content: "New paper: We find that [LLMs can get Brain Rot](https://llm-brain-rot.github.io/) just like human after browsing enormous brainless social media."
-  - date: 08/2024
+  - date: 08/2025
     icon: fa-star
     highlight: true
     content: I will join [NUS ECE](https://cde.nus.edu.sg/ece/) as a Tenure-Track Assistant Professor from July, 2026, after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
@@ -157,7 +157,7 @@ funding:
 I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), and prior to that I will work at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
 Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
 
-I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/img-assets/wp-content/uploads/2016/10/fortune-logo-2016-840x485.jpg). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
+I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
 
 <!-- I obtained my Ph.D. in Computer Science and Engineering from Michigan State University, where I was advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). I hold a B.S. in Physics and an M.S. in Computer Science from the University of Science and Technology of China. -->
 
