@@ -184,9 +184,9 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
   - Constitutional AI agents in security-sensitive environments [[6](/publication/2024guardagent/)].
 </details>
 
-> **Recruiting & collaborations**: CoSTA@NUS lab has 2-3 funded PhD positions and multiple remote intern openings. If you are interested in working with me, please fill out [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9) after reading [the details](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). Due to the large volume of requests I receive daily, I apologize in advance if I am unable to respond. 
+> **Recruiting & collaborations**: I am seeking self-motivated PhD students and remote interns. You can find the openings [here](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). If you are interested in working with me, please complete [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9).  I apologize in advance if I am unable to respond due to the high volume of requests I receive daily.
 
-**Notice**: My utexas.edu email address is no longer valid. Please reach me through mr.junyuan.hong@gmail.com .
+**Notice**: My `utexas.edu` email address is no longer valid. Please reach me through `mr.<first-name>.<last-name>@gmail.com`.
 
 <!-- Learn more about my [previous mentoring](https://jyhong.gitlab.io/#teaching). -->
 
