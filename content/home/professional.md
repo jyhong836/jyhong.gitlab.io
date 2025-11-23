@@ -76,6 +76,6 @@ design:
 ### Services
 
 * **Organizers**: GenAI4Health@NeurIPS [2024-2025](https://genai4health.github.io/) (Lead Chair), [The Competition for LLM and Agent Safety 2024](https://www.llmagentsafetycomp24.com/), [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), FL4Data-Mining Workshop@KDD [2023](https://fl4data-mining.github.io/) (Lead Chair), FedKDD Workshop [2024-2025](https://fedkdd.github.io/)
-* **Area Chair**: NeurIPS 25
+* **Area Chair**: NeurIPS (*Top AC*, 2025)
 * **External Reviewer**: NeurIPS (*Top Reviewer*, 2023), ICML, ICLR, KDD, ECML-PKDD, AISTATS, WSDM, AISTATS, AAAI, IJCAI, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD
