@@ -4,10 +4,18 @@ title: "Scaling Textual Gradients via Sampling-Based Momentum"
 authors:
 - Zixin Ding
 - admin
+- Zhan Shi
 - Jiachen T. Wang
 - Zinan Lin
+- Li Yin
+- Meng Liu
 - Zhangyang Wang
 - Yuxin Chen
+
+# Author notes (optional)
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 
 date: "2025-05-31T00:00:00Z"
 doi: ""
@@ -19,7 +27,7 @@ publication_types: ["3"]
 publication: "ArXiv"
 publication_short: "ArXiv"
 
-abstract: "As prompts play an increasingly critical role in large language models (LLMs), optimizing textual prompts has become a crucial challenge. The Textual Gradient Descent (TGD) framework has emerged as a promising data-driven approach that iteratively refines textual prompts using LLM-suggested updates (or textual gradients) over minibatches of training samples. In this paper, we empirically demonstrate that scaling the number of training examples initially improves but later degrades TGD's performance across multiple downstream NLP tasks. However, while data scaling improves results for most tasks, it also significantly increases the computational cost when leveraging LLMs. To address this, we draw inspiration from numerical gradient descent and propose Textual Stochastic Gradient Descent with Momentum (TSGD-M) - a method that facilitates scalable in-context learning by reweighting prompt sampling based on past batch distributions. Across nine NLP tasks spanning three domains - including BIG-Bench Hard (BBH), natural language understanding tasks, and reasoning tasks - TSGD-M significantly outperforms TGD baselines that do not incorporate reweighted sampling, while also reducing variance in most tasks."
+abstract: "LLM-based prompt optimization, that uses LLM-provided \"textual gradients\" (feedback) to refine prompts, has emerged an effective method for automatic prompt engineering. However, its scalability and stability are unclear when using more data in training. We systematically investigate the potential and challenges of scaling training data in textual gradient descent. We show that naively scaling training examples is infeasible due to both explicit context-length limits and an implicit context wall, where long-context degradation yields diminishing returns. Inspired by prior wisdom in stochastic gradient descent, we propose Textual Stochastic Gradient Descent with Momentum (TSGD-M), which reweights updates through momentum sampling, using bootstrapped minibatch validation accuracy as importance weights over historical prompts. We introduce Gumbel-Top-k sampling for prompt generation, balancing exploration--exploitation and improving sampling efficiency while maintaining a low-variance running mean estimator. TSGD-M integrates seamlessly into existing prompt optimization frameworks, including TextGrad, DSPy-COPRO, and AdalFlow, and achieves consistent gains across 5 benchmarks."
 
 summary: "A momentum-based, sampling-driven method for scaling textual gradient optimization in LLM prompt engineering, improving performance and efficiency across diverse NLP tasks."
 
