@@ -76,10 +76,14 @@ email: "mr.junyuan.hong@gmail.com"
 highlight_name: yes
 
 news:
+  - date: 12/2025
+    icon: fa-comments
+    highlight: true
+    content: I will travel to NeurIPS for co-organizing the [GenAI4Health workshop](https://genai4health.github.io/) and give a talk about LLM Brain Rot at the [LockLLM](https://lock-llm.github.io/) workshop.
   - date: 10/2025
     icon: fa-comment
     highlight: false
-    content: "New paper: We find that [LLMs can get Brain Rot](https://llm-brain-rot.github.io/) just like human after browsing enormous brainless social media."
+    content: "New paper covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), [Fortue](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/) and etc.: [LLMs can get Brain Rot](https://llm-brain-rot.github.io/) just like human after browsing enormous brainless social media."
   - date: 08/2025
     icon: fa-star
     highlight: true
