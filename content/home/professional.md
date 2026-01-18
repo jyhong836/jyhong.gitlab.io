@@ -48,7 +48,7 @@ design:
 ### Experiences
 
 * Assistant Professor, NUS ECE, 2026-
-* Research Fellow with [Dr. Hiroko H. Dodge](https://researchers.mgh.harvard.edu/profile/32501122/Hiroko-Dodge), [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/), 2025-2026.
+* Research Fellow with [Dr. Hiroko H. Dodge](https://researchers.mgh.harvard.edu/profile/32501122/Hiroko-Dodge), [Massachusetts General Hospital](https://www.massgeneral.org/), 2025-2026.
 * Postdoctoral Fellow with [Dr. Zhangyang Wang](https://vita-group.github.io/), [VITA group@UT Austin](https://vita-group.github.io/), [IFML](https://www.ifml.institute/) and [WNCG](https://www.ece.utexas.edu/research/groups/wireless-networking-and-communications-group-wncg), 2023-2025
 * Research Intern with Dr. [Lingjuan Lyu](https://sites.google.com/view/lingjuan-lyu/home), Sony AI, 2022
 
