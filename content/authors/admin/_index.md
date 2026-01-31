@@ -76,6 +76,10 @@ email: "mr.junyuan.hong@gmail.com"
 highlight_name: yes
 
 news:
+  - date: 01/2026
+    icon: fa-comment
+    highlight: false
+    content: One paper ([Training-Free Robot Planning](/publication/2025ad_vf)) is accepted to ICRA 2026.
   - date: 12/2025
     icon: fa-comments
     highlight: true
