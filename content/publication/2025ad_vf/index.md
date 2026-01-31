@@ -18,9 +18,9 @@ authors:
 date: "2025-09-22T00:00:00Z"
 doi: ""
 
-publishDate: "2025-09-22T00:00:00Z"
+publishDate: "2026-01-30T00:00:00Z"
 
-publication_types: ["3"]
+publication_types: ["1"]
 
 publication: "2026 IEEE International Conference on Robotics and Automation"
 publication_short: "ICRA"
