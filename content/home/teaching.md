@@ -73,10 +73,11 @@ design:
   Prior: University of Colorado, Colorado Springs
   Now: **Clearview AI**
 
-- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - Now), Undergraduate student, University of São Paulo, Brazil  
-  _EMNLP 2024, COLM 2025_
+- [Gabriel Jacob Perin](https://scholar.google.com/citations?user=Ihn-OugAAAAJ&hl=en) (2023 - 2025), Undergraduate student, University of São Paulo, Brazil  
+  _EMNLP 2024, COLM 2025_   
+  Now: Intern@IBM Research, MS@IME-USP
 
-- [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - Now), Undergraduate student, Ivan Franko National University of Lviv, Ukraine  
+- [Ostap Kilbasovych](https://www.linkedin.com/in/ostap-kilbasovych-b88830175/?trk=public_profile_browsemap&originalSubdomain=ua) (2024 - 2025), Undergraduate student, Ivan Franko National University of Lviv, Ukraine  
   Now: MS@Mundus
 
 - [Jeffrey Tan](https://www.linkedin.com/in/tanjeffreyz/) (2023 - 2024), Undergraduate student, University of California, Berkeley  
