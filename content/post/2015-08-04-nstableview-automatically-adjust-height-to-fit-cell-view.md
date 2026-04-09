@@ -1,7 +1,7 @@
 +++
 title = "NSTableView automatically adjust height to fit cell view"
 date = 2015-08-04T18:11:46+08:00
-draft = false
+draft = true
 
 tags = ["OS X", "Xcode", "Cocoa"]
 categories = ["tech"]

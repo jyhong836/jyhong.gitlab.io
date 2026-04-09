@@ -1,7 +1,7 @@
 +++
 title = "The method resetTransform of SCNPhysicsBody"
 date = 2015-02-04T18:11:46+08:00
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

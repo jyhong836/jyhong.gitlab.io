@@ -9,11 +9,12 @@ projects: []
 date: "2026-04-09T00:00:00Z"
 lastmod: "2026-04-09T00:00:00Z"
 
-draft: true
+draft: false
 featured: false
 
 authors:
 - admin
+- Claude Opus 4.6
 
 tags:
 - Mechanistic Interpretability

@@ -23,6 +23,9 @@ main:
   - name: Teaching
     url: '#teaching'
     weight: 50
+  - name: Blog
+    url: '/post/'
+    weight: 55
   # - name: Projects
   #   url: '#projects'
   #   weight: 40

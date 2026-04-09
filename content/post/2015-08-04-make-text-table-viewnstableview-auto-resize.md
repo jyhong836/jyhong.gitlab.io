@@ -1,7 +1,7 @@
 +++
 title = "Make text table view(NSTableView) auto resize"
 date = 2015-08-04T18:11:20+08:00
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

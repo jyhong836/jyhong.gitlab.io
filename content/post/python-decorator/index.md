@@ -1,7 +1,7 @@
 +++
 title = "Python Decorator"
 date = 2018-11-15T11:47:06-05:00
-draft = false
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Junyuan Hong"]

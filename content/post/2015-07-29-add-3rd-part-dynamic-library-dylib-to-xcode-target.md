@@ -1,7 +1,7 @@
 +++
 title = "Add 3rd part dynamic library (.dylib) to Xcode target"
 date = 2015-07-29T18:11:46+08:00
-draft = false
+draft = true
 
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.

@@ -1,7 +1,7 @@
 +++
 title = "Evaluate Binary Classification with Keras"
 date = 2018-11-15T23:24:41-05:00
-draft = false
+draft = true
 
 math = true
 
