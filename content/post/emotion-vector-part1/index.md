@@ -13,8 +13,8 @@ draft: false
 featured: false
 
 authors:
-- admin
 - Claude Opus 4.6
+- admin
 
 tags:
 - Mechanistic Interpretability
