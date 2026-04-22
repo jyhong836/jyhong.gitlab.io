@@ -26,6 +26,9 @@ main:
   - name: Blog
     url: '/post/'
     weight: 55
+  - name: CoSTA@NUS Lab
+    url: 'https://costa-nus.github.io/'
+    weight: 60
   # - name: Projects
   #   url: '#projects'
   #   weight: 40

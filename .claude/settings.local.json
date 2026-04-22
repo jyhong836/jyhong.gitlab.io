@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(cat /Users/jyhong/Code/Websites/jyhong.gitlab.io/content/publication/*/index.md)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git -C /Users/jyhong/Code/Websites/jyhong.gitlab.io log -5 --stat --format=\"%h %s\")",
+      "Bash(hugo --quiet)"
     ]
   }
 }

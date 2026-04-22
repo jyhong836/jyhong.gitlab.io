@@ -62,6 +62,14 @@ social:
   icon_pack: ai
   link: files/cv.pdf
 
+# Banner CTA buttons rendered below the social icons in the profile.
+banner_buttons:
+  - label: "CoSTA@NUS Lab"
+    url: "https://costa-nus.github.io/"
+    icon: flask
+    icon_pack: fas
+    style: primary
+
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
@@ -173,9 +181,9 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 <!-- **I am on the job market!**  -->
 <!-- Check my {{< staticref "files/cv.pdf" "newtab" >}}curricula vitae{{< /staticref >}} and feel free to [drop me an email](mailto:jyhong@utexas.edu) if you are interested in collaboration. -->
 
-## CoSTA@NUS Lab
+<!-- ## CoSTA@NUS Lab -->
 
-**Co**gnitive **S**cience & **T**rustworthy **A**I (CoSTA@NUS) Lab ([website](https://costa-nus.github.io/)) stands at the “cognitive coastline” — a frontier where human minds meet machine intelligence. The lab seeks to navigate the uncharted waters of trustworthy AI, guided by cognitive science and a commitment to safe, ethical innovation. Interested in joining us? Check out our [open positions](https://costa-nus.github.io/#join).
+I lead the **Co**gnitive **S**cience & **T**rustworthy **A**I ([CoSTA@NUS](https://costa-nus.github.io/)) Lab exploring the frontier where human minds meet machine intelligence. A brief overview of our research directions is as follows:
 
 <details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of AI systems through the lens of cognitive psychology and neuroscience.
 
