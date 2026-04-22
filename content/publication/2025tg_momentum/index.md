@@ -17,15 +17,15 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2025-05-31T00:00:00Z"
+date: "2026-04-22T00:00:00Z"
 doi: ""
 
-publishDate: "2025-05-31T00:00:00Z"
+publishDate: "2026-04-22T00:00:00Z"
 
-publication_types: ["3"]
+publication_types: ["1"]
 
-publication: "ArXiv"
-publication_short: "ArXiv"
+publication: In *ACM Conference on AI and Agentic Systems*
+publication_short: CAIS
 
 abstract: "LLM-based prompt optimization, that uses LLM-provided \"textual gradients\" (feedback) to refine prompts, has emerged an effective method for automatic prompt engineering. However, its scalability and stability are unclear when using more data in training. We systematically investigate the potential and challenges of scaling training data in textual gradient descent. We show that naively scaling training examples is infeasible due to both explicit context-length limits and an implicit context wall, where long-context degradation yields diminishing returns. Inspired by prior wisdom in stochastic gradient descent, we propose Textual Stochastic Gradient Descent with Momentum (TSGD-M), which reweights updates through momentum sampling, using bootstrapped minibatch validation accuracy as importance weights over historical prompts. We introduce Gumbel-Top-k sampling for prompt generation, balancing exploration--exploitation and improving sampling efficiency while maintaining a low-variance running mean estimator. TSGD-M integrates seamlessly into existing prompt optimization frameworks, including TextGrad, DSPy-COPRO, and AdalFlow, and achieves consistent gains across 5 benchmarks."
 
