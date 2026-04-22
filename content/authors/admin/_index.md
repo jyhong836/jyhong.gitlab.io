@@ -163,8 +163,8 @@ funding:
 
 ---
 
-I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), and prior to that I will work at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
-Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems).
+I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
+Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems), and obtained my Ph.D. in Computer Science and Engineering from Michigan State University with [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 
 I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/). Part of my work was funded by [OpenAI Researcher Access Program](https://openai.com/form/researcher-access-program/).
 
@@ -175,7 +175,7 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 
 ## CoSTA@NUS Lab
 
-**Co**gnitive **S**cience & **T**rustworthy **A**I (CoSTA@NUS) Lab stands at the “cognitive coastline” — a frontier where human minds meet machine intelligence. The lab seeks to navigate the uncharted waters of trustworthy AI, guided by cognitive science and a commitment to safe, ethical innovation.
+**Co**gnitive **S**cience & **T**rustworthy **A**I (CoSTA@NUS) Lab ([website](https://costa-nus.github.io/)) stands at the “cognitive coastline” — a frontier where human minds meet machine intelligence. The lab seeks to navigate the uncharted waters of trustworthy AI, guided by cognitive science and a commitment to safe, ethical innovation. Interested in joining us? Check out our [open positions](https://costa-nus.github.io/#join).
 
 <details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of AI systems through the lens of cognitive psychology and neuroscience.
 
@@ -192,8 +192,6 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
   - Privacy attack and defense in machine learning and multi-agent networks [[5](/publication/2024llm_pbe/)].
   - Constitutional AI agents in security-sensitive environments [[6](/publication/2024guardagent/)].
 </details>
-
-> **Recruiting & collaborations**: I am seeking self-motivated PhD students and remote interns. You can find the openings [here](https://docs.google.com/document/d/1L06GRLxORd_O5Jr2-e2KKZxAw2BA2qB9GfVFV_nVDHo/edit?usp=sharing). If you are interested in working with me, please complete [this brief form](https://forms.gle/4LufZpRmkTfyj5uq9).  I apologize in advance if I am unable to respond due to the high volume of requests I receive daily.
 
 <!-- **Notice**: My `utexas.edu` email address is no longer valid. Please reach me through `mr.<first-name>.<last-name>@gmail.com`. -->
 

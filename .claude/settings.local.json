@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat /Users/jyhong/Code/Websites/jyhong.gitlab.io/content/publication/*/index.md)",
+      "Bash(ls:*)"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 title: "Reproducing Emotion Vector Part I"
 subtitle: "Identifying and Validating Emotion Vectors in Llama 3.1 8B"
 
-summary: "An independent reproduction of Anthropic's emotion vector research using the open-weight Llama 3.1 8B model, with the paper's verbatim 171 emotions, 100 topics, and 64 activities. We confirm 10 of 11 verification criteria, with causal steering r=0.960 closely matching the paper's r=0.85."
+summary: "An independent reproduction of Anthropic's emotion vector research using the open-weight Llama 3.1 8B model, with the paper's verbatim 171 emotions, 100 topics, and 64 activities. We confirm 10 of 11 verification criteria, with causal steering r=0.956 closely matching the paper's r=0.85."
 
 projects: []
 
@@ -36,11 +36,11 @@ This post documents my full-scale, independent reproduction using **Llama 3.1 8B
 
 ## TL;DR
 
-Our reproduction achieves **10 of 11** verification criteria using the paper's verbatim data sources (171 emotions, 100 topics, 64 activities, all extracted from the appendix). The causal steering correlation **r = 0.960** closely matches (exceeds) the paper's r = 0.85, and sign consistency reaches **V11: 33/35** --- emotion vectors causally influence preferences bidirectionally on Llama.
+Our reproduction achieves **10 of 11** verification criteria using the paper's verbatim data sources (171 emotions, 100 topics, 64 activities, all extracted from the appendix). The causal steering correlation **r = 0.956** closely matches (exceeds) the paper's r = 0.85, and sign consistency reaches **V11: 34/36** --- emotion vectors causally influence preferences bidirectionally on Llama. The denominator is 36 rather than 35 because the paper's named Figure-4 exemplars (*blissful*, *hostile*) are always steered via a `PAPER_EXEMPLARS` constant, even if they rank outside Llama's top-35 by |r|; blissful ranks #81/171 in Llama and would otherwise be dropped.
 
 The only failure is **V3 diagonal dominance (6/12)**, which a layer sweep confirms to be a representational-headroom ceiling at 8B scale --- V3 improves at other layers, but V10 collapses there. No single layer passes both. This is the one genuinely open gap; everything else transfers.
 
-The decisive bug we fixed late in the project was the **steering token span**. An earlier draft had V10=0.149 and V11=11/35 with all 35 emotions producing uniformly positive ΔElo. Multi-layer steering and symmetric injection raised V10 to 0.782 but V11 only to 17/35. The actual fix was a one-line correction: the paper injects the emotion vector only on the **steered** activity's tokens within each A/B preference pair ("on the token positions of the steered activities, while leaving the control activities unmodified"). Our code had been injecting on both activities' tokens. Restricting to the steered side alone produced V10 = 0.960 / V11 = 33/35 with a single-layer hook.
+The decisive bug we fixed late in the project was the **steering token span**. An earlier draft had V10=0.149 and V11=11/35 with all 35 emotions producing uniformly positive ΔElo. Multi-layer steering and symmetric injection raised V10 to 0.782 but V11 only to 17/35. The actual fix was a one-line correction: the paper injects the emotion vector only on the **steered** activity's tokens within each A/B preference pair ("on the token positions of the steered activities, while leaving the control activities unmodified"). Our code had been injecting on both activities' tokens. Restricting to the steered side alone produced V10 = 0.960 / V11 = 33/35 with a single-layer hook. A final review (v9) then added `PAPER_EXEMPLARS = ["blissful", "hostile"]` so the paper's named exemplars are always steered regardless of |r| rank, giving the final **V10 = 0.956 / V11 = 34/36**.
 
 ## Methods
 
@@ -174,49 +174,49 @@ For each of 35 emotions (top-35 by |r| from V9), we register a forward hook at l
 - **V10 (steering causality):** Pearson *r* between the pre-steering emotion-Elo correlation (from V9) and the steering-induced ΔElo across the 35 emotions. |r| > 0.4 required.
 - **V11 (sign consistency):** For each steered emotion, check whether the sign of ΔElo matches the expected direction. ≥ 24 of 35 must have correct sign.
 
-{{< figure src="report/steering_elo_effects.png" caption="Reproduced (Llama 3.1 8B): Steering scatter with regression line. X: pre-steering Pearson r; Y: mean ΔElo (steered − unsteered). r = 0.960, n = 35. Points span both quadrants along a clear diagonal." >}}
+{{< figure src="report/steering_elo_effects.png" caption="Reproduced (Llama 3.1 8B): Steering scatter with regression line. X: pre-steering Pearson r; Y: mean ΔElo (steered − unsteered). r = 0.956, n = 36 (top-35 by |r| unioned with paper-named exemplar blissful). Points span both quadrants along a clear diagonal." >}}
 
 <details>
 <summary><strong>Compare with original (Anthropic)</strong></summary>
 
 {{< figure src="report/07.6_figure_functional_emotions.png" caption="Original (Anthropic): 'Emotions That Correlate with Preference Also Drive Preference via Steering'. r = 0.85." >}}
 
-Both scatters show a strong positive linear relationship, with the reproduced r = 0.960 slightly tighter than the paper's r = 0.85 (in part because Llama's ΔElo dynamic range is narrower, leaving less room for outliers at either end). The y-axis scale differs --- single-digit to low-teen |ΔElo| vs. the paper's hundreds --- reflecting the Elo scale compression (see [Elo scale compression](#why-the-elo-deltas-differ-in-scale) below). The sign and rank structure transfer cleanly.
+Both scatters show a strong positive linear relationship, with the reproduced r = 0.956 slightly tighter than the paper's r = 0.85 (in part because Llama's ΔElo dynamic range is narrower, leaving less room for outliers at either end). The y-axis scale differs --- sub-unit |ΔElo| (e.g. blissful +0.2, hostile −0.5) vs. the paper's hundreds --- reflecting the Elo scale compression (see [Elo scale compression](#why-the-elo-deltas-differ-in-scale) below). The sign and rank structure transfer cleanly.
 
 </details>
 
 **Results:**
 
-- **V10 --- r = 0.960** (PASS, need > 0.4). Closely matches (exceeds) the paper's r = 0.85.
-- **V11 --- Sign consistency: 33/35** (PASS, need ≥ 24). The 2 exceptions are small-magnitude cases where pre-steering r is near zero.
+- **V10 --- r = 0.956** (PASS, need > 0.4). Closely matches (exceeds) the paper's r = 0.85.
+- **V11 --- Sign consistency: 34/36** (PASS, need ≥ 24). The 2 exceptions are small-magnitude cases where pre-steering r is near zero. Denominator is 36 (top-35 by |r| + blissful as paper-named exemplar).
 
 ### Detailed Steering Analysis: Positive Emotion
 
-To visualize the steering effect in detail, we examine a positive exemplar. The paper uses *blissful*; our reproduction uses *kind*, because blissful was not among the top-35 steered emotions by |r| and kind is the highest-|r| positive-valence emotion in V9.
+Both the paper and the reproduction use *blissful* as the positive exemplar. `blissful` ranks #81/171 in Llama's V9 correlation — it is included in the steered set via the `PAPER_EXEMPLARS` constant so the comparison with the paper's Figure 4 is 1:1 (review v9).
 
 **Probe activation vs. preference:**
 
-{{< figure src="report/steering_probe_kind.png" caption="Reproduced (Llama 3.1 8B): Kind probe activation vs. preference (Elo). r = +0.45. Category-colored scatter." >}}
+{{< figure src="report/steering_probe_blissful.png" caption="Reproduced (Llama 3.1 8B): Blissful probe activation vs. preference (Elo). Category-colored scatter." >}}
 
 <details>
 <summary><strong>Compare with original (Anthropic)</strong></summary>
 
 {{< figure src="report/07.2_figure_functional_emotions.png" caption="Original (Anthropic): Bliss probe activation predicts preference. r = 0.71." >}}
 
-Both show a positive correlation between probe activation and Elo score. The reproduced magnitude is weaker (0.45 vs. 0.71), consistent with the V9 attenuation discussed above. Category patterns agree: Helpful and Social activities cluster high; Unsafe and Aversive cluster low.
+Both show a positive correlation between probe activation and Elo score. The reproduced magnitude is weaker, consistent with the V9 attenuation discussed above. Category patterns agree: Helpful and Social activities cluster high; Unsafe and Aversive cluster low.
 
 </details>
 
-**Steered vs. baseline Elo:**
+**ΔElo (steered − baseline) vs. baseline Elo:**
 
-{{< figure src="report/steering_baseline_kind.png" caption="Reproduced (Llama 3.1 8B): Kind steering. Steered Elo vs. Baseline Elo. Mean Δ > 0. Category-colored with y=x diagonal." >}}
+{{< figure src="report/steering_baseline_blissful.png" caption="Reproduced (Llama 3.1 8B): Blissful steering. ΔElo (steered − baseline) on y-axis with dashed y=0 reference. Mean Δ = +0.2 (sign-correct, magnitude compressed). Category-colored." >}}
 
 <details>
 <summary><strong>Compare with original (Anthropic)</strong></summary>
 
-{{< figure src="report/07.3_figure_functional_emotions.png" caption="Original (Anthropic): Blissful steering. Steered Elo vs. Baseline Elo. Mean Δ = +212." >}}
+{{< figure src="report/07.3_figure_functional_emotions.png" caption="Original (Anthropic): Blissful steering. Steered Elo vs. Baseline Elo (absolute-axis format). Mean Δ = +212." >}}
 
-In both figures, positive-emotion steering shifts most activities *above* the diagonal --- the model prefers them more. Sign matches; magnitude differs ~20× due to Elo-scale compression.
+The y-axes differ by design: the paper plots absolute Steered Elo vs. Baseline Elo with a y=x diagonal; the reproduction plots ΔElo vs. Baseline Elo with a y=0 reference. This is review v9's Fix 2, needed because Llama's |Δ|≈0.2 is ~0.02% of the 900-point Elo axis range and would be visually invisible on the paper's absolute-axis format. Both figures show the same underlying shift: positive-emotion steering increases preference.
 
 </details>
 
@@ -239,14 +239,14 @@ Both show negative correlation. High-Elo activities (Helpful, Engaging) have neg
 
 **Steered vs. baseline Elo:**
 
-{{< figure src="report/steering_baseline_hostile.png" caption="Reproduced (Llama 3.1 8B): Hostile steering. Steered Elo vs. Baseline Elo. Mean Δ < 0. Category-colored with y=x diagonal." >}}
+{{< figure src="report/steering_baseline_hostile.png" caption="Reproduced (Llama 3.1 8B): Hostile steering. ΔElo (steered − baseline) on y-axis with dashed y=0 reference. Mean Δ = −0.5 (sign-correct, magnitude compressed). Category-colored." >}}
 
 <details>
 <summary><strong>Compare with original (Anthropic)</strong></summary>
 
-{{< figure src="report/07.5_figure_functional_emotions.png" caption="Original (Anthropic): Hostile steering. Mean Δ = −303." >}}
+{{< figure src="report/07.5_figure_functional_emotions.png" caption="Original (Anthropic): Hostile steering. Steered Elo vs. Baseline Elo (absolute-axis format). Mean Δ = −303." >}}
 
-Both figures shift activities *below* the diagonal --- hostile steering reduces preference in both models. Sign matches; magnitude differs by ~20× (Elo compression).
+Both figures show the expected negative shift under hostile steering. The paper's absolute-axis format reads as points *below* the y=x diagonal; the reproduction's Δ-axis format (review v9 Fix 2) reads as points *below* the y=0 reference. Sign and direction match; magnitude differs by ~600× due to Llama's Elo compression.
 
 </details>
 
@@ -254,7 +254,7 @@ Both figures shift activities *below* the diagonal --- hostile steering reduces 
 
 ### Why the Elo Deltas Differ in Scale {#why-the-elo-deltas-differ-in-scale}
 
-The paper reports steering deltas of +212 (blissful) and −303 (hostile). Our magnitudes are single-digit to low teens. This is not a bug but reflects how the two models express preferences in their logits:
+The paper reports steering deltas of +212 (blissful) and −303 (hostile). Our magnitudes are sub-unit (blissful +0.2, hostile −0.5). This is not a bug but reflects how the two models express preferences in their logits:
 
 - **Claude**: Individual-activity Elo spans ~521–2885. Large logit gaps → decisive win probabilities (close to 0.9/0.1).
 - **Llama 3.1 8B**: Individual-activity Elo spans ~724–1636. Smaller logit gaps → probabilities closer to 0.5.
@@ -270,6 +270,8 @@ This project went through several rounds of review in which the steering result 
 **Round 4 (data-source audit).** A subsequent audit revealed that four of the five data sources used through Round 3 had been generated by the agentic coding assistant rather than extracted from the paper's published appendix: the 171 emotions overlapped only 54% with the paper's, topics overlapped 0%, activities 3%, and the story-generation prompt format diverged. Only the 12 implicit-detection scenarios were correct. The entire pipeline was re-run from scratch with paper-verbatim data. The Round-3 "fix" had been correct for the wrong activities: with the paper's actual 64 activities, V10 and V11 failed again --- all 35 emotions now produced *uniformly positive* ΔElo regardless of valence.
 
 **Round 5 (steering token span).** Review v8 triaged the new failure and proposed two candidate fixes: multi-layer steering (injecting across a band of layers instead of just layer 21) and symmetric ±v̂ injection (adding −v̂ on control tokens to cancel a suspected side-bias). Implementing both raised V10 to 0.782 and V11 to 17/35 --- an improvement, but V11 still below threshold. Closer reading of the paper's exact wording --- *"steered with it on the token positions of the steered activities, while leaving the control activities unmodified"* --- revealed the real bug. Our hook was adding +v̂ across a span that covered **both** activities in each A/B preference pair. The paper applies +v̂ only to the *steered* activity's tokens. Restricting the hook to the steered side alone (single layer 21, no symmetric injection, standard strength) immediately produced **V10 = 0.960, V11 = 33/35**.
+
+**Round 7 (paper-named exemplars and Δ-axis).** A final review (v9) caught two figure-level issues that had not blocked the overall PASS but misrepresented the Figure 4 comparison. The exemplar picker in `utils/preference.py` silently fell back to "kind" (Llama's highest positive-|r| emotion) when *blissful* was outside the top-35 by |r|, producing a figure labeled "Kind steering" that was not the paper's named exemplar. Separately, the baseline-vs-steered scatter plotted absolute Steered Elo on both axes, which rendered Llama's sub-unit ΔElo invisible against the 900-point Elo axis. Fix 1 introduced a `PAPER_EXEMPLARS = ["blissful", "hostile"]` module constant that always includes the paper's named exemplars in the steered set, regardless of |r| rank (raising the set size from 35 to 36). Fix 2 switched the per-exemplar scatter y-axis from absolute Steered Elo to ΔElo with a dashed y=0 reference, making small Δ visible. Re-running produced the final **V10 = 0.956, V11 = 34/36** with `blissful` Δ=+0.2 and `hostile` Δ=−0.5.
 
 The both-sides span acted as a non-directional engagement-boost: inflating the residual norm of every activity-describing token in the prompt symmetrically between A and B. The salience shift carried no valence information, and in Llama's compressed Elo dynamic range this salience-only signal dominated the directional component from v̂. Restricting the perturbation to the steered side removes the symmetric salience component and exposes the directional component, which is what V10 and V11 measure.
 
@@ -288,8 +290,8 @@ The both-sides span acted as a non-directional engagement-boost: inflating the r
 | V7  | Category Elo gap     | gap > 200  | 608          | 261                              | PASS   |
 | V8  | Valence alignment    | ≥ 2 each   | 2+2          | 3+3                              | PASS   |
 | V9  | Correlation count    | ≥ 5        | 25           | 53                               | PASS   |
-| V10 | Steering \|r\|       | > 0.4      | 0.868        | 0.960                            | PASS   |
-| V11 | Sign consistency     | ≥ 24/35    | 10/10        | 33/35                            | PASS   |
+| V10 | Steering \|r\|       | > 0.4      | 0.868        | 0.956                            | PASS   |
+| V11 | Sign consistency     | ≥ 24 of n  | 10/10        | 34/36                            | PASS   |
 
 An earlier v1 screening used a reduced configuration (30 emotions, 10 topics, 5 stories/topic = 1,500 stories) to test six models: Llama 3.1 8B, Llama 3.1 70B, Llama 3.2 3B, Qwen3-8B, Qwen3-14B, and Gemma-3 4B. Llama 3.1 8B achieved the best overall results (7/11 PASS) and was selected for the full-scale v2 reproduction reported here.
 
