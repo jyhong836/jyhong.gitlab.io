@@ -1,0 +1,18 @@
+# CoSTA Lab design system font preset.
+# Mirrors the three type roles in ds/tokens.jsx:
+#   display   — Inter Tight (UI · headlines · wordmark), tracking -0.04em
+#   editorial — Fraunces    (taglines · pull quotes · essay body), tracking -0.01em
+#   mono      — JetBrains Mono (labels · metadata · code), tracking 0.14em
+
+name = "CoSTA"
+
+# Google Fonts v2 API (variable fonts). Triggered when string begins with `family=`.
+google_fonts = "family=Inter+Tight:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@400;500"
+
+# Font families mapped to Wowchemy slots. Mirrors how the CoSTA lab site actually
+# uses the tokens (site/sections.jsx): display dominates, editorial is reserved
+# for taglines · pull quotes · paper titles via a `.editorial` utility class.
+heading_font = "Inter Tight"
+body_font    = "Inter Tight"
+nav_font     = "Inter Tight"
+mono_font    = "JetBrains Mono"

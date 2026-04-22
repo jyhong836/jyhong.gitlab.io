@@ -1,3 +1,48 @@
+/* ============================================================
+   CoSTA Lab design system — typography
+   Mirrors site/sections.jsx usage from CoSTA-NUS.github.io:
+   - display (Inter Tight) dominates body + headings
+   - editorial (Fraunces italic) for taglines, quotes, paper titles
+   - mono (JetBrains Mono) for tracked-caps metadata labels
+   ============================================================ */
+
+/* Negative letter-spacing ramp — scales with heading size, matching
+   the lab's per-element tracking choices (-0.04em hero → -0.015em small). */
+h1 { letter-spacing: -0.035em; }
+h2 { letter-spacing: -0.025em; }
+h3 { letter-spacing: -0.02em; }
+h4, h5, h6 { letter-spacing: -0.015em; }
+
+/* Editorial utility — Fraunces italic, for taglines/pull quotes/lead-ins. */
+.editorial {
+   font-family: "Fraunces", "Times New Roman", serif;
+   font-style: italic;
+   font-weight: 400;
+   letter-spacing: -0.01em;
+}
+
+/* Mono label utility — tracked caps metadata (section eyebrows, kickers). */
+.mono-label {
+   font-family: "JetBrains Mono", ui-monospace, monospace;
+   letter-spacing: 0.14em;
+   text-transform: uppercase;
+   font-size: 0.72em;
+   opacity: 0.7;
+}
+
+/* Publication titles render in Fraunces italic — matches the lab's
+   paper-title treatment (sections.jsx:1044). */
+.article-title,
+h3.article-title {
+   font-family: "Fraunces", "Times New Roman", serif;
+   font-style: italic;
+   font-weight: 500;
+   letter-spacing: -0.01em;
+}
+
+/* Accent selection — NUS Orange on paper, same as the lab site. */
+::selection { background: #EF7C00; color: #f5f1ea; }
+
 .badge-blue {
    color: #ffffff;
    background-color: #88aaff;
