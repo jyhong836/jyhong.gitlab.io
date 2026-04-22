@@ -1,16 +1,17 @@
 # Theme metadata
+# Colors mapped from CoSTA Lab design system (see ds/tokens.jsx)
 name = "Austin"
 
 light = true
-# Primary
-primary = "#BF5700"
+# Primary — NUS Blue (ink)
+primary = "#003D7C"
 
-# Menu
-menu_primary = "#BF5700" # 
-menu_text = "#fff"
-menu_text_active = "#BFB700" # Analogous by https://www.canva.com/colors/color-wheel/
-menu_title = "#fff"
+# Menu — deeper NUS blue chrome, paper-warm text, NUS orange on active
+menu_primary = "#002D5C"       # secondary (deeper blue)
+menu_text = "#f5f1ea"          # paper (warm off-white)
+menu_text_active = "#EF7C00"   # accent (NUS orange)
+menu_title = "#f5f1ea"         # paper
 
-# Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(247, 247, 247)"
+# Home sections — warm paper alternating with paperWarm tint
+home_section_odd = "#f5f1ea"   # paper
+home_section_even = "#ece4d3"  # paperWarm
