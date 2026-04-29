@@ -183,7 +183,9 @@ I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/0
 
 <!-- ## CoSTA@NUS Lab -->
 
-I lead the **Co**gnitive **S**cience & **T**rustworthy **A**I ([CoSTA@NUS](https://costa-nus.github.io/)) Lab exploring the frontier where human minds meet machine intelligence. A brief overview of our research directions is as follows:
+I lead the **Co**gnitive **S**cience & **T**rustworthy **A**I ([CoSTA@NUS](https://costa-nus.github.io/)) Lab exploring the frontier where human minds meet machine intelligence. **[Openings](https://costa-nus.github.io/openings/) are available in terms of RA/internship students.**
+
+<!-- A brief overview:
 
 <details><summary>Cognitive Science of AI</summary>We aim to understand the inner workings and vulnerabilities of AI systems through the lens of cognitive psychology and neuroscience.
 
@@ -199,7 +201,7 @@ I lead the **Co**gnitive **S**cience & **T**rustworthy **A**I ([CoSTA@NUS](https
 
   - Privacy attack and defense in machine learning and multi-agent networks [[5](/publication/2024llm_pbe/)].
   - Constitutional AI agents in security-sensitive environments [[6](/publication/2024guardagent/)].
-</details>
+</details> -->
 
 <!-- **Notice**: My `utexas.edu` email address is no longer valid. Please reach me through `mr.<first-name>.<last-name>@gmail.com`. -->
 
