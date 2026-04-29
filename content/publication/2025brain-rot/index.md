@@ -54,7 +54,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2510.13928'
-url_code: ''
+url_code: 'https://github.com/llm-brain-rot/llm-brain-rot'
 url_dataset: ''
 url_poster: ''
 url_project: ''

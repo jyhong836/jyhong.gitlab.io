@@ -5,7 +5,9 @@
       "Bash(ls:*)",
       "Bash(git -C /Users/jyhong/Code/Websites/jyhong.gitlab.io log -5 --stat --format=\"%h %s\")",
       "Bash(hugo --quiet)",
-      "WebFetch(domain:www.caisconf.org)"
+      "WebFetch(domain:www.caisconf.org)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:openreview.net)"
     ]
   }
 }
