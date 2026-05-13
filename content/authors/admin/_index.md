@@ -156,6 +156,7 @@ media:
 awards:
   - content: "[Best Paper Finalist](https://llm-pbe.github.io/home), VLDB 2024"
   - content: "[ML and Systems Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/), ML Commons, 2024"
+  - content: Gold Reviewer, ICML, 2026
   - content: Top Area Chair, [NeurIPS](https://neurips.cc/Conferences/2025/ProgramCommittee#top-ac), 2025
   - content: Top Reviewer, [NeurIPS](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), 2023
   - content: Research Enhancement Award, MSU, 2023
