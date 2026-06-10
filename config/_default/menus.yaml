@@ -7,10 +7,10 @@ main:
   # - name: Home
   #   url: '#about'
   #   weight: 10
-  - name: Research
-    url: '#projects'  # '#featured'
-    # url: '#publications'  # '#featured'
-    weight: 20
+  # - name: Research
+  #   url: '#projects'  # '#featured'
+  #   # url: '#publications'  # '#featured'
+  #   weight: 20
   - name: Publications
     url: '#publications'  # '#featured'
     weight: 30
@@ -23,9 +23,9 @@ main:
   - name: Teaching
     url: '#teaching'
     weight: 50
-  - name: Blog
-    url: '/post/'
-    weight: 55
+  # - name: Blog
+  #   url: '/post/'
+  #   weight: 55
   - name: CoSTA@NUS Lab
     url: 'https://costa-nus.github.io/'
     weight: 60

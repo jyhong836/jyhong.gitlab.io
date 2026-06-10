@@ -62,6 +62,7 @@ design:
 
 ### Invited Talks & Guest Lectures
 
+* 'Brain Rot in LLMs: When Benign Data Degrades Intelligence?' @ *LockLLM Workshop at NeurIPS 2025*, Nov 2025.
 * 'GenAI-Based Chatbot for Early Dementia Intervention' @ *Rising Star Symposium Series*, IEEE TCCN Special Interest Group for AI and Machine Learning in Security, September, 2024: [[link](https://sites.google.com/view/ieee-comsoc-tccn-sig-aiml-sec/rising-star-symposium)]
 * 'Building Conversational AI for Affordable and Accessible Early Dementia Intervention' @ *AI Health* Course, The School of Information, UT Austin, April, 2024: [[paper](/publication/2024_a_conect)]
 * 'Shake to Leak: Amplifying the Generative Privacy Risk through Fine-Tuning' @ *[Good Systems Symposium: Shaping the Future of Ethical AI](https://gssymposium2024.splashthat.com/)*, UT Austin, March, 2024: [[paper](/publication/2023finetune_privacy)]
@@ -77,5 +78,5 @@ design:
 
 * **Organizers**: GenAI4Health@NeurIPS [2024-2025](https://genai4health.github.io/) (Lead Chair), [The Competition for LLM and Agent Safety 2024](https://www.llmagentsafetycomp24.com/), [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), FL4Data-Mining Workshop@KDD [2023](https://fl4data-mining.github.io/) (Lead Chair), FedKDD Workshop [2024-2025](https://fedkdd.github.io/)
 * **Area Chair**: NeurIPS (*Top AC*, 2025), ICPR
-* **External Reviewer**: NeurIPS (*Top Reviewer* 2023, Top AC 2025), ICML (Gold Reviewer 2026), ICLR, KDD, ECML-PKDD, AISTATS, WSDM, AISTATS, AAAI, IJCAI, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
+* **External Reviewer**: NeurIPS (*Top Reviewer* 2023), ICML (Gold Reviewer 2026), ICLR, KDD, ECML-PKDD, AISTATS, WSDM, AISTATS, AAAI, IJCAI, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD

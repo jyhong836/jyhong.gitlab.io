@@ -53,11 +53,7 @@ design:
 * Teaching Assistant@CSE 404: [Introduction to Machine Learning](https://msu-ml.github.io/), MSU, 2020
 
 
-**Mentored Students**:
-<!-- Co-mentored with my advisor:
-* Zhangheng Li, PhD student at UTAustin, GenAI Privacy ([SaTML'24](publication/2023finetune_privacy/))
-* Haobo Zhang, PhD student at MSU, DL Privacy ([NeurIPS'23](publication/2023neurips_i2f/))
-* Shuyang Yu, PhD student at MSU, AI Security ([ICLR'24](publication/2023one_image_watermark/), [ICML'23](publication/datafree_backdoor2023icml/), [ICLR'23 Spotlight](publication/foster2023/)) -->
+<!-- **Mentored Students**:
 
 - [Zhangheng Li](https://scholar.google.com/citations?user=NZCLqZMAAAAJ&hl=zh-CN) (2023 - 2025), Ph.D. student, University of Texas at Austin    
   _SaTML 2024, ICML 2024, ICLR 2024_    
@@ -97,4 +93,4 @@ design:
 - [Siqi Liang](https://agentds.github.io/) (2022 - 2023), Ph.D. student, Michigan State University  
   _KDDW 2023_  
   Prior: UESTC BS   
-  Now: Ph.D. student at UMich, intern at Amazon
+  Now: Ph.D. student at UMich, intern at Amazon -->
