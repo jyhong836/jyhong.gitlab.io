@@ -12,7 +12,7 @@ main:
   #   # url: '#publications'  # '#featured'
   #   weight: 20
   - name: Publications
-    url: '#publications'  # '#featured'
+    url: 'https://costa-nus.github.io/publications/'
     weight: 30
   # - name: Highlights
   #   url: '#featured'  # '#featured'

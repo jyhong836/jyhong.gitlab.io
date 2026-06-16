@@ -7,6 +7,10 @@ widget: portfolio
 # This file represents a page section.
 headless: true
 
+# Activate this section? Set to false to hide it from the homepage.
+# Individual publication pages (content/publication/*) remain published.
+active: false
+
 # Order that this section appears on the page.
 weight: 30
 

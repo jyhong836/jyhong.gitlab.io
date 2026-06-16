@@ -40,6 +40,26 @@ h3.article-title {
    letter-spacing: -0.01em;
 }
 
+/* Banner font size — enlarge the navbar from the theme's small menu size
+   ($sta-font-size-small, ~77% of body) up to the main-body size. `1rem`
+   equals the body size since the root font-size is $sta-font-size. nav-links,
+   icons and dropdowns all inherit this. */
+.navbar {
+   font-size: 1rem;
+}
+.navbar .dropdown-menu {
+   font-size: 1rem;
+}
+
+/* Navbar brand (site name) — slightly larger than the menu links (which now
+   match the body size) rather than the theme's 1.5rem brand size. `em` scales
+   relative to the navbar font-size; bold keeps the name distinct from the
+   section links. */
+.navbar-brand {
+   font-size: 1.2em;
+   font-weight: 700;
+}
+
 /* Accent selection — NUS Orange on paper, same as the lab site. */
 ::selection { background: #EF7C00; color: #f5f1ea; }
 
