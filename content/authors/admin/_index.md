@@ -6,7 +6,7 @@ title: Junyuan "Jason" Hong
 superuser: true
 
 # Role/position/tagline
-role: Incoming Assistant Professor
+role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:mr.junyuan.hong@gmail.com'
+  link: 'mailto:jyhong@nus.edu.sg'
 - icon: google-scholar  # Alternatively, use `graduation-cap` icon from fas icon_pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=7Cbv6doAAAAJ
@@ -78,7 +78,7 @@ banner_buttons:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "mr.junyuan.hong@gmail.com"
+email: "jyhong@nus.edu.sg"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: yes
@@ -172,7 +172,7 @@ funding:
 
 ---
 
-I am an incoming Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
+I am an Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
 Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems), and obtained my Ph.D. in Computer Science and Engineering from Michigan State University with [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 
 I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/).

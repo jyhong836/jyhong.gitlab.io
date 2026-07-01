@@ -7,7 +7,9 @@
       "Bash(hugo --quiet)",
       "WebFetch(domain:www.caisconf.org)",
       "WebFetch(domain:arxiv.org)",
-      "WebFetch(domain:openreview.net)"
+      "WebFetch(domain:openreview.net)",
+      "WebSearch",
+      "Bash(grep -oE '.{0,120}Junyuan Hong.{0,40}' public/publication/2026crashtwin/index.html)"
     ]
   }
 }
