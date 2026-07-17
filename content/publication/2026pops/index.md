@@ -6,8 +6,8 @@ title: "POPS: Recovering Unlearned Multi-Modality Knowledge in MLLMs with Prompt
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Zhangheng Li
-- admin
 - Jianing Zhu
+- admin
 - Sungmin Eum
 - Shuowen Hu
 - Suya You
