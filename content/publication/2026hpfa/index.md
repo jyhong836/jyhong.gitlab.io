@@ -39,7 +39,7 @@ tags: ["LLM", "Reasoning", "Agents"]
 # Display this page in the Featured widget?
 featured: false
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2608.02026'
 url_code: ''
 url_dataset: ''
 url_poster: ''
