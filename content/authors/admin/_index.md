@@ -58,10 +58,6 @@ social:
 # - icon: linkedin
 #   icon_pack: fab
 #   link: https://linkedin.com/in/jyhong836
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
-
 # Banner CTA buttons rendered below the social icons in the profile.
 banner_buttons:
   - label: "CoSTA@NUS Lab"
