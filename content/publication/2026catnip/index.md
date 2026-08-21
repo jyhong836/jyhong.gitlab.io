@@ -24,7 +24,7 @@ abstract: "LLM unlearning aims to remove the influence of undesirable knowledge 
 
 summary: "A retention-data-free LLM unlearning method that uses a self-calibrated term to forget targeted knowledge more precisely while preserving general capabilities."
 
-tags: ["LLM", "Unlearning", "Safety", "Privacy", "Preference Alignment", "Large Models"]
+tags: ["LLM", "Unlearning", "Privacy", "Large Models"]
 
 featured: false
 
