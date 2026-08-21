@@ -7,10 +7,10 @@ authors:
 - admin
 - Zhuangdi Zhu
 
-date: "2026-02-02T00:00:00Z"
+date: "2026-08-21T00:00:00Z"
 doi: ""
 
-publishDate: "2026-02-02T00:00:00Z"
+publishDate: "2026-08-21T00:00:00Z"
 
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -18,11 +18,11 @@ publishDate: "2026-02-02T00:00:00Z"
 publication_types: ["1"]
 
 publication: In *Empirical Methods in Natural Language Processing*
-publication_short: "EMNLP"
+publication_short: "EMNLP (Main)"
 
-abstract: "Pretrained knowledge memorized in LLMs raises critical concerns over safety and privacy, which has motivated LLM Unlearning as a technique for selectively removing the influences of undesirable knowledge. Existing approaches, rooted in Gradient Ascent (GA), often degrade general domain knowledge while relying on retention data or curated contrastive pairs, which can be either impractical or data and computationally prohibitive. Negative Preference Alignment has been explored for unlearning to tackle the limitations of GA, which, however, remains confined by its choice of reference model and shows undermined performance in realistic data settings. These limitations raise two key questions: i) Can we achieve effective unlearning that quantifies model confidence in undesirable knowledge and uses it to calibrate gradient updates more precisely, thus reducing catastrophic forgetting? ii) Can we make unlearning robust to data scarcity and length variation? We answer both questions affirmatively with CALIBURN, a principled method that rescales unlearning effects in proportion to the model's token-level confidence, thus ensuring fine-grained control over forgetting. Extensive evaluations on MUSE and WMDP benchmarks demonstrated that our work enables effective unlearning without requiring retention data or contrastive unlearning response pairs, with stronger knowledge forgetting and preservation tradeoffs than state-of-the-art methods."
+abstract: "LLM unlearning aims to remove the influence of undesirable knowledge from pretrained language models, which offers a practical mechanism for addressing safety and privacy concerns. Existing unlearning approaches, such as Gradient Ascent, are prone to catastrophic forgetting. Alignment-based approaches provide an alternative direction, yet their effectiveness is limited by the quality of the reference model. In realistic settings, both methods still require large retention datasets to preserve general knowledge. We propose a principled method that quantifies the target LLM's confidence in undesirable knowledge and uses it to calibrate the model's unlearning gradient updates more precisely. It enables fine-grained control over forgetting while better preserving model utility, thus reducing the dependence on retention data or prohibitive unlearning training data. Extensive evaluations on multiple benchmarks, including MUSE and WMDP, show that our method achieves effective unlearning and improves the trade-off between knowledge removal and utility preservation compared with state-of-the-art methods."
 
-summary: "A token-level confidence-calibrated negative preference alignment method for LLM unlearning that removes undesirable knowledge without requiring retention data or contrastive pairs."
+summary: "A retention-data-free LLM unlearning method that uses a self-calibrated term to forget targeted knowledge more precisely while preserving general capabilities."
 
 tags: ["LLM", "Unlearning", "Safety", "Privacy", "Preference Alignment", "Large Models"]
 
