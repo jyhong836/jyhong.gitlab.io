@@ -54,10 +54,10 @@ publishDate: "2026-04-29T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
-publication: "arXiv preprint"
-publication_short: "arXiv"
+publication: "In *The Fortieth Conference on Neural Information Processing Systems*"
+publication_short: "NeurIPS"
 
 abstract: "Traditional research papers discard failed experiments and obscure implementation details, hindering reproducibility and cumulative scientific progress. We propose Agent-Native Research Artifacts (Ara), a machine-executable format that replaces the static paper with a structured, agent-consumable representation of a research project. Ara comprises four layers—scientific logic, executable code, exploration graphs, and evidence records—supported by a Live Research Manager, an Ara Compiler, and an automated review system. Across benchmark evaluations, Ara improves question-answering accuracy from 72.4% to 93.7% and substantially raises reproduction success rates, suggesting a viable path toward research artifacts designed for both human and agent readers."
 
