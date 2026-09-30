@@ -80,5 +80,6 @@ design:
 * **Area Chair**: NeurIPS (2025-2026, *Top AC* 2025), ICLR 2027, ICPR
 * **Senior Program Committee**: AAAI 2027
 * **Action Editor**: TMLR
+* **Guest Editor**: ACM TIST Special Issue on "Knowledge-Informed Large Language Models: Integrating Physical Laws, Symbolic Reasoning, and Data-Driven Learning"
 * **External Reviewer**: NeurIPS (*Top Reviewer* 2023), ICML (Gold Reviewer 2026), ICLR, KDD, ECML-PKDD, AISTATS, WSDM, AISTATS, AAAI, IJCAI, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD
