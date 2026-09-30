@@ -46,6 +46,7 @@ design:
 ---
 
 <!-- **Courses**: -->
+* Co-Lecturer@CEG5305: Introduction to Generative AI with Foundation Models, NUS, Fall 2026 (AY2026/27 Sem 1): [[course page](https://costa-nus.github.io/CEG5305_GenAI/)] [[NUSMods](https://nusmods.com/courses/CEG5305/introduction-to-generative-ai-with-foundation-models)]
 * Mentor@VRT-CHAT: Designing Reminiscence-Therapy Chatbots with Culturally-Sensitive Visual Stimulation for Mental Health, [RAI4Ukraine Program](https://airesponsibly.net/RAIforUkraine/), Center for Responsible AI at NYU, 2024
 * Mentor@A-CONECT: Designing AI-based Conversational Chatbot for Early Dementia Intervention, Directed Reading Program (DiRP), UT Austin, 2024
 * Mentor@[Directed Reading Program (DiRP) on Trustworthy LLM](/project/dirp-trust-llm/), UT Austin, 2023
