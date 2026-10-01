@@ -63,6 +63,8 @@ design:
 ### Invited Talks & Guest Lectures
 
 * 'AI Agents on Social Media' @ *[FedKDD/FedMAS Workshop at KDD 2026](https://fedmas-fedkdd.github.io/fedmas-fedkdd2026/)*, Jeju, Korea, Aug 2026.
+* 'LLM Can Get "Brain Rot"' @ *DRDC-ORC Seminar Series*, Feb 2026.
+* 'LLM Can Get "Brain Rot"' @ *Stony Brook University* (Guest Lecture), Nov 2025.
 * 'Brain Rot in LLMs: When Benign Data Degrades Intelligence?' @ *LockLLM Workshop at NeurIPS 2025*, Nov 2025.
 * 'GenAI-Based Chatbot for Early Dementia Intervention' @ *Rising Star Symposium Series*, IEEE TCCN Special Interest Group for AI and Machine Learning in Security, September, 2024: [[link](https://sites.google.com/view/ieee-comsoc-tccn-sig-aiml-sec/rising-star-symposium)]
 * 'Building Conversational AI for Affordable and Accessible Early Dementia Intervention' @ *AI Health* Course, The School of Information, UT Austin, April, 2024: [[paper](/publication/2024_a_conect)]
