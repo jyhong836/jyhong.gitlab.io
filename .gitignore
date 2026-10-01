@@ -5,3 +5,4 @@ gitlab_public/
 resources/
 .vscode/
 # themes/
+.hugo_build.lock

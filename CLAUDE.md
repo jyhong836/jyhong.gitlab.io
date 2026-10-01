@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Personal academic website for Junyuan Hong, built with **Hugo** using a custom fork of the Wowchemy Academic theme ([junyuan-academic-theme](https://github.com/jyhong836/junyuan-academic-theme)). Deployed to GitLab Pages and Netlify.
+Personal academic website for Junyuan Hong, built with **Hugo** using a custom fork of the Wowchemy Academic theme ([junyuan-academic-theme](https://github.com/jyhong836/junyuan-academic-theme)). Published to GitLab Pages from the separate `gitlab_public/` repo — see Deployment.
 
 ## Build & Development
 
@@ -16,9 +16,9 @@ hugo server -D
 hugo --gc --minify
 ```
 
-The theme must be present at `themes/junyuan-academic-theme/` (clone it manually; it's not a submodule tracked in-tree). Hugo modules also pull `wowchemy-hugo-modules/wowchemy-cms` via `go.mod`.
+The theme must be present at `themes/junyuan-academic-theme/` (clone it manually). It is its own git repo (`github.com:jyhong836/junyuan-academic-theme`, branch `main`); this repo records it only as a gitlink with no `.gitmodules` entry, so a theme change is a commit and push in the theme repo, then a commit here to bump the pointer. Hugo modules also pull `wowchemy-hugo-modules/wowchemy-cms` via `go.mod`.
 
-CI uses Hugo Extended 0.99.1 (GitLab) / 0.83.1 (Netlify). Output goes to `public/`.
+**Hugo version:** builds with Hugo Extended **0.166.0** (Homebrew). In Oct 2026 the theme was patched for Hugo ≥ 0.156 (`site.Data` → `hugo.Data`, `site.LanguageCode` → `site.Language.Locale`, `.IsNode` → `.IsPage`, `site.AllPages` → `hugo.Sites`, `site.GoogleAnalytics` → `site.Config.Services.GoogleAnalytics.ID`, partial names without the `partials/` prefix), so Hugo 0.99 and older no longer build it. One `.Site.Data` deprecation warning remains; it comes from the upstream `wowchemy-cms` module, not from this repo. `netlify.toml` and `.gitlab-ci.yml` pin 0.166.0 but are not how the site is published (see Deployment).
 
 ## Architecture
 
@@ -53,5 +53,11 @@ Homepage sections in `content/home/` are controlled by frontmatter:
 
 ## Deployment
 
-- **GitLab Pages**: Push to `master` triggers `.gitlab-ci.yml` pipeline
-- **Netlify**: Configured via `netlify.toml`, builds on push with deploy previews for branches
+**Pushing this repo does not publish.** This repo's only remote is GitHub, so its `.gitlab-ci.yml` never runs. The live site at https://jyhong.gitlab.io is served from a second repo:
+
+- `public` is a symlink to `gitlab_public/public` (both gitignored here).
+- `gitlab_public/` is its own git repo (`git@gitlab.com:jyhong/jyhong.gitlab.io.git`, branch `main`), and its `.gitlab-ci.yml` serves the prebuilt HTML as-is.
+
+To publish: commit and push the source here, run `hugo` from this repo's root, then commit and push `gitlab_public/`. Check `git -C gitlab_public status` after a build: a failed build can still leave partial output there. Hugo never removes HTML for deleted or drafted pages from `gitlab_public/public/`, so stale pages persist there until deleted by hand. Never put build output anywhere except `public/` or a temp directory.
+
+`netlify.toml` is still in the tree; whether a Netlify site is connected is not recorded here.
