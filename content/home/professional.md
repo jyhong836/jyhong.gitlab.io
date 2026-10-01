@@ -62,6 +62,7 @@ design:
 
 ### Invited Talks & Guest Lectures
 
+* 'AI Agents on Social Media' @ *[FedKDD/FedMAS Workshop at KDD 2026](https://fedmas-fedkdd.github.io/fedmas-fedkdd2026/)*, Jeju, Korea, Aug 2026.
 * 'Brain Rot in LLMs: When Benign Data Degrades Intelligence?' @ *LockLLM Workshop at NeurIPS 2025*, Nov 2025.
 * 'GenAI-Based Chatbot for Early Dementia Intervention' @ *Rising Star Symposium Series*, IEEE TCCN Special Interest Group for AI and Machine Learning in Security, September, 2024: [[link](https://sites.google.com/view/ieee-comsoc-tccn-sig-aiml-sec/rising-star-symposium)]
 * 'Building Conversational AI for Affordable and Accessible Early Dementia Intervention' @ *AI Health* Course, The School of Information, UT Austin, April, 2024: [[paper](/publication/2024_a_conect)]
@@ -80,6 +81,7 @@ design:
 * **Area Chair**: NeurIPS (2025-2026, *Top AC* 2025), ICLR 2027, ICPR
 * **Senior Program Committee**: AAAI 2027
 * **Action Editor**: TMLR
+* **Associate Editor**: Neurocomputing
 * **Guest Editor**: ACM TIST Special Issue on "Knowledge-Informed Large Language Models: Integrating Physical Laws, Symbolic Reasoning, and Data-Driven Learning"
 * **External Reviewer**: NeurIPS (*Top Reviewer* 2023), ICML (Gold Reviewer 2026), ICLR, KDD, ECML-PKDD, AISTATS, WSDM, AISTATS, AAAI, IJCAI, NeuroComputing, TKDD, TKDE, JAIR, TDSC, ACM Health
 * **Volunteer**: KDD
