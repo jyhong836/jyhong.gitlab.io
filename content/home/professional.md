@@ -80,7 +80,7 @@ design:
 ### Services
 
 * **Organizers**: GenAI4Health@NeurIPS [2024-2026](https://genai4health.github.io/) (Lead Chair), [The Competition for LLM and Agent Safety 2024](https://www.llmagentsafetycomp24.com/), [The NeurIPS 2024 LLM Privacy Challenge](https://llm-pc.github.io/), FL4Data-Mining Workshop@KDD [2023](https://fl4data-mining.github.io/) (Lead Chair), FedKDD Workshop [2024-2025](https://fedkdd.github.io/), [FedKDD/FedMAS 2026](https://fedmas-fedkdd.github.io/fedmas-fedkdd2026/), AI Agent/LLM for Biomedicine & Health Workshop@IEEE BHI 2026
-* **Area Chair**: NeurIPS (2025-2026, *Top AC* 2025), ICLR 2027, ICPR
+* **Area Chair**: NeurIPS (2025-2026, *Top AC* 2025 and 2026), ICLR 2027, ICPR
 * **Senior Program Committee**: AAAI 2027
 * **Action Editor**: TMLR
 * **Associate Editor**: Neurocomputing
