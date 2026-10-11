@@ -80,6 +80,10 @@ email: "jyhong@nus.edu.sg"
 highlight_name: yes
 
 news:
+  - date: 10/2026
+    icon: fa-award
+    highlight: true
+    content: I was named a Top Area Chair at NeurIPS 2026, for the second year in a row.
   - date: 01/2026
     icon: fa-comment
     highlight: false
