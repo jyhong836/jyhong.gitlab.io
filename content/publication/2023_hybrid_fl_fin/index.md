@@ -62,7 +62,7 @@ links:
   - name: "🏆 PETs"
     url: "https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3"
   - name: "🏛️ White House"
-    url: "https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/"
+    url: "https://bidenwhitehouse.archives.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

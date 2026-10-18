@@ -139,7 +139,7 @@ news:
   - date: 03/2023
     icon: fa-trophy
     highlight: true
-    content: Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
+    content: Our ILLIDAN Lab team wins the 3rd place in [the U.S. PETs prize challenge](https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3), covered by [The White House](https://bidenwhitehouse.archives.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), and [MSU Office of Research and Innovation](https://research.msu.edu/news/privacy-enhancing-research-earns-international-attention).
 
 media:
   - link: https://www.ece.utexas.edu/news/texas-ece-student-and-postdoc-named-mlcommons-rising-stars
@@ -148,7 +148,7 @@ media:
   - link: https://engineering.msu.edu/news-events/news/2023/04/04/privacy-enhancing-research-earns-international-attention
     img: /img/msu_pets.png
     title: MSU Office of Research and Innovation
-  - link: https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/
+  - link: https://bidenwhitehouse.archives.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/
     img: /img/wh_pets.png
     title: The White House
 
@@ -176,7 +176,7 @@ funding:
 I am an Assistant Professor at [the ECE department of the National University of Singapore](https://cde.nus.edu.sg/ece/), after spending one year at [Massachusetts General Hospital](https://www.massgeneral.org/) & [Harvard Medical School](https://hms.harvard.edu/).
 Previously, I was a postdoctoral fellow advised by [Dr. Atlas Wang](https://vita-group.github.io/) in the Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)), affiliated with the [UT AI Health Lab](https://aihealth.ischool.utexas.edu/) and the [Good System Challenge](https://bridgingbarriers.utexas.edu/good-systems), and obtained my Ph.D. in Computer Science and Engineering from Michigan State University with [Dr. Jiayu Zhou](https://jiayuzhou.github.io/).
 
-I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://www.whitehouse.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/).
+I was recognized as one of the [MLSys Rising Stars](https://mlcommons.org/2024/06/2024-mlc-rising-stars/) in 2024 and received a [Best Paper Nomination at VLDB 2024](https://llm-pbe.github.io/vldb2024_nomination_Qinbin.pdf). My work was covered by [Nature News](https://www.nature.com/articles/d41586-025-03542-2), [The White House](https://bidenwhitehouse.archives.gov/ostp/news-updates/2023/03/31/us-uk-annouce-winners-innovation-pets-democratic-values/), [WIRED](https://www.wired.com/story/ai-models-social-media-cognitive-decline-study/), [Forbes](https://www.forbes.com/sites/lesliekatz/2025/10/23/junky-online-content-gives-ai-models-brain-rot-too/), and [FORTUNE](https://fortune.com/2025/10/22/ai-brain-rot-junk-social-media-viral-addicting-content-tech/).
 
 <!-- I obtained my Ph.D. in Computer Science and Engineering from Michigan State University, where I was advised by [Dr. Jiayu Zhou](https://jiayuzhou.github.io/). I hold a B.S. in Physics and an M.S. in Computer Science from the University of Science and Technology of China. -->
 
