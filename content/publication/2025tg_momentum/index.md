@@ -35,6 +35,9 @@ tags: ["LLM", "Prompt Optimization", "Gradient Descent", "Sampling", "Momentum",
 
 featured: false
 
+links:
+  - name: "⚙️ AdalFlow"
+    url: "https://github.com/SylphAI-Inc/AdalFlow/blob/main/adalflow/adalflow/optim/README.md"
 url_pdf: 'https://arxiv.org/abs/2506.00400'
 url_code: ''
 url_dataset: ''
