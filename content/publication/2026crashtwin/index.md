@@ -52,8 +52,15 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
+links:
+  - name: "🌍 Website"
+    url: "https://crash-twin.github.io/"
+  - name: "🤗 Data"
+    url: "https://huggingface.co/datasets/nnuochen/crashtwin_data"
+  - name: "🤗 Eval"
+    url: "https://huggingface.co/datasets/nnuochen/crashtwin_eval"
 url_pdf: 'https://openreview.net/pdf?id=RlMArW0XQ4'
-url_code: ''
+url_code: 'https://github.com/phai-lab/CrashTwin'
 url_dataset: ''
 url_poster: ''
 url_project: ''

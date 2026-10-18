@@ -65,6 +65,8 @@ url_video: ''
 links:
   - name: "🌍 Website"
     url: "https://llm-brain-rot.github.io/"
+  - name: "🤗 Models"
+    url: "https://huggingface.co/collections/shuoxing/llms-can-get-brain-rot-a-pilot-study-on-twitter-x"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

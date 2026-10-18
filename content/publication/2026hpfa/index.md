@@ -40,7 +40,7 @@ tags: ["LLM", "Reasoning", "Agents"]
 featured: false
 
 url_pdf: 'https://arxiv.org/pdf/2608.02026'
-url_code: ''
+url_code: 'https://github.com/costa-nus/COLM26_HPFA'
 url_dataset: ''
 url_poster: ''
 url_project: ''

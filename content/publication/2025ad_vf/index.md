@@ -37,8 +37,11 @@ tags:
 
 featured: false
 
+links:
+  - name: "🌍 Website"
+    url: "https://lad-vf.github.io/"
 url_pdf: 'https://arxiv.org/abs/2509.18384'
-url_code: ''
+url_code: 'https://github.com/gabjp/lad-vf'
 url_dataset: ''
 url_poster: ''
 url_project: ''

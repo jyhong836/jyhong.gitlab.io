@@ -40,7 +40,7 @@ tags: ["LLM", "Safety", "Cognition"]
 featured: false
 
 url_pdf: 'https://arxiv.org/abs/2607.12631'
-url_code: ''
+url_code: 'https://github.com/costa-nus/llm-emotion-decision'
 url_dataset: ''
 url_poster: ''
 url_project: ''

@@ -52,7 +52,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2406.09187'
-url_code: ''
+url_code: 'https://github.com/guardagent/code'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -63,6 +63,10 @@ url_video: ''
 links:
   - name: "🏁 Competition"
     url: "https://www.llmagentsafetycomp24.com/"
+  - name: "Dataset"
+    url: "https://github.com/guardagent/dataset"
+  - name: "🌍 Website"
+    url: "https://guardagent.github.io/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
