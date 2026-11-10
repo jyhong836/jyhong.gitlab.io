@@ -1,5 +1,5 @@
 +++
-title = "Federated Robustness Propagation: Sharing Adversarial Robustness in Federated Learning"
+title = "Federated Robustness Propagation: Sharing Adversarial Robustness in Heterogeneous Federated Learning"
 date = 2023-01-02T13:08:20+08:00
 draft = false
 
